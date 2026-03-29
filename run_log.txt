@@ -773,13 +773,18 @@ API KEY exists? true
 }
 /home/runner/work/The-US-Insider/The-US-Insider/automation.py:28: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
   results = DDGS().images(query, max_results=1)
+/home/runner/work/The-US-Insider/The-US-Insider/automation.py:28: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  results = DDGS().images(query, max_results=1)
 🚀 The US Insider - Hyper-Human Publishing Engine Starting...
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-Skipping already covered topic: Some on-air claims about Dominion Voting Systems were false, Fox News acknowledges in statement after deal is announced
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Article for Tech: The Deceptively Tricky Art of Designing a Steering Wheel ---
-Searching for image: The Deceptively Tricky Art of Designing a Steering Wheel
-✅ Success: 2026-03-29-the-deceptively-tricky-art-of-designing-.md
 Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
-🎉 Run complete! Generated 1 highly humanized articles with photos.
+Fetching from https://khn.org/feed/...
+
+--- Generating Article for Health & Disease: Give and Take: Federal Rural Health Funding Could Trigger Service Cuts ---
+Searching for image: Give and Take: Federal Rural Health Funding Could Trigger Service Cuts
+✅ Success: 2026-03-29-give-and-take-federal-rural-health-fundi.md
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Article for US News: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory ---
+Searching for image: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory
+✅ Success: 2026-03-29-here-are-the-20-specific-fox-broadcasts-.md
+🎉 Run complete! Generated 2 highly humanized articles with photos.
