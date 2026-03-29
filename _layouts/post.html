@@ -2,20 +2,55 @@
 layout: default
 ---
 
+<!-- Structured Data (Schema.org) for Google News -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "{{ page.title | escape }}",
+  "image": [
+    "{{ page.image }}"
+  ],
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.date | date_to_xmlschema }}",
+  "author": [{
+      "@type": "Organization",
+      "name": "The US Insider",
+      "url": "{{ site.url }}{{ site.baseurl }}/"
+    }],
+  "publisher": {
+    "@type": "Organization",
+    "name": "The US Insider",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{ site.baseurl }}/assets/images/logo.png"
+    }
+  },
+  "description": "{{ page.description | escape }}"
+}
+</script>
+
 <article class="single-post">
+    <!-- Breadcrumb Navigation -->
+    <nav class="breadcrumb" style="font-size: 0.8rem; margin-bottom: 20px; color: #777;">
+        <a href="{{ '/' | relative_url }}">Home</a> &raquo; 
+        {% if page.categories %}<a href="#">{{ page.categories | first }}</a> &raquo; {% endif %}
+        <span>{{ page.title | truncate: 30 }}</span>
+    </nav>
+
     <header class="post-header">
         <div class="post-category">{% if page.categories %}{{ page.categories | first | upcase }}{% else %}HEALTH & DISEASE{% endif %}</div>
         <h1 class="post-title">{{ page.title }}</h1>
         <div class="post-meta">
             <span class="author">By The US Insider</span>
             <span class="separator">|</span>
-            <span class="date">{{ page.date | date: "%B %-d, %Y" }}</span>
+            <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
         </div>
     </header>
 
     {% if page.image %}
     <div class="post-featured-image">
-        <img src="{{ page.image }}" alt="Featured Image for {{ page.title }}">
+        <img src="{{ page.image }}" alt="{% if page.image_alt %}{{ page.image_alt | escape }}{% else %}{{ page.title | escape }}{% endif %}" loading="lazy">
     </div>
     {% endif %}
 

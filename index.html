@@ -14,7 +14,7 @@ layout: default
         <article class="featured-post">
             <div class="featured-image">
                 <a href="{{ featured.url | relative_url }}">
-                    <img src="{% if featured.image %}{{ featured.image }}{% else %}https://images.unsplash.com/photo-1576091160550-2173ff9e5ee5?w=1200&h=800&fit=crop{% endif %}" alt="Featured Article Image">
+                    <img src="{% if featured.image %}{{ featured.image }}{% else %}https://images.unsplash.com/photo-1576091160550-2173ff9e5ee5?w=1200&h=800&fit=crop{% endif %}" alt="{{ featured.title | escape }} - Featured Article Overview" loading="lazy">
                 </a>
             </div>
             <div class="featured-content">
@@ -25,10 +25,10 @@ layout: default
                 <div class="post-meta">
                     <span class="author">By The US Insider</span>
                     <span class="separator">|</span>
-                    <span class="date">{{ featured.date | date: "%B %-d, %Y" }}</span>
+                    <time class="date" datetime="{{ featured.date | date_to_xmlschema }}">{{ featured.date | date: "%B %-d, %Y" }}</time>
                 </div>
                 <p class="post-excerpt">{{ featured.excerpt | strip_html | truncatewords: 35 }}</p>
-                <a href="{{ featured.url | relative_url }}" class="read-more">READ MORE</a>
+                <a href="{{ featured.url | relative_url }}" class="read-more" aria-label="Read the full story: {{ featured.title | escape }}">READ FULL STORY</a>
             </div>
         </article>
 
@@ -38,7 +38,7 @@ layout: default
             <article class="grid-post">
                 <div class="grid-image">
                     <a href="{{ post.url | relative_url }}">
-                        <img src="{% if post.image %}{{ post.image }}{% else %}https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=600&h=400&fit=crop{% endif %}" alt="Article image for {{ post.title }}">
+                        <img src="{% if post.image %}{{ post.image }}{% else %}https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=600&h=400&fit=crop{% endif %}" alt="{{ post.title | escape }} cover image" loading="lazy">
                     </a>
                 </div>
                 <div class="grid-content">
@@ -47,7 +47,7 @@ layout: default
                     </div>
                     <h3 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
                     <div class="post-meta">
-                        <span class="date">{{ post.date | date: "%B %-d, %Y" }}</span>
+                        <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
                     </div>
                     <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 22 }}</p>
                 </div>

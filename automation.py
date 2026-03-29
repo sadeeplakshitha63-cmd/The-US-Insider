@@ -109,6 +109,8 @@ Target length: 700 - 1000 words.
 Output format must be EXCLUSIVELY VALID JSON:
 {{
   "article": "Your markdown formatted investigative piece (no H1).",
+  "description": "A compelling 150-160 character meta description for Google search results.",
+  "image_alt": "A descriptive, keyword-rich alt text for a news image related to this story.",
   "comments": [
     {{"name": "Full Name", "time": "Relative Time", "text": "Conversational, human-like insight or debate (not just 'Great post!')"}}
   ]
@@ -133,6 +135,8 @@ Generate exactly 6 unique, hyper-realistic reader comments from diverse American
                 data = json.loads(json_str.strip())
                 article_body = data.get('article', '')
                 comments = data.get('comments', [])
+                meta_desc = data.get('description', f"The latest insights on {base_title} from The US Insider.")
+                image_alt = data.get('image_alt', f"{base_title} - Featured image")
                 
                 if len(article_body) < 100:
                     continue
@@ -160,7 +164,8 @@ title: "{base_title.replace('"', "'")}"
 date: {date_formatted}
 categories: [{category}]
 image: "{image_url}"
-description: "Exclusive deep dive into {base_title[:50]}..."
+image_alt: "{image_alt.replace('"', "'")}"
+description: "{meta_desc.replace('"', "'")}"
 {comments_yaml}---
 
 """
