@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sadeeplakshitha63-cmd.github.io/The-US-Insider/sitemap.xml

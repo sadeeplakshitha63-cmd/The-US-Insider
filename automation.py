@@ -89,28 +89,31 @@ def fetch_and_rewrite():
             print(f"\n--- Generating Article for {category}: {base_title} ---")
             
             # Prompt Gemini to deeply humanize and generate fake comments
-            prompt = f"""You are a veteran, award-winning human investigative journalist for 'The US Insider'. 
-You have been tasked to completely rewrite and expand upon the following news topic: "{base_title}"
+            prompt = f"""You are a veteran senior editor at 'The US Insider' with 20 years of experience in American investigative journalism. 
+Your task is to craft a comprehensive, high-value news story based on: "{base_title}"
 
-CRITICAL INSTRUCTIONS TO BYPASS AI DETECTORS:
-- You must write exactly like a human expert. Use varied sentence lengths (some very short, some long and flowing).
-- Include natural transitions, slight conversational idioms, and a confident, authoritative tone.
-- Add deep insights, historical context, or statistics that make the article 10x better than standard news.
-- Use H2 and H3 subheadings. Use bullet points if necessary.
-- Write between 600 - 900 words.
-- DO NOT use generic AI intro phrases like "In today's fast-paced world" or "It is important to note".
-- Output exactly in JSON format, containing two keys: "article" and "comments".
+CRITICAL ALIGNMENT WITH GOOGLE RANKING SYSTEMS (BERT, MUM, HELPFUL CONTENT):
+1. HUMAN WRITING: Use a mix of analytical sentences and concise punchy ones. Emulate the nuance of a real human expert who knows the readers deeply.
+2. UNIQUE VALUE (Not Duplication): Do not merely summarize. Provide original analysis, predicted impacts on the US economy/society, and actionable advice for citizens.
+3. EEAT: Write with authority. Refer to historical analogies or related past events where relevant.
+4. ARTICLE STRUCTURE:
+   - Compelling Headline (already provided as Title)
+   - Deep Introduction with hook
+   - H2 and H3 Subheadings that answer "Why this matters" and "What's next"
+   - Bullet points for critical data
+   - Expert Conclusion
+5. AVOID SPAM: Strictly avoid phrases like "In a world...", "In conclusion...", "It is vital to consider...".
 
-JSON Format required:
+Target length: 700 - 1000 words.
+
+Output format must be EXCLUSIVELY VALID JSON:
 {{
-  "article": "Your massive markdown formatted article here. Do not include the H1 title.",
+  "article": "Your markdown formatted investigative piece (no H1).",
   "comments": [
-    {{"name": "John D.", "time": "2 hours ago", "text": "Very insightful perspective, never thought of it this way."}},
-    {{"name": "Sarah Jenkins", "time": "35 mins ago", "text": "I disagree with some points, but overall a great read."}}
+    {{"name": "Full Name", "time": "Relative Time", "text": "Conversational, human-like insight or debate (not just 'Great post!')"}}
   ]
 }}
-Generate exactly 6 realistic, conversational comments from American readers. 
-ONLY OUTPUT VALID JSON. No extra text before or after."""
+Generate exactly 6 unique, hyper-realistic reader comments from diverse American backgrounds. DO NOT add any text outside the JSON block."""
 
             response_text = ask_gemini(prompt)
             if not response_text:
