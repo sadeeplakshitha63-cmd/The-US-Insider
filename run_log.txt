@@ -771,10 +771,15 @@ API KEY exists? true
     }
   ]
 }
+/home/runner/work/The-US-Insider/The-US-Insider/automation.py:28: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  results = DDGS().images(query, max_results=1)
 🚀 The US Insider - Hyper-Human Publishing Engine Starting...
-Fetching from http://feeds.foxnews.com/foxnews/national...
-Skipping already covered topic: Woman helping cancer-stricken friend executed in alleged carjacking attack: 'Heard a scream'
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+Skipping already covered topic: Some on-air claims about Dominion Voting Systems were false, Fox News acknowledges in statement after deal is announced
+Fetching from https://www.wired.com/feed/rss...
+
+--- Generating Article for Tech: The Deceptively Tricky Art of Designing a Steering Wheel ---
+Searching for image: The Deceptively Tricky Art of Designing a Steering Wheel
+✅ Success: 2026-03-29-the-deceptively-tricky-art-of-designing-.md
 Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
-Fetching from https://www.statnews.com/feed/...
-Skipping already covered topic: STAT+: Up and down the ladder: The latest comings and goings
-❌ Could not generate any articles this run. Might need to try again later.
+🎉 Run complete! Generated 1 highly humanized articles with photos.
