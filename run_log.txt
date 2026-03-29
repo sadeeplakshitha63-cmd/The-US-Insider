@@ -1,19 +1,17 @@
 Starting automation...
 API KEY exists? true
-/home/runner/work/The-US-Insider/The-US-Insider/automation.py:1: FutureWarning: 
-
-All support for the `google.generativeai` package has ended. It will no longer be receiving 
-updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
-See README for more details:
-
-https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
-
-  import google.generativeai as genai
 🚀 The US Insider - Auto Content Engine Starting...
 Fetching US trends...
+Reddit failed with status code: 403
 Using backup trending topics...
-📊 Top trend today: AI Revolution: How Artificial Intelligence is Reshaping American Jobs in 2025
-Generating article for: AI Revolution: How Artificial Intelligence is Reshaping American Jobs in 2025
-gemini-1.5-flash failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
-gemini-pro also failed: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+📊 Top trend today: AI Revolution: How Artificial Intelligence is Reshaping American Jobs in 2026
+Generating article for: AI Revolution: How Artificial Intelligence is Reshaping American Jobs in 2026
+Gemini API Error 404: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
 ❌ Failed to generate article content.
