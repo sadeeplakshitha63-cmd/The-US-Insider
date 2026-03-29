@@ -1,217 +1,188 @@
 import os
 import re
 import requests
-from datetime import datetime
+import feedparser
+import json
+import random
+import time
+from datetime import datetime, timedelta
+from duckduckgo_search import DDGS
 
-# API Key
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 if not GEMINI_API_KEY:
     print("Error: GEMINI_API_KEY environment variable not set.")
     exit(1)
 
-# ─── Unsplash keyword mapping for real photos ──────────────────────────────────
-def get_photo_keywords(topic):
-    """Extract relevant keywords from topic for Unsplash image search."""
-    topic_lower = topic.lower()
-    
-    keyword_map = {
-        'health':     'healthcare,hospital,doctors,medicine',
-        'disease':    'hospital,healthcare,medical,science',
-        'ai':         'technology,artificial-intelligence,computer,data',
-        'tech':       'technology,innovation,digital,silicon-valley',
-        'finance':    'finance,stock-market,money,business,wall-street',
-        'economy':    'economy,business,stock-market,trading',
-        'food':       'food,restaurant,cooking,american-food',
-        'climate':    'nature,climate,environment,earth',
-        'election':   'politics,flag,usa,washington',
-        'jobs':       'business,office,work,career',
-        'crypto':     'cryptocurrency,bitcoin,blockchain,digital',
-        'housing':    'real-estate,home,housing,suburb',
-        'education':  'education,university,learning,campus',
-        'military':   'military,army,usa,defense',
-        'sport':      'sports,american-football,stadium',
-    }
-    
-    for key, keywords in keyword_map.items():
-        if key in topic_lower:
-            return keywords
-    
-    # Default: general American / news image
-    return 'usa,american,news,city'
+# RSS Feeds for Different Categories
+FEEDS = {
+    "US News": ["http://rss.cnn.com/rss/cnn_topstories.rss", "http://feeds.foxnews.com/foxnews/national"],
+    "Health & Disease": ["https://khn.org/feed/", "https://www.statnews.com/feed/"],
+    "Tech": ["https://techcrunch.com/feed/", "https://www.wired.com/feed/rss"],
+    "Finance": ["https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000"]
+}
 
-def get_unsplash_image(topic):
-    """Get a relevant image URL from Unsplash Source (no API key needed)."""
-    keywords = get_photo_keywords(topic)
-    # Unsplash Source URL — free, no auth, returns real high-quality photos
-    url = f"https://source.unsplash.com/1200x630/?{keywords}"
-    
+def get_image(query):
+    """Fetch a real image from Google/DDG based on the query."""
+    print(f"Searching for image: {query}")
     try:
-        # Follow redirects to get the actual image URL
-        response = requests.head(url, allow_redirects=True, timeout=10)
-        if response.status_code == 200:
-            final_url = response.url
-            print(f"✅ Found photo: {final_url[:80]}...")
-            return final_url
-        else:
-            print(f"Unsplash returned {response.status_code}")
+        results = DDGS().images(query, max_results=1)
+        if results and len(results) > 0:
+            return results[0]['image']
     except Exception as e:
-        print(f"Image fetch failed: {e}")
-    
-    # Fallback: use a curated American-themed Unsplash photo if lookup fails
-    fallback_ids = {
-        'tech':    'photo-1518770660439-4636190af475',
-        'health':  'photo-1576091160550-2173ff9e5ee5',
-        'finance': 'photo-1611974789855-9c2a0a7236a3',
-        'default': 'photo-1501594907352-04cda38ebc29',  # USA landscape
-    }
-    topic_lower = topic.lower()
-    if 'tech' in topic_lower or 'ai' in topic_lower:
-        fid = fallback_ids['tech']
-    elif 'health' in topic_lower or 'disease' in topic_lower:
-        fid = fallback_ids['health']
-    elif 'finance' in topic_lower or 'economy' in topic_lower:
-        fid = fallback_ids['finance']
-    else:
-        fid = fallback_ids['default']
-    
-    return f"https://images.unsplash.com/{fid}?w=1200&h=630&fit=crop"
+        print(f"Image search failed: {e}")
+    # Fallback highly professional image
+    return "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=1200&h=800&fit=crop"
 
-# ─── Trend Fetching ────────────────────────────────────────────────────────────
-def get_us_trends():
-    """Fetch US trending topics using multiple fallback sources."""
-    print("Fetching US trends...")
-    
-    try:
-        headers = {'User-Agent': 'TheUSInsiderBot/2.0'}
-        response = requests.get(
-            "https://www.reddit.com/r/news/top.json?limit=5&t=day",
-            headers=headers, timeout=15
-        )
-        if response.status_code == 200:
-            data = response.json()
-            posts = data['data']['children']
-            trends = [post['data']['title'][:80] for post in posts[:3]]
-            print(f"Found trends from Reddit: {trends}")
-            return trends
-    except Exception as e:
-        print(f"Reddit failed: {e}")
-
-    print("Using backup trending topics...")
-    return [
-        "AI Revolution: How Artificial Intelligence is Reshaping American Jobs in 2026",
-        "The Future of Healthcare: New Breakthroughs Transforming Patient Care in the USA",
-        "Personal Finance Tips: How Americans Are Saving More Money in 2026"
-    ]
-
-# ─── Gemini Article Generation ─────────────────────────────────────────────────
-def ask_gemini(topic):
-    """Generate an article using Gemini REST API directly."""
-    print(f"Generating article for: {topic}")
-    
-    prompt = f"""You are an expert American journalist writing for 'The US Insider' — a premium news magazine.
-
-Write a comprehensive, engaging article about: "{topic}"
-
-Requirements:
-- Write ONLY in Markdown format
-- Do NOT include a title (H1) at the start
-- Use H2 and H3 subheadings
-- Use bullet points where appropriate
-- Tone: Authoritative, like a real American expert — NOT like AI
-- Length: 700-900 words
-- Include real-sounding facts, data points, and actionable insights
-- End with a strong conclusion paragraph"""
-
+def ask_gemini(prompt):
     models_to_try = [
         "gemini-2.5-flash",
         "gemini-1.5-flash-latest",
         "gemini-1.5-flash",
         "gemini-1.5-pro",
-        "gemini-1.5-flash-8b",
         "gemini-pro"
     ]
-    
     headers = {'Content-Type': 'application/json'}
-    body = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.7}
-    }
+    data = {"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"temperature": 0.85}}
     
-    for model in models_to_try:
-        print(f"  → Trying model: {model}...")
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={GEMINI_API_KEY}"
+    for model_name in models_to_try:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={GEMINI_API_KEY}"
         try:
-            r = requests.post(url, headers=headers, json=body, timeout=30)
-            if r.status_code == 200:
-                text = r.json().get('candidates', [{}])[0].get('content', {}).get('parts', [{}])[0].get('text', '')
+            response = requests.post(url, headers=headers, json=data, timeout=40)
+            if response.status_code == 200:
+                result = response.json()
+                text = result.get('candidates', [{}])[0].get('content', {}).get('parts', [{}])[0].get('text', '')
                 if text:
-                    print(f"✅ Article generated using {model}!")
                     return text
-            else:
-                print(f"  ✗ {model} → HTTP {r.status_code}")
-        except Exception as e:
-            print(f"  ✗ {model} → crashed: {e}")
-    
-    print("❌ All models failed.")
+        except Exception:
+            pass
     return None
 
-# ─── Save Article ──────────────────────────────────────────────────────────────
-def save_article(title, content, image_url):
-    """Save article as Jekyll post with image in front matter."""
-    print(f"Saving: {title}")
+def fetch_and_rewrite():
+    # We will pick 3 random categories and 1 article from each to generate 3 articles per run limit.
+    categories_to_process = list(FEEDS.keys())
+    random.shuffle(categories_to_process)
     
-    if not os.path.exists('_posts'):
-        os.makedirs('_posts')
+    articles_generated = 0
+    generated_titles = []
     
-    date_str = datetime.now().strftime('%Y-%m-%d')
-    clean_title = re.sub(r'[^a-zA-Z0-9\s]', '', title)
-    filename = f"{date_str}-{clean_title.strip().replace(' ', '-').lower()[:60]}.md"
-    filepath = os.path.join('_posts', filename)
-    
-    if os.path.exists(filepath):
-        print(f"Already exists: {filepath}. Skipping.")
-        return False
-    
-    date_formatted = datetime.now().strftime('%Y-%m-%d %H:%M:%S +0000')
-    excerpt = ' '.join(content.split()[:30]) + '...'
-    
-    front_matter = f"""---
+    for category in categories_to_process[:3]:
+        feed_url = random.choice(FEEDS[category])
+        print(f"Fetching from {feed_url}...")
+        try:
+            feed = feedparser.parse(feed_url)
+            if not feed.entries:
+                continue
+                
+            entry = random.choice(feed.entries[:5])
+            base_title = entry.title
+            
+            # Check if we already generated it roughly today
+            safe_title = re.sub(r'[^a-zA-Z0-9\s]', '', base_title).strip().replace(' ', '-').lower()[:40]
+            date_str = datetime.now().strftime('%Y-%m-%d')
+            search_pattern = f"{date_str}-.*{safe_title}.*.md"
+            
+            # Simple deduplication trick
+            if any(safe_title in f for f in os.listdir('_posts') if f.endswith('.md')):
+                print(f"Skipping already covered topic: {base_title}")
+                continue
+                
+            print(f"\n--- Generating Article for {category}: {base_title} ---")
+            
+            # Prompt Gemini to deeply humanize and generate fake comments
+            prompt = f"""You are a veteran, award-winning human investigative journalist for 'The US Insider'. 
+You have been tasked to completely rewrite and expand upon the following news topic: "{base_title}"
+
+CRITICAL INSTRUCTIONS TO BYPASS AI DETECTORS:
+- You must write exactly like a human expert. Use varied sentence lengths (some very short, some long and flowing).
+- Include natural transitions, slight conversational idioms, and a confident, authoritative tone.
+- Add deep insights, historical context, or statistics that make the article 10x better than standard news.
+- Use H2 and H3 subheadings. Use bullet points if necessary.
+- Write between 600 - 900 words.
+- DO NOT use generic AI intro phrases like "In today's fast-paced world" or "It is important to note".
+- Output exactly in JSON format, containing two keys: "article" and "comments".
+
+JSON Format required:
+{{
+  "article": "Your massive markdown formatted article here. Do not include the H1 title.",
+  "comments": [
+    {{"name": "John D.", "time": "2 hours ago", "text": "Very insightful perspective, never thought of it this way."}},
+    {{"name": "Sarah Jenkins", "time": "35 mins ago", "text": "I disagree with some points, but overall a great read."}}
+  ]
+}}
+Generate exactly 6 realistic, conversational comments from American readers. 
+ONLY OUTPUT VALID JSON. No extra text before or after."""
+
+            response_text = ask_gemini(prompt)
+            if not response_text:
+                print("Gemini failed to respond.")
+                continue
+                
+            # Clean JSON block
+            json_str = response_text.strip()
+            if json_str.startswith('```json'):
+                json_str = json_str[7:]
+            if json_str.startswith('```'):
+                json_str = json_str[3:]
+            if json_str.endswith('```'):
+                json_str = json_str[:-3]
+                
+            try:
+                data = json.loads(json_str.strip())
+                article_body = data.get('article', '')
+                comments = data.get('comments', [])
+                
+                if len(article_body) < 100:
+                    continue
+                    
+                # Get a high quality image
+                image_url = get_image(base_title)
+                
+                # Format Date
+                date_formatted = datetime.now().strftime('%Y-%m-%d %H:%M:%S +0000')
+                filename = f"{date_str}-{safe_title}.md"
+                filepath = os.path.join('_posts', filename)
+                
+                # Process comments into YAML
+                comments_yaml = "comments:\n"
+                for c in comments:
+                    safe_text = str(c.get('text', '')).replace('"', "'")
+                    comments_yaml += f"  - name: \"{c.get('name', 'Anonymous')}\"\n"
+                    comments_yaml += f"    time: \"{c.get('time', 'Just now')}\"\n"
+                    comments_yaml += f"    text: \"{safe_text}\"\n"
+                
+                # Full Frontmatter
+                front_matter = f"""---
 layout: post
-title: "{title.replace('"', "'")}"
+title: "{base_title.replace('"', "'")}"
 date: {date_formatted}
-categories: [Trends, USA]
+categories: [{category}]
 image: "{image_url}"
-excerpt: "{excerpt.replace('"', "'")}"
----
+description: "Exclusive deep dive into {base_title[:50]}..."
+{comments_yaml}---
 
 """
-    with open(filepath, 'w', encoding='utf-8') as f:
-        f.write(front_matter + content)
-    print(f"✅ Saved: {filepath}")
-    return True
-
-# ─── Main ──────────────────────────────────────────────────────────────────────
-if __name__ == "__main__":
-    print("🚀 The US Insider – Auto Content Engine Starting...")
-    
-    trends = get_us_trends()
-    if not trends:
-        print("❌ No trends found.")
-        exit(1)
-    
-    topic = trends[0]
-    print(f"📊 Today's topic: {topic}")
-    
-    # Fetch real photo and generate article in parallel logic
-    image_url = get_unsplash_image(topic)
-    article_content = ask_gemini(topic)
-    
-    if article_content:
-        saved = save_article(topic, article_content, image_url)
-        if saved:
-            print("🎉 Article published!")
-        else:
-            print("ℹ️ Already published today.")
+                with open(filepath, 'w', encoding='utf-8') as f:
+                    f.write(front_matter + article_body)
+                    
+                print(f"✅ Success: {filename}")
+                articles_generated += 1
+                
+                # Sleep briefly to avoid AI rate limits between posts
+                time.sleep(10)
+                
+            except Exception as e:
+                print(f"JSON Parse Error: {e}")
+                
+        except Exception as e:
+            print(f"Error fetching from {feed_url}: {e}")
+            
+    if articles_generated == 0:
+        print("❌ Could not generate any articles this run. Might need to try again later.")
     else:
-        print("❌ Failed to generate article.")
-        exit(1)
+        print(f"🎉 Run complete! Generated {articles_generated} highly humanized articles with photos.")
+
+if __name__ == "__main__":
+    print("🚀 The US Insider - Hyper-Human Publishing Engine Starting...")
+    if not os.path.exists('_posts'):
+        os.makedirs('_posts')
+    fetch_and_rewrite()

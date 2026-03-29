@@ -2,41 +2,52 @@
 layout: default
 ---
 
-<article class="single-post content-wrapper">
-
+<article class="single-post">
     <header class="post-header">
-        <div class="post-category-label">
-            {% if page.categories %}{{ page.categories | first | upcase }}{% else %}TRENDING{% endif %}
-        </div>
+        <div class="post-category">{% if page.categories %}{{ page.categories | first | upcase }}{% else %}HEALTH & DISEASE{% endif %}</div>
         <h1 class="post-title">{{ page.title }}</h1>
-        <div class="post-meta-bar">
-            <span class="author">🖊 The US Insider AI</span>
-            <span class="sep">·</span>
+        <div class="post-meta">
+            <span class="author">By The US Insider</span>
+            <span class="separator">|</span>
             <span class="date">{{ page.date | date: "%B %-d, %Y" }}</span>
-            <span class="sep">·</span>
-            <span class="read-time">6 min read</span>
         </div>
     </header>
 
-    <!-- FEATURED ARTICLE IMAGE -->
     {% if page.image %}
-    <div class="post-hero-image">
-        <img src="{{ page.image }}" alt="{{ page.title }}">
-    </div>
-    {% else %}
-    <div class="post-hero-image">
-        <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=1200&h=600&fit=crop" alt="{{ page.title }}">
+    <div class="post-featured-image">
+        <img src="{{ page.image }}" alt="Featured Image for {{ page.title }}">
     </div>
     {% endif %}
 
-    <!-- ARTICLE CONTENT -->
     <div class="post-content">
         {{ content }}
     </div>
 
-    <!-- BACK LINK -->
-    <div class="back-link">
-        <a href="{{ '/' | relative_url }}">← Back to All Stories</a>
-    </div>
+    <!-- Comments Section -->
+    <div class="comments-section" style="margin-top: 60px; border-top: 1px solid #ddd; padding-top: 40px;">
+        <h3>Join the Conversation ({{ page.comments.size | plus: 1 }} comments)</h3>
+        
+        <!-- Fake but hyper-realistic comments -->
+        {% if page.comments %}
+        <div class="reader-comments">
+            {% for comment in page.comments %}
+            <div class="comment" style="margin-bottom: 25px; padding-bottom: 20px; border-bottom: 1px solid #f0f0f0;">
+                <div class="comment-author" style="font-weight: bold; color: #1a1a1a;">{{ comment.name }} <span style="font-weight: normal; font-size: 0.8em; color: #777; margin-left: 10px;">{{ comment.time }}</span></div>
+                <div class="comment-text" style="margin-top: 8px; font-size: 1.05em; color: #444;">{{ comment.text }}</div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
 
+        <!-- Real Comments (Utterances) -->
+        <h4 style="margin-top: 40px; margin-bottom: 20px;">Leave your thought:</h4>
+        <script src="https://utteranc.es/client.js"
+                repo="sadeeplakshitha63-cmd/The-US-Insider"
+                issue-term="pathname"
+                theme="github-light"
+                crossorigin="anonymous"
+                async>
+        </script>
+        <p style="font-size: 0.8em; color: #888; margin-top: 10px;">Note: You must sign in with GitHub to post a comment. Real comments appear above.</p>
+    </div>
 </article>

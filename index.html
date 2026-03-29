@@ -2,71 +2,59 @@
 layout: default
 ---
 
-<!-- HERO SECTION: Blurred American background image -->
-<section class="hero-section" style="background-image: url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=1600&auto=format&fit=crop&q=80');">
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-        <div class="hero-badge">🔴 LIVE · AI-POWERED</div>
-        <h1>Today's Top Stories<br><span class="hero-sub">Across America</span></h1>
-        <p>Real-time insights on Tech, Health, Finance & AI — curated by Gemini AI for the United States.</p>
+<div class="home-container">
+    <div class="category-title">
+        <h1>Latest Articles</h1>
+        <hr>
     </div>
-</section>
 
-<!-- DIVIDER -->
-<div class="section-divider">
-    <span>★ TOP STORIES ★</span>
-</div>
-
-<div class="home-container content-wrapper">
     {% if site.posts.size > 0 %}
-
-        <!-- FEATURED POST -->
+        <!-- Featured Post -->
         {% assign featured = site.posts.first %}
         <article class="featured-post">
-            <a href="{{ featured.url | relative_url }}" class="featured-image-link">
-                {% if featured.image %}
-                <img src="{{ featured.image }}" alt="{{ featured.title }}" class="featured-image" loading="lazy">
-                {% else %}
-                <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=1200&h=700&fit=crop" alt="{{ featured.title }}" class="featured-image">
-                {% endif %}
-                <div class="featured-image-overlay">
-                    <span class="article-category">{% if featured.categories %}{{ featured.categories | first | upcase }}{% else %}TRENDING{% endif %}</span>
-                    <h2 class="featured-title">{{ featured.title }}</h2>
-                    <p class="featured-meta">{{ featured.date | date: "%B %-d, %Y" }} &nbsp;·&nbsp; 6 min read</p>
+            <div class="featured-image">
+                <a href="{{ featured.url | relative_url }}">
+                    <img src="{% if featured.image %}{{ featured.image }}{% else %}https://images.unsplash.com/photo-1576091160550-2173ff9e5ee5?w=1200&h=800&fit=crop{% endif %}" alt="Featured Article Image">
+                </a>
+            </div>
+            <div class="featured-content">
+                <div class="post-category">
+                    <a href="#">{% if featured.categories %}{{ featured.categories | first | upcase }}{% else %}HEALTH & DISEASE{% endif %}</a>
                 </div>
-            </a>
+                <h2 class="post-title"><a href="{{ featured.url | relative_url }}">{{ featured.title }}</a></h2>
+                <div class="post-meta">
+                    <span class="author">By The US Insider</span>
+                    <span class="separator">|</span>
+                    <span class="date">{{ featured.date | date: "%B %-d, %Y" }}</span>
+                </div>
+                <p class="post-excerpt">{{ featured.excerpt | strip_html | truncatewords: 35 }}</p>
+                <a href="{{ featured.url | relative_url }}" class="read-more">READ MORE</a>
+            </div>
         </article>
 
-        <!-- LATEST ARTICLES GRID -->
-        {% if site.posts.size > 1 %}
-        <div class="section-divider"><span>★ LATEST ARTICLES ★</span></div>
-        <div class="articles-grid">
+        <!-- Grid of older posts -->
+        <div class="secondary-posts">
             {% for post in site.posts offset:1 limit:6 %}
-            <article class="article-card">
-                <a href="{{ post.url | relative_url }}" class="card-image-link">
-                    {% if post.image %}
-                    <img src="{{ post.image }}" alt="{{ post.title }}" class="card-image" loading="lazy">
-                    {% else %}
-                    <img src="https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=600&h=380&fit=crop" alt="{{ post.title }}" class="card-image">
-                    {% endif %}
-                    <div class="card-category">{{ post.categories | first | upcase | default: "TRENDING" }}</div>
-                </a>
-                <div class="card-body">
-                    <div class="card-meta">{{ post.date | date: "%B %-d, %Y" }}</div>
-                    <h3 class="card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-                    <p class="card-excerpt">{{ post.excerpt | strip_html | truncatewords: 22 }}</p>
-                    <a href="{{ post.url | relative_url }}" class="card-read-more">Read Story →</a>
+            <article class="grid-post">
+                <div class="grid-image">
+                    <a href="{{ post.url | relative_url }}">
+                        <img src="{% if post.image %}{{ post.image }}{% else %}https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=600&h=400&fit=crop{% endif %}" alt="Article image for {{ post.title }}">
+                    </a>
+                </div>
+                <div class="grid-content">
+                    <div class="post-category">
+                        <a href="#">{% if post.categories %}{{ post.categories | first | upcase }}{% else %}HEALTH & DISEASE{% endif %}</a>
+                    </div>
+                    <h3 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+                    <div class="post-meta">
+                        <span class="date">{{ post.date | date: "%B %-d, %Y" }}</span>
+                    </div>
+                    <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 22 }}</p>
                 </div>
             </article>
             {% endfor %}
         </div>
-        {% endif %}
-
     {% else %}
-        <div class="empty-state">
-            <div class="empty-icon">⚡</div>
-            <h3>First articles coming soon...</h3>
-            <p>Our AI engine is scanning Google Trends and will publish the first articles within hours. Check back soon!</p>
-        </div>
+        <p class="empty-state">No articles have been published yet. The AI is compiling the first stories...</p>
     {% endif %}
 </div>
