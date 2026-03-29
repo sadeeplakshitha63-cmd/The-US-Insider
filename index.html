@@ -2,166 +2,59 @@
 layout: default
 ---
 
-<!DOCTYPE html>
-<html>
-<body>
-
-<!-- HERO SECTION -->
-<section class="hero">
-  <div class="hero-bg"></div>
-  <div class="container">
-    <div class="hero-content">
-      <div class="hero-badge">
-        <span class="pulse-dot"></span>
-        AI-POWERED DAILY NEWS
-      </div>
-      <h1 class="hero-title">
-        What's <span class="gradient-text">Trending</span><br/>
-        Across America
-      </h1>
-      <p class="hero-subtitle">
-        Real-time insights on Tech, Health, Finance & AI — curated by artificial intelligence for the people of the United States.
-      </p>
-      <div class="hero-stats">
-        <div class="stat">
-          <span class="stat-number">2x</span>
-          <span class="stat-label">Daily Updates</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat">
-          <span class="stat-number">100%</span>
-          <span class="stat-label">AI Curated</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat">
-          <span class="stat-number">USA</span>
-          <span class="stat-label">Focused</span>
-        </div>
-      </div>
-    </div>
-    <div class="hero-visual">
-      <div class="floating-card card-1">
-        <span class="card-icon">🤖</span>
-        <span>AI & Tech</span>
-      </div>
-      <div class="floating-card card-2">
-        <span class="card-icon">💰</span>
-        <span>Finance</span>
-      </div>
-      <div class="floating-card card-3">
-        <span class="card-icon">🏥</span>
-        <span>Health</span>
-      </div>
-      <div class="globe-bg"></div>
-    </div>
-  </div>
-</section>
-
-<!-- TICKER BAR -->
-<div class="ticker-bar">
-  <div class="ticker-label">🔴 LIVE</div>
-  <div class="ticker-content">
-    <span>AI stocks surge as tech giants announce new models &nbsp;•&nbsp; Health insurance costs hit record high &nbsp;•&nbsp; New cybersecurity threats targeting US banks &nbsp;•&nbsp; FDA approves breakthrough cancer treatment &nbsp;•&nbsp; Federal Reserve hints at interest rate changes &nbsp;•&nbsp;</span>
-  </div>
-</div>
-
-<!-- LATEST ARTICLES SECTION -->
-<section class="articles-section">
-  <div class="container">
-    <div class="section-header">
-      <div class="section-tag">LATEST STORIES</div>
-      <h2 class="section-title">Today's Top <span class="gradient-text">Headlines</span></h2>
-      <p class="section-subtitle">Automatically generated from the hottest trending topics across the United States</p>
+<div class="home-container">
+    <div class="category-title">
+        <h1>Latest Articles</h1>
+        <hr>
     </div>
 
     {% if site.posts.size > 0 %}
-    <div class="articles-grid">
-      {% for post in site.posts limit:6 %}
-      <article class="article-card {% if forloop.first %}featured{% endif %}">
-        <div class="card-image">
-          <div class="card-image-placeholder">
-            {% if forloop.index == 1 %}🤖{% elsif forloop.index == 2 %}💊{% elsif forloop.index == 3 %}📈{% elsif forloop.index == 4 %}🔒{% elsif forloop.index == 5 %}🧬{% else %}💡{% endif %}
-          </div>
-          <div class="card-category">
-            {% if post.categories %}{{ post.categories | first }}{% else %}Trending{% endif %}
-          </div>
-        </div>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="meta-date">{{ post.date | date: "%B %d, %Y" }}</span>
-            <span class="meta-dot">•</span>
-            <span class="meta-read">5 min read</span>
-          </div>
-          <h3 class="card-title">
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </h3>
-          <p class="card-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
-          <a href="{{ post.url | relative_url }}" class="card-link">
-            Read Full Story <span class="arrow">→</span>
-          </a>
-        </div>
-      </article>
-      {% endfor %}
-    </div>
+        <!-- Featured Post -->
+        {% assign featured = site.posts.first %}
+        <article class="featured-post">
+            <div class="featured-image">
+                <a href="{{ featured.url | relative_url }}">
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173ff9e5ee5?w=1200&h=800&fit=crop" alt="Featured Article Image">
+                </a>
+            </div>
+            <div class="featured-content">
+                <div class="post-category">
+                    <a href="#">{% if featured.categories %}{{ featured.categories | first | upcase }}{% else %}HEALTH & DISEASE{% endif %}</a>
+                </div>
+                <h2 class="post-title"><a href="{{ featured.url | relative_url }}">{{ featured.title }}</a></h2>
+                <div class="post-meta">
+                    <span class="author">By The US Insider AI</span>
+                    <span class="separator">|</span>
+                    <span class="date">{{ featured.date | date: "%B %-d, %Y" }}</span>
+                </div>
+                <p class="post-excerpt">{{ featured.excerpt | strip_html | truncatewords: 35 }}</p>
+                <a href="{{ featured.url | relative_url }}" class="read-more">READ MORE</a>
+            </div>
+        </article>
 
+        <!-- Grid of older posts -->
+        <div class="secondary-posts">
+            {% for post in site.posts offset:1 limit:6 %}
+            <article class="grid-post">
+                <div class="grid-image">
+                    <a href="{{ post.url | relative_url }}">
+                        <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=600&h=400&fit=crop" alt="Article image">
+                    </a>
+                </div>
+                <div class="grid-content">
+                    <div class="post-category">
+                        <a href="#">{% if post.categories %}{{ post.categories | first | upcase }}{% else %}HEALTH & DISEASE{% endif %}</a>
+                    </div>
+                    <h3 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+                    <div class="post-meta">
+                        <span class="date">{{ post.date | date: "%B %-d, %Y" }}</span>
+                    </div>
+                    <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 22 }}</p>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
     {% else %}
-    <!-- EMPTY STATE - when no articles yet -->
-    <div class="empty-state">
-      <div class="empty-icon">⚡</div>
-      <h3>AI is gearing up...</h3>
-      <p>Our AI engine is scanning Google Trends right now and will publish the first article very soon. Check back in a few hours!</p>
-      <a href="https://github.com/sadeeplakshitha63-cmd/The-US-Insider/actions" target="_blank" class="btn-primary">
-        Watch Live Generation
-      </a>
-    </div>
+        <p class="empty-state">No articles have been published yet. The AI is compiling the first stories...</p>
     {% endif %}
-  </div>
-</section>
-
-<!-- HOW IT WORKS -->
-<section class="how-it-works">
-  <div class="container">
-    <div class="section-header">
-      <div class="section-tag">POWERED BY AI</div>
-      <h2 class="section-title">How The <span class="gradient-text">Insider</span> Works</h2>
-    </div>
-    <div class="steps-grid">
-      <div class="step-card">
-        <div class="step-num">01</div>
-        <div class="step-icon">📡</div>
-        <h3>Scans US Trends</h3>
-        <p>Every 12 hours, our system automatically checks Google Trends to find what's hot across America right now.</p>
-      </div>
-      <div class="step-card">
-        <div class="step-num">02</div>
-        <div class="step-icon">🧠</div>
-        <h3>Gemini AI Writes</h3>
-        <p>Google's Gemini AI crafts a comprehensive, expert-level article on the trending topic — no fluff, just value.</p>
-      </div>
-      <div class="step-card">
-        <div class="step-num">03</div>
-        <div class="step-icon">🚀</div>
-        <h3>Auto Published</h3>
-        <p>The article is automatically published to this site via GitHub Actions. Zero human intervention required.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- NEWSLETTER CTA -->
-<section class="cta-section">
-  <div class="container">
-    <div class="cta-card">
-      <div class="cta-glow"></div>
-      <h2>Never Miss a <span class="gradient-text">Trending Story</span></h2>
-      <p>Get the hottest US trends delivered to you. Stay ahead of the curve, every single day.</p>
-      <div class="cta-input-group">
-        <input type="email" placeholder="Enter your email address..." class="cta-input" />
-        <button class="cta-btn">Subscribe Free →</button>
-      </div>
-    </div>
-  </div>
-</section>
-
-</body>
-</html>
+</div>

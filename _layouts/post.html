@@ -1,19 +1,23 @@
 ---
 layout: default
 ---
-<div class="container" style="padding: 60px 20px; max-width: 800px;">
-  <div class="post-header">
-    <div class="post-meta">
-      <span class="meta-date">{{ page.date | date: "%B %d, %Y" }}</span>
-      {% if page.categories %}
-      <span class="meta-dot">•</span>
-      <span class="meta-category">{{ page.categories | join: ", " }}</span>
-      {% endif %}
+
+<article class="single-post">
+    <header class="post-header">
+        <div class="post-category">{% if page.categories %}{{ page.categories | first | upcase }}{% else %}HEALTH & DISEASE{% endif %}</div>
+        <h1 class="post-title">{{ page.title }}</h1>
+        <div class="post-meta">
+            <span class="author">By The US Insider AI</span>
+            <span class="separator">|</span>
+            <span class="date">{{ page.date | date: "%B %-d, %Y" }}</span>
+        </div>
+    </header>
+
+    <div class="post-featured-image">
+        <img src="https://images.unsplash.com/photo-1576091160550-2173ff9e5ee5?w=1200&h=600&fit=crop" alt="Featured">
     </div>
-    <h1 class="post-title">{{ page.title }}</h1>
-  </div>
-  <div class="post-content">
-    {{ content }}
-  </div>
-  <a href="{{ '/' | relative_url }}" class="back-link">← Back to Home</a>
-</div>
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+</article>
