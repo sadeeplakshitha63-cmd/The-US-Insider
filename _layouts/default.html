@@ -4,48 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header class="site-header">
-    <div class="top-bar">
-        <span>Authoritative AI News for the United States</span>
-        <div class="top-links">
-            <a href="#">About</a>
-            <a href="#">Newsletter</a>
-        </div>
+<!-- TOP ANNOUNCEMENT BAR -->
+<div class="top-bar">
+    <span class="top-bar-left">🇺🇸 Your daily source for what's trending across America</span>
+    <div class="top-links">
+        <a href="#">About</a>
+        <a href="#">Newsletter</a>
     </div>
-    <div class="logo-area">
-        <a href="{{ '/' | relative_url }}" class="site-logo">
-            {{ site.title | upcase }}
-        </a>
-    </div>
-    <nav class="main-nav">
-        <ul>
-            <li><a href="{{ '/' | relative_url }}">HOME</a></li>
-            <li><a href="#">TECH</a></li>
-            <li><a href="#">HEALTH & DISEASE</a></li>
-            <li><a href="#">FINANCE</a></li>
-            <li><a href="#">AI</a></li>
-        </ul>
-    </nav>
+</div>
+
+<!-- LOGO / MASTHEAD -->
+<header class="masthead">
+    <a href="{{ '/' | relative_url }}" class="masthead-logo">
+        <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.title }}" class="logo-img">
+    </a>
+    <p class="masthead-tagline">Authoritative AI-Powered News for the 🇺🇸 United States</p>
 </header>
 
+<!-- NAVIGATION -->
+<nav class="main-nav">
+    <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="#">Tech</a></li>
+        <li><a href="#">Health & Disease</a></li>
+        <li><a href="#">Finance</a></li>
+        <li><a href="#">AI</a></li>
+        <li><a href="#">Politics</a></li>
+    </ul>
+</nav>
+
+<!-- MAIN CONTENT -->
 <main class="content-wrapper">
     {{ content }}
 </main>
 
+<!-- FOOTER -->
 <footer class="site-footer">
-    <div class="footer-content">
-        <h2 class="footer-logo">{{ site.title | upcase }}</h2>
-        <p class="footer-desc">Your authoritative source for what's trending across America.</p>
-        <p class="copyright">&copy; {{ site.time | date: '%Y' }} The US Insider. All rights reserved.</p>
+    <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.title }}" class="footer-logo-img">
+    <p class="footer-tagline">Authoritative AI-Powered News for the United States</p>
+    <div class="footer-links">
+        <a href="#">Tech</a>
+        <a href="#">Health</a>
+        <a href="#">Finance</a>
+        <a href="#">AI</a>
     </div>
+    <p class="copyright">&copy; {{ site.time | date: '%Y' }} The US Insider. Powered by AI. All rights reserved.</p>
 </footer>
 
 </body>
