@@ -771,14 +771,18 @@ API KEY exists? true
     }
   ]
 }
-🚀 The US Insider - Auto Content Engine Starting...
-Fetching US trends...
-Reddit failed with status code: 403
-Using backup trending topics...
-📊 Top trend today: AI Revolution: How Artificial Intelligence is Reshaping American Jobs in 2026
-Generating article for: AI Revolution: How Artificial Intelligence is Reshaping American Jobs in 2026
-Trying model: gemini-2.5-flash...
-Article generated successfully using gemini-2.5-flash!
-Saving article: AI Revolution: How Artificial Intelligence is Reshaping American Jobs in 2026
-Article already exists: _posts/2026-03-29-ai-revolution-how-artificial-intelligence-is-reshaping-ameri.md. Skipping.
-ℹ️ Article already published today.
+/home/runner/work/The-US-Insider/The-US-Insider/automation.py:28: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  results = DDGS().images(query, max_results=1)
+🚀 The US Insider - Hyper-Human Publishing Engine Starting...
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+Fetching from https://techcrunch.com/feed/...
+
+--- Generating Article for Tech: Mark Zuckerberg texted Elon Musk to offer help with DOGE ---
+JSON Parse Error: Invalid control character at: line 2 column 3996 (char 3997)
+Fetching from https://www.statnews.com/feed/...
+
+--- Generating Article for Health & Disease: STAT+: Up and down the ladder: The latest comings and goings ---
+Searching for image: STAT+: Up and down the ladder: The latest comings and goings
+Image search failed: https://duckduckgo.com/i.js?o=json&q=STAT%2B%3A+Up+and+down+the+ladder%3A+The+latest+comings+and+goings&l=us-en&vqd=4-274368281487342679805563674059988170261&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+✅ Success: 2026-03-29-stat-up-and-down-the-ladder-the-latest-c.md
+🎉 Run complete! Generated 1 highly humanized articles with photos.
