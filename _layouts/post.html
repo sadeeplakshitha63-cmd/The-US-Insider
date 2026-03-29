@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="container" style="padding: 60px 20px; max-width: 800px;">
+  <div class="post-header">
+    <div class="post-meta">
+      <span class="meta-date">{{ page.date | date: "%B %d, %Y" }}</span>
+      {% if page.categories %}
+      <span class="meta-dot">•</span>
+      <span class="meta-category">{{ page.categories | join: ", " }}</span>
+      {% endif %}
+    </div>
+    <h1 class="post-title">{{ page.title }}</h1>
+  </div>
+  <div class="post-content">
+    {{ content }}
+  </div>
+  <a href="{{ '/' | relative_url }}" class="back-link">← Back to Home</a>
+</div>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% if page.title %}{{ page.title }} | {% endif %}The US Insider</title>
+  <meta name="description" content="{{ page.description | default: site.description }}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="{{ '/' | relative_url }}" class="logo">
+          <span class="logo-icon">🇺🇸</span>
+          <span class="logo-text">The US <strong>Insider</strong></span>
+        </a>
+        <nav class="nav-links">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="#">Tech</a>
+          <a href="#">Health</a>
+          <a href="#">Finance</a>
+          <a href="#">AI</a>
+        </nav>
+        <div class="header-badge">LIVE TRENDS</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    {{ content }}
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="logo-icon">🇺🇸</span>
+          <span class="logo-text">The US <strong>Insider</strong></span>
+          <p>Your daily AI-powered source for trending US news in Tech, Health, Finance & AI.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Categories</h4>
+          <a href="#">Technology</a>
+          <a href="#">Health & Wellness</a>
+          <a href="#">Finance & AI</a>
+          <a href="#">US Trends</a>
+        </div>
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <a href="#">Reddit</a>
+          <a href="#">Quora</a>
+          <a href="#">Twitter/X</a>
+          <a href="#">Newsletter</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; {{ 'now' | date: "%Y" }} The US Insider. Powered by AI & built for Americans.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

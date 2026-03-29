@@ -1,0 +1,22 @@
+title: The US Insider
+email: your-email@example.com
+description: >-
+  Your daily source for the top trending news in Tech, Health, Finance, and AI in the USA.
+baseurl: "/The-US-Insider"
+url: "https://sadeeplakshitha63-cmd.github.io"
+
+# Build settings - Using custom theme (no minima)
+plugins:
+  - jekyll-feed
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
