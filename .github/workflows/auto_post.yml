@@ -33,6 +33,7 @@ jobs:
       run: |
         echo "Starting automation..." > run_log.txt
         echo "API KEY exists? ${{ secrets.GEMINI_API_KEY != '' }}" >> run_log.txt
+        curl -s "https://generativelanguage.googleapis.com/v1beta/models?key=$GEMINI_API_KEY" >> run_log.txt
         python automation.py >> run_log.txt 2>&1 || true
 
     - name: Commit and Push New Article

@@ -62,31 +62,43 @@ Requirements:
 
 Start writing the article content directly:"""
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+    models_to_try = [
+        "gemini-2.5-flash",
+        "gemini-1.5-flash-latest",
+        "gemini-1.5-flash",
+        "gemini-1.5-pro",
+        "gemini-1.5-flash-8b",
+        "gemini-pro"
+    ]
+    
     headers = {'Content-Type': 'application/json'}
     data = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.7}
     }
     
-    try:
-        response = requests.post(url, headers=headers, json=data, timeout=30)
+    for model_name in models_to_try:
+        print(f"Trying model: {model_name}...")
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={GEMINI_API_KEY}"
         
-        if response.status_code == 200:
-            result = response.json()
-            text = result.get('candidates', [{}])[0].get('content', {}).get('parts', [{}])[0].get('text', '')
-            if text:
-                print("Article generated successfully!")
-                return text
-            else:
-                print("Error: Empty response content from Gemini.")
-                return None
-        else:
-            print(f"Gemini API Error {response.status_code}: {response.text}")
+        try:
+            response = requests.post(url, headers=headers, json=data, timeout=30)
             
-    except Exception as e:
-        print(f"Gemini API request failed: {e}")
-        
+            if response.status_code == 200:
+                result = response.json()
+                text = result.get('candidates', [{}])[0].get('content', {}).get('parts', [{}])[0].get('text', '')
+                if text:
+                    print(f"Article generated successfully using {model_name}!")
+                    return text
+                else:
+                    print(f"Error: Empty response from {model_name}.")
+            else:
+                print(f"{model_name} Failed! HTTP {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            print(f"{model_name} request crashed: {e}")
+            
+    print("❌ All models failed.")
     return None
 
 def save_article(title, content):
