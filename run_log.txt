@@ -773,20 +773,16 @@ API KEY exists? true
 }
 /home/runner/work/The-US-Insider/The-US-Insider/automation.py:28: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
   results = DDGS().images(query, max_results=1)
-/home/runner/work/The-US-Insider/The-US-Insider/automation.py:28: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
-  results = DDGS().images(query, max_results=1)
 🚀 The US Insider - Hyper-Human Publishing Engine Starting...
 Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
-Fetching from https://www.statnews.com/feed/...
+Fetching from http://feeds.foxnews.com/foxnews/national...
 
---- Generating Article for Health & Disease: STAT+: Amid focus on food, FDA leader briefs lawmakers on priorities ---
-Searching for image: STAT+: Amid focus on food, FDA leader briefs lawmakers on priorities
-Image search failed: https://duckduckgo.com/i.js?o=json&q=STAT%2B%3A+Amid+focus+on+food%2C+FDA+leader+briefs+lawmakers+on+priorities&l=us-en&vqd=4-86866442611724812657119334264504083614&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
-✅ Success: 2026-03-29-stat-amid-focus-on-food-fda-leader-brief.md
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+--- Generating Article for US News: Woman helping cancer-stricken friend executed in alleged carjacking attack: 'Heard a scream' ---
+Searching for image: Woman helping cancer-stricken friend executed in alleged carjacking attack: 'Heard a scream'
+Image search failed: https://duckduckgo.com/i.js?o=json&q=Woman+helping+cancer-stricken+friend+executed+in+alleged+carjacking+attack%3A+%27Heard+a+scream%27&l=us-en&vqd=4-317551485366899101637557660077438670770&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+✅ Success: 2026-03-29-woman-helping-cancerstricken-friend-exec.md
+Fetching from https://khn.org/feed/...
 
---- Generating Article for US News: Dominion still has pending lawsuits against election deniers such as Rudy Giuliani and Sidney Powell ---
-Searching for image: Dominion still has pending lawsuits against election deniers such as Rudy Giuliani and Sidney Powell
-Image search failed: https://duckduckgo.com/i.js?o=json&q=Dominion+still+has+pending+lawsuits+against+election+deniers+such+as+Rudy+Giuliani+and+Sidney+Powell&l=us-en&vqd=4-138548710882369455372966749286464637091&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
-✅ Success: 2026-03-29-dominion-still-has-pending-lawsuits-agai.md
-🎉 Run complete! Generated 2 highly humanized articles with photos.
+--- Generating Article for Health & Disease: Taking a GLP-1? Doctors Say Not To Forget About Movement and Mental Health ---
+JSON Parse Error: Expecting ',' delimiter: line 2 column 3213 (char 3214)
+🎉 Run complete! Generated 1 highly humanized articles with photos.
