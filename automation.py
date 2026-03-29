@@ -1,5 +1,3 @@
-import google.generativeai as genai
-import feedparser
 import os
 import re
 import requests
@@ -12,35 +10,13 @@ if not GEMINI_API_KEY:
     print("Error: GEMINI_API_KEY environment variable not set.")
     exit(1)
 
-genai.configure(api_key=GEMINI_API_KEY)
-
 def get_us_trends():
     """Fetch US trending topics using multiple fallback sources."""
     print("Fetching US trends...")
     
-    # Method 1: Try Google Trends RSS with a custom User-Agent
+    # Method 1: Reddit r/news top posts
     try:
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-            'Accept-Language': 'en-US,en;q=0.9',
-        }
-        response = requests.get(
-            "https://trends.google.com/trends/trendingsearches/daily/rss?geo=US",
-            headers=headers,
-            timeout=15
-        )
-        if response.status_code == 200:
-            feed = feedparser.parse(response.content)
-            if feed.entries:
-                trends = [entry.title for entry in feed.entries[:3]]
-                print(f"Found trends from Google: {trends}")
-                return trends
-    except Exception as e:
-        print(f"Google Trends failed: {e}")
-
-    # Method 2: Fallback - Reddit r/news top posts
-    try:
-        headers = {'User-Agent': 'TheUSInsiderBot/1.0'}
+        headers = {'User-Agent': 'TheUSInsiderBot/2.0'}
         response = requests.get(
             "https://www.reddit.com/r/news/top.json?limit=5&t=day",
             headers=headers,
@@ -52,26 +28,25 @@ def get_us_trends():
             trends = [post['data']['title'][:80] for post in posts[:3]]
             print(f"Found trends from Reddit: {trends}")
             return trends
+        else:
+            print(f"Reddit failed with status code: {response.status_code}")
     except Exception as e:
         print(f"Reddit fallback failed: {e}")
 
-    # Method 3: Hard-coded backup topics (always works)
+    # Method 2: Hard-coded backup topics
     print("Using backup trending topics...")
     backup_topics = [
-        "AI Revolution: How Artificial Intelligence is Reshaping American Jobs in 2025",
+        "AI Revolution: How Artificial Intelligence is Reshaping American Jobs in 2026",
         "The Future of Healthcare: New Breakthroughs Transforming Patient Care in the USA",
-        "Personal Finance Tips: How Americans Are Saving More Money in 2025"
+        "Personal Finance Tips: How Americans Are Saving More Money in 2026"
     ]
     return backup_topics
 
 def ask_gemini(topic):
-    """Generate an article using Gemini AI."""
+    """Generate an article using Gemini API directly via requests to avoid SDK issues."""
     print(f"Generating article for: {topic}")
     
-    # Use gemini-1.5-flash (faster, free tier compatible)
-    try:
-        model = genai.GenerativeModel('gemini-1.5-flash')
-        prompt = f"""You are an expert American journalist writing for 'The US Insider' — a premium news blog for US readers.
+    prompt = f"""You are an expert American journalist writing for 'The US Insider' — a premium news blog for US readers.
 
 Write a comprehensive, engaging blog post about: "{topic}"
 
@@ -87,20 +62,32 @@ Requirements:
 
 Start writing the article content directly:"""
 
-        response = model.generate_content(prompt)
-        print("Article generated successfully!")
-        return response.text
-    except Exception as e:
-        print(f"gemini-1.5-flash failed: {e}")
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+    headers = {'Content-Type': 'application/json'}
+    data = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {"temperature": 0.7}
+    }
     
-    # Fallback to gemini-pro
     try:
-        model = genai.GenerativeModel('gemini-pro')
-        response = model.generate_content(f"Write a 700 word blog post about: {topic}. Use markdown headings and bullet points.")
-        return response.text
+        response = requests.post(url, headers=headers, json=data, timeout=30)
+        
+        if response.status_code == 200:
+            result = response.json()
+            text = result.get('candidates', [{}])[0].get('content', {}).get('parts', [{}])[0].get('text', '')
+            if text:
+                print("Article generated successfully!")
+                return text
+            else:
+                print("Error: Empty response content from Gemini.")
+                return None
+        else:
+            print(f"Gemini API Error {response.status_code}: {response.text}")
+            
     except Exception as e:
-        print(f"gemini-pro also failed: {e}")
-        return None
+        print(f"Gemini API request failed: {e}")
+        
+    return None
 
 def save_article(title, content):
     """Save article as Jekyll markdown post."""
@@ -118,9 +105,7 @@ def save_article(title, content):
         print(f"Article already exists: {filepath}. Skipping.")
         return False
         
-    # Add timezone offset to avoid Jekyll warnings
-    now = datetime.now()
-    date_formatted = now.strftime('%Y-%m-%d %H:%M:%S +0000')
+    date_formatted = datetime.now().strftime('%Y-%m-%d %H:%M:%S +0000')
         
     front_matter = f"""---
 layout: post
