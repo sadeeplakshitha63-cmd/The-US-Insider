@@ -774,15 +774,15 @@ API KEY exists? true
 /home/runner/work/The-US-Insider/The-US-Insider/automation.py:28: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
   results = DDGS().images(query, max_results=1)
 🚀 The US Insider - Hyper-Human Publishing Engine Starting...
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 Fetching from https://techcrunch.com/feed/...
 
---- Generating Article for Tech: Mark Zuckerberg texted Elon Musk to offer help with DOGE ---
-JSON Parse Error: Invalid control character at: line 2 column 3996 (char 3997)
-Fetching from https://www.statnews.com/feed/...
+--- Generating Article for Tech: Bluesky leans into AI with Attie, an app for building custom feeds ---
+JSON Parse Error: Invalid control character at: line 2 column 2191 (char 2192)
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Article for Health & Disease: STAT+: Up and down the ladder: The latest comings and goings ---
-Searching for image: STAT+: Up and down the ladder: The latest comings and goings
-Image search failed: https://duckduckgo.com/i.js?o=json&q=STAT%2B%3A+Up+and+down+the+ladder%3A+The+latest+comings+and+goings&l=us-en&vqd=4-274368281487342679805563674059988170261&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
-✅ Success: 2026-03-29-stat-up-and-down-the-ladder-the-latest-c.md
+--- Generating Article for US News: Some on-air claims about Dominion Voting Systems were false, Fox News acknowledges in statement after deal is announced ---
+Searching for image: Some on-air claims about Dominion Voting Systems were false, Fox News acknowledges in statement after deal is announced
+Image search failed: https://duckduckgo.com/i.js?o=json&q=Some+on-air+claims+about+Dominion+Voting+Systems+were+false%2C+Fox+News+acknowledges+in+statement+after+deal+is+announced&l=us-en&vqd=4-93436019280342236962211926948272196494&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+✅ Success: 2026-03-29-some-onair-claims-about-dominion-voting-.md
 🎉 Run complete! Generated 1 highly humanized articles with photos.
