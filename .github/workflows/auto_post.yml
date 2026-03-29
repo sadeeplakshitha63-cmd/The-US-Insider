@@ -2,6 +2,9 @@ name: Auto Content Upload
 on:
   schedule:
     - cron: '0 0,12 * * *'
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
