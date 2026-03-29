@@ -780,5 +780,5 @@ Generating article for: AI Revolution: How Artificial Intelligence is Reshaping 
 Trying model: gemini-2.5-flash...
 Article generated successfully using gemini-2.5-flash!
 Saving article: AI Revolution: How Artificial Intelligence is Reshaping American Jobs in 2026
-✅ Successfully saved: _posts/2026-03-29-ai-revolution-how-artificial-intelligence-is-reshaping-ameri.md
-🎉 Article published successfully!
+Article already exists: _posts/2026-03-29-ai-revolution-how-artificial-intelligence-is-reshaping-ameri.md. Skipping.
+ℹ️ Article already published today.
