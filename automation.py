@@ -13,12 +13,33 @@ if not GEMINI_API_KEY:
     print("Error: GEMINI_API_KEY environment variable not set.")
     exit(1)
 
-# RSS Feeds for Different Categories
+# RSS Feeds for Different Categories - Expanded for more variety and niche traffic
 FEEDS = {
-    "US News": ["http://rss.cnn.com/rss/cnn_topstories.rss", "http://feeds.foxnews.com/foxnews/national"],
-    "Health & Disease": ["https://khn.org/feed/", "https://www.statnews.com/feed/"],
-    "Tech": ["https://techcrunch.com/feed/", "https://www.wired.com/feed/rss"],
-    "Finance": ["https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000"]
+    "US News": [
+        "http://rss.cnn.com/rss/cnn_topstories.rss", 
+        "http://feeds.foxnews.com/foxnews/national",
+        "https://www.huffpost.com/section/front-page/feed"
+    ],
+    "Health & Disease": [
+        "https://khn.org/feed/", 
+        "https://www.statnews.com/feed/",
+        "https://www.medicalnewstoday.com/feed"
+    ],
+    "Tech & AI": [
+        "https://techcrunch.com/feed/", 
+        "https://www.wired.com/feed/rss",
+        "https://venturebeat.com/feed/",
+        "https://www.theverge.com/rss/index.xml"
+    ],
+    "Finance & Crypto": [
+        "https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000",
+        "https://feeds.a.dj.com/rss/WSJLinks.xml",
+        "https://cointelegraph.com/rss/tag/bitcoin"
+    ],
+    "Lifestyle & Travel": [
+        "https://www.lonelyplanet.com/news/rss",
+        "https://www.lifehack.org/feed"
+    ]
 }
 
 def get_image(query):
@@ -30,24 +51,28 @@ def get_image(query):
             return results[0]['image']
     except Exception as e:
         print(f"Image search failed: {e}")
-    # Fallback highly professional image
-    return "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=1200&h=800&fit=crop"
+    # Fallback to high-quality curated stock images
+    fallbacks = [
+        "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=1200",
+        "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200",
+        "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200"
+    ]
+    return random.choice(fallbacks)
 
 def ask_gemini(prompt):
     models_to_try = [
-        "gemini-2.5-flash",
-        "gemini-1.5-flash-latest",
-        "gemini-1.5-flash",
         "gemini-1.5-pro",
+        "gemini-1.5-flash",
         "gemini-pro"
     ]
     headers = {'Content-Type': 'application/json'}
-    data = {"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"temperature": 0.85}}
+    data = {"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"temperature": 0.8}}
     
     for model_name in models_to_try:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={GEMINI_API_KEY}"
         try:
-            response = requests.post(url, headers=headers, json=data, timeout=40)
+            response = requests.post(url, headers=headers, json=data, timeout=60)
             if response.status_code == 200:
                 result = response.json()
                 text = result.get('candidates', [{}])[0].get('content', {}).get('parts', [{}])[0].get('text', '')
@@ -58,14 +83,13 @@ def ask_gemini(prompt):
     return None
 
 def fetch_and_rewrite():
-    # We will pick 3 random categories and 1 article from each to generate 3 articles per run limit.
+    # We will pick 4 random categories to generate articles
     categories_to_process = list(FEEDS.keys())
     random.shuffle(categories_to_process)
     
     articles_generated = 0
-    generated_titles = []
     
-    for category in categories_to_process[:3]:
+    for category in categories_to_process[:4]:
         feed_url = random.choice(FEEDS[category])
         print(f"Fetching from {feed_url}...")
         try:
@@ -73,83 +97,82 @@ def fetch_and_rewrite():
             if not feed.entries:
                 continue
                 
-            entry = random.choice(feed.entries[:5])
+            entry = random.choice(feed.entries[:8])
             base_title = entry.title
             
-            # Check if we already generated it roughly today
-            safe_title = re.sub(r'[^a-zA-Z0-9\s]', '', base_title).strip().replace(' ', '-').lower()[:40]
+            # Slug generation
+            safe_title = re.sub(r'[^a-zA-Z0-9\s]', '', base_title).strip().replace(' ', '-').lower()[:50]
             date_str = datetime.now().strftime('%Y-%m-%d')
-            search_pattern = f"{date_str}-.*{safe_title}.*.md"
             
-            # Simple deduplication trick
+            # Deduplication
             if any(safe_title in f for f in os.listdir('_posts') if f.endswith('.md')):
                 print(f"Skipping already covered topic: {base_title}")
                 continue
                 
-            print(f"\n--- Generating Article for {category}: {base_title} ---")
+            print(f"\n--- Generating Viral Article for {category}: {base_title} ---")
             
-            # Prompt Gemini to deeply humanize and generate fake comments
-            prompt = f"""You are a veteran senior editor at 'The US Insider' with 20 years of experience in American investigative journalism. 
-Your task is to craft a comprehensive, high-value news story based on: "{base_title}"
+            # Prompt Gemini for high SEO value and Viral potential
+            prompt = f"""You are a top-tier investigative journalist at 'The US Insider'. 
+Your task is to write a VIRAL, high-authority news story based on: "{base_title}"
 
-CRITICAL ALIGNMENT WITH GOOGLE RANKING SYSTEMS (BERT, MUM, HELPFUL CONTENT):
-1. HUMAN WRITING: Use a mix of analytical sentences and concise punchy ones. Emulate the nuance of a real human expert who knows the readers deeply.
-2. UNIQUE VALUE (Not Duplication): Do not merely summarize. Provide original analysis, predicted impacts on the US economy/society, and actionable advice for citizens.
-3. EEAT: Write with authority. Refer to historical analogies or related past events where relevant.
-4. ARTICLE STRUCTURE:
-   - Compelling Headline (already provided as Title)
-   - Deep Introduction with hook
-   - H2 and H3 Subheadings that answer "Why this matters" and "What's next"
-   - Bullet points for critical data
-   - Expert Conclusion
-5. AVOID SPAM: Strictly avoid phrases like "In a world...", "In conclusion...", "It is vital to consider...".
-
-Target length: 700 - 1000 words.
+DIRECTIONS FOR VIRAL CONTENT:
+1. THE TONE: Opinionated, authoritative, and deeply analytical. Use a mix of long, thoughtful periods and short, impactful sentences.
+2. BEYOND THE NEWS: Explain WHY this happened, WHO it benefits, and WHAT the reader should do now.
+3. STRUCTURE:
+   - Catchy, click-worthy Headline.
+   - Intriguing introduction (hook).
+   - Use H2 and H3 subheadings with keywords.
+   - Include a 'Quick Take' section with bullet points.
+   - Add a 'Future Outlook' section.
+4. SEO:
+   - Naturally integrate keywords related to {category} and "{base_title}".
+   - Target 800 - 1200 words.
+5. NO AI CLICHES: Do not use "In today's world", "Only time will tell", or "It's important to remember".
 
 Output format must be EXCLUSIVELY VALID JSON:
 {{
-  "article": "Your markdown formatted investigative piece (no H1).",
-  "description": "A compelling 150-160 character meta description for Google search results.",
-  "image_alt": "A descriptive, keyword-rich alt text for a news image related to this story.",
+  "headline": "A viral, high-CTR headline.",
+  "article": "Your markdown formatted body content (no H1).",
+  "description": "A compelling 155-character meta description.",
+  "image_alt": "Keyword-rich alt text.",
+  "social_caption": "A viral Twitter/X thread starter or Pinterest description (200 chars).",
+  "keywords": "comma, separated, keywords",
   "comments": [
-    {{"name": "Full Name", "time": "Relative Time", "text": "Conversational, human-like insight or debate (not just 'Great post!')"}}
+    {{"name": "Diverse American Name", "time": "Relative Time", "text": "Thoughtful insight."}}
   ]
 }}
-Generate exactly 6 unique, hyper-realistic reader comments from diverse American backgrounds. DO NOT add any text outside the JSON block."""
+Generate 6 unique reader comments. No other text."""
 
             response_text = ask_gemini(prompt)
             if not response_text:
-                print("Gemini failed to respond.")
                 continue
                 
-            # Clean JSON block
+            # Clean JSON
             json_str = response_text.strip()
-            if json_str.startswith('```json'):
-                json_str = json_str[7:]
-            if json_str.startswith('```'):
-                json_str = json_str[3:]
-            if json_str.endswith('```'):
-                json_str = json_str[:-3]
+            if '```' in json_str:
+                json_str = json_str.split('```')[1]
+                if json_str.startswith('json'):
+                    json_str = json_str[4:]
                 
             try:
                 data = json.loads(json_str.strip())
+                final_title = data.get('headline', base_title)
                 article_body = data.get('article', '')
                 comments = data.get('comments', [])
-                meta_desc = data.get('description', f"The latest insights on {base_title} from The US Insider.")
-                image_alt = data.get('image_alt', f"{base_title} - Featured image")
+                meta_desc = data.get('description', '')
+                image_alt = data.get('image_alt', '')
+                keywords = data.get('keywords', '')
+                social_caption = data.get('social_caption', '')
                 
                 if len(article_body) < 100:
                     continue
                     
-                # Get a high quality image
                 image_url = get_image(base_title)
-                
-                # Format Date
                 date_formatted = datetime.now().strftime('%Y-%m-%d %H:%M:%S +0000')
                 filename = f"{date_str}-{safe_title}.md"
                 filepath = os.path.join('_posts', filename)
                 
-                # Process comments into YAML
+                # Format comments
                 comments_yaml = "comments:\n"
                 for c in comments:
                     safe_text = str(c.get('text', '')).replace('"', "'")
@@ -160,37 +183,33 @@ Generate exactly 6 unique, hyper-realistic reader comments from diverse American
                 # Full Frontmatter
                 front_matter = f"""---
 layout: post
-title: "{base_title.replace('"', "'")}"
+title: "{final_title.replace('"', "'")}"
 date: {date_formatted}
-categories: [{category}]
+categories: [{category.replace(' & ', ', ')}]
 image: "{image_url}"
 image_alt: "{image_alt.replace('"', "'")}"
 description: "{meta_desc.replace('"', "'")}"
+keywords: "{keywords}"
+social_promo: "{social_caption.replace('"', "'")}"
 {comments_yaml}---
 
 """
                 with open(filepath, 'w', encoding='utf-8') as f:
                     f.write(front_matter + article_body)
                     
-                print(f"✅ Success: {filename}")
+                print(f"✅ Created: {filename}")
                 articles_generated += 1
-                
-                # Sleep briefly to avoid AI rate limits between posts
-                time.sleep(10)
+                time.sleep(15) 
                 
             except Exception as e:
-                print(f"JSON Parse Error: {e}")
+                print(f"JSON Error: {e}")
                 
         except Exception as e:
-            print(f"Error fetching from {feed_url}: {e}")
+            print(f"Error: {e}")
             
-    if articles_generated == 0:
-        print("❌ Could not generate any articles this run. Might need to try again later.")
-    else:
-        print(f"🎉 Run complete! Generated {articles_generated} highly humanized articles with photos.")
+    print(f"\n🚀 Success: Generated {articles_generated} stories.")
 
 if __name__ == "__main__":
-    print("🚀 The US Insider - Hyper-Human Publishing Engine Starting...")
     if not os.path.exists('_posts'):
         os.makedirs('_posts')
     fetch_and_rewrite()
