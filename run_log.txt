@@ -797,15 +797,17 @@ API KEY exists? true
     }
   ]
 }
-Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
-Fetching from https://www.theverge.com/rss/index.xml...
-
---- Generating Viral Article for Tech & AI: The Miniature Wife was an exercise in visual trickery ---
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: Millions in the US could face massive consequences unless McCarthy can navigate out of a debt trap he set for Biden ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: Long-Term vs Short-Term Goals: Why You Need Both (And How to Connect Them) ---
+--- Generating Viral Article for Lifestyle & Travel: How to Stop Comparing Yourself to Others (And Start Running Your Own Race) ---
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: Can I Opt Out of Having My Doctor Take Notes With AI? ---
+Fetching from https://techcrunch.com/feed/...
+
+--- Generating Viral Article for Tech & AI: A self-driving car in Austin killed a mother duck, sparking neighborhood outrage ---
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: Two Oklahoma elementary school workers charged with assaulting students ---
 
 🚀 Success: Generated 0 stories.
