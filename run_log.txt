@@ -797,13 +797,15 @@ API KEY exists? true
     }
   ]
 }
-Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: Long-Term vs Short-Term Goals: Why You Need Both (And How to Connect Them) ---
 Fetching from https://venturebeat.com/feed/...
 
 --- Generating Viral Article for Tech & AI: Block introduces Managerbot, a proactive Square AI agent and the clearest proof point yet for Jack Dorsey’s AI bet ---
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: Neighbor fatally shoots alleged gunman after 2 women shot in domestic dispute ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: Bitcoin can be made quantum-safe without protocol upgrade: Researcher ---
 Fetching from https://www.medicalnewstoday.com/feed...
 
 🚀 Success: Generated 0 stories.
