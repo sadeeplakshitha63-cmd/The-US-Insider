@@ -797,15 +797,15 @@ API KEY exists? true
     }
   ]
 }
-Fetching from https://www.theverge.com/rss/index.xml...
-
---- Generating Viral Article for Tech & AI: Google says Polymarket bets showing up in News was an ‘error’ ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: How to Stay Consistent With Goals (When Motivation Keeps Failing You) ---
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+--- Generating Viral Article for Lifestyle & Travel: How to Achieve Your Goals (When Knowing What to Do Isn’t Enough) ---
 Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Health & Disease: GAO report shows gap between scale of illegal vapes and enforcement ---
+--- Generating Viral Article for Health & Disease: Opinion: Sports betting is creating a twofold public health crisis for some young men ---
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: WATCH: Eviction standoff turns to war zone as gunman kills deputy in ambush, gets run over by armored vehicle ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
 
 🚀 Success: Generated 0 stories.
