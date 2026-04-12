@@ -797,13 +797,15 @@ API KEY exists? true
     }
   ]
 }
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory ---
 Fetching from https://venturebeat.com/feed/...
 
---- Generating Viral Article for Tech & AI: OpenAI introduces ChatGPT Pro $100 tier with 5X usage limits for Codex compared to Plus ---
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: For Many Patients Leaving the ICU, the Struggle Has Only Just Begun ---
-Fetching from https://www.huffpost.com/section/front-page/feed...
+--- Generating Viral Article for Tech & AI: Five signs data drift is already undermining your security models ---
 Fetching from https://www.lonelyplanet.com/news/rss...
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: Strategy's Michael Saylor signals impending Bitcoin purchase ---
 
 🚀 Success: Generated 0 stories.
