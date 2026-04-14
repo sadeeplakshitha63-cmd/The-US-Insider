@@ -802,13 +802,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0xMi0yMDI1"
 }
-Fetching from https://techcrunch.com/feed/...
-
---- Generating Viral Article for Tech & AI: YouTube livestreams will now hold back ads during peak engagement to protect the vibe ---
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: White homeowner accused of shooting a Black teen who rang his doorbell turns himself in to face criminal charges ---
-Fetching from https://www.medicalnewstoday.com/feed...
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+--- Generating Viral Article for US News: 'Difficult to say with a straight face': Tapper reacts to Fox News' statement on settlement ---
+Fetching from https://www.wired.com/feed/rss...
+
+--- Generating Viral Article for Tech & AI: The 10 Best TV Shows to Stream This Month (April 2026) ---
+Fetching from https://www.lifehack.org/feed...
+
+--- Generating Viral Article for Lifestyle & Travel: Why Do I Keep Failing at Goals? (It’s Not What You Think) ---
+Fetching from https://www.statnews.com/feed/...
+
+--- Generating Viral Article for Health & Disease: For Ben Sasse, Revolution Medicines’ pancreatic cancer trial felt like his best, only option ---
 
 🚀 Success: Generated 0 stories.
