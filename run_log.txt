@@ -802,15 +802,13 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0xMi0yMDI1"
 }
-Fetching from https://www.lonelyplanet.com/news/rss...
 Fetching from https://techcrunch.com/feed/...
 
---- Generating Viral Article for Tech & AI: Max Hodak’s Science Corp. is preparing to place its first sensor in a human brain ---
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: STAT+: Congress returns to a packed health care agenda ---
+--- Generating Viral Article for Tech & AI: YouTube livestreams will now hold back ads during peak engagement to protect the vibe ---
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: 'Difficult to say with a straight face': Tapper reacts to Fox News' statement on settlement ---
+--- Generating Viral Article for US News: White homeowner accused of shooting a Black teen who rang his doorbell turns himself in to face criminal charges ---
+Fetching from https://www.medicalnewstoday.com/feed...
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 
 🚀 Success: Generated 0 stories.
