@@ -555,6 +555,25 @@ API KEY exists? true
       "thinking": true
     },
     {
+      "name": "models/gemini-robotics-er-1.6-preview",
+      "version": "1.6-preview",
+      "displayName": "Gemini Robotics-ER 1.6 Preview",
+      "description": "Gemini Robotics-ER 1.6 Preview",
+      "inputTokenLimit": 131072,
+      "outputTokenLimit": 65536,
+      "supportedGenerationMethods": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ],
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "maxTemperature": 2,
+      "thinking": true
+    },
+    {
       "name": "models/gemini-2.5-computer-use-preview-10-2025",
       "version": "Gemini 2.5 Computer Use Preview 10-2025",
       "displayName": "Gemini 2.5 Computer Use Preview 10-2025",
@@ -779,29 +798,21 @@ API KEY exists? true
       "topK": 64,
       "maxTemperature": 2,
       "thinking": true
-    },
-    {
-      "name": "models/gemini-3.1-flash-live-preview",
-      "version": "3.1-flash-live-03-2026",
-      "displayName": "Gemini 3.1 Flash Live Preview",
-      "description": "Gemini 3.1 Flash Live Preview",
-      "inputTokenLimit": 131072,
-      "outputTokenLimit": 65536,
-      "supportedGenerationMethods": [
-        "bidiGenerateContent"
-      ],
-      "temperature": 1,
-      "topP": 0.95,
-      "topK": 64,
-      "maxTemperature": 2
     }
-  ]
+  ],
+  "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0xMi0yMDI1"
 }
-Fetching from https://www.lonelyplanet.com/news/rss...
-Fetching from https://www.wired.com/feed/rss...
+Fetching from https://techcrunch.com/feed/...
 
---- Generating Viral Article for Tech & AI: These Are the 3 Power Tools You Need (2026) ---
-Fetching from https://www.huffpost.com/section/front-page/feed...
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+--- Generating Viral Article for Tech & AI: Amazon to buy Globalstar for $11.57B in bid to flesh out its satellite biz ---
+Fetching from https://www.lifehack.org/feed...
+
+--- Generating Viral Article for Lifestyle & Travel: How to Achieve Your Goals (When Knowing What to Do Isn’t Enough) ---
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: New Artemis II video shows moment Navy medical team opened hatch, welcomed astronauts ---
+Fetching from https://www.statnews.com/feed/...
+
+--- Generating Viral Article for Health & Disease: For Ben Sasse, Revolution Medicines’ pancreatic cancer trial felt like his best, only option ---
 
 🚀 Success: Generated 0 stories.
