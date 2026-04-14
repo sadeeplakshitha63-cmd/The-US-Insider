@@ -802,17 +802,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0xMi0yMDI1"
 }
-Fetching from https://techcrunch.com/feed/...
-
---- Generating Viral Article for Tech & AI: Amazon to buy Globalstar for $11.57B in bid to flesh out its satellite biz ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: How to Achieve Your Goals (When Knowing What to Do Isn’t Enough) ---
-Fetching from http://feeds.foxnews.com/foxnews/national...
-
---- Generating Viral Article for US News: New Artemis II video shows moment Navy medical team opened hatch, welcomed astronauts ---
 Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Health & Disease: For Ben Sasse, Revolution Medicines’ pancreatic cancer trial felt like his best, only option ---
+--- Generating Viral Article for Health & Disease: STAT+: FDA pressures drugmakers to report trial results ---
+Fetching from https://www.wired.com/feed/rss...
+
+--- Generating Viral Article for Tech & AI: Why You Should Consider a Coros Watch Instead of a Garmin (2026) ---
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: 'Difficult to say with a straight face': Tapper reacts to Fox News' statement on settlement ---
+Fetching from https://www.lifehack.org/feed...
+
+--- Generating Viral Article for Lifestyle & Travel: Why Do I Keep Failing at Goals? (It’s Not What You Think) ---
 
 🚀 Success: Generated 0 stories.
