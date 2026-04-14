@@ -802,17 +802,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0xMi0yMDI1"
 }
+Fetching from https://www.lonelyplanet.com/news/rss...
+Fetching from https://techcrunch.com/feed/...
+
+--- Generating Viral Article for Tech & AI: Max Hodak’s Science Corp. is preparing to place its first sensor in a human brain ---
 Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Health & Disease: STAT+: FDA pressures drugmakers to report trial results ---
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: Why You Should Consider a Coros Watch Instead of a Garmin (2026) ---
+--- Generating Viral Article for Health & Disease: STAT+: Congress returns to a packed health care agenda ---
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
 --- Generating Viral Article for US News: 'Difficult to say with a straight face': Tapper reacts to Fox News' statement on settlement ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: Why Do I Keep Failing at Goals? (It’s Not What You Think) ---
 
 🚀 Success: Generated 0 stories.
