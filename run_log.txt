@@ -803,15 +803,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
 }
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: Los estados se enfrentan a otro reto con las nuevas reglas laborales de Medicaid: la falta de personal ---
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: The US Government Will Ask Data Centers How Much Power They Use ---
-Fetching from https://www.lonelyplanet.com/news/rss...
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Millions in the US could face massive consequences unless McCarthy can navigate out of a debt trap he set for Biden ---
+--- Generating Viral Article for US News: 'Difficult to say with a straight face': Tapper reacts to Fox News' statement on settlement ---
+Fetching from https://techcrunch.com/feed/...
+
+--- Generating Viral Article for Tech & AI: Ford EV and tech chief leaving automaker ---
+Fetching from https://www.lifehack.org/feed...
+
+--- Generating Viral Article for Lifestyle & Travel: Why Being Busy Is Keeping You From Being Productive ---
 
 🚀 Success: Generated 0 stories.
