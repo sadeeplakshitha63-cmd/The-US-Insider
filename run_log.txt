@@ -803,15 +803,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
 }
-Fetching from https://www.theverge.com/rss/index.xml...
-
---- Generating Viral Article for Tech & AI: Age verification is a mess but we&#8217;re doing it anyway ---
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
-
---- Generating Viral Article for Finance & Crypto: Morgan Stanley’s Bitcoin fund overtakes WisdomTree after 6 trading days ---
 Fetching from http://feeds.foxnews.com/foxnews/national...
 
---- Generating Viral Article for US News: Historic Israel-Lebanon talks to take place for first time in decades and more top headlines ---
-Fetching from https://www.lonelyplanet.com/news/rss...
+--- Generating Viral Article for US News: Chicago mayor warns of ‘teen trend’ after takeover chaos, violence concerns grow ---
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: OpenAI’s big Codex update is a direct shot at Anthropic’s Claude Code ---
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: Cómo hacer que un plan de salud con deducible alto funcione para tí ---
 
 🚀 Success: Generated 0 stories.
