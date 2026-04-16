@@ -546,7 +546,8 @@ API KEY exists? true
       "outputTokenLimit": 16384,
       "supportedGenerationMethods": [
         "generateContent",
-        "countTokens"
+        "countTokens",
+        "batchGenerateContent"
       ],
       "temperature": 1,
       "topP": 0.95,
@@ -802,17 +803,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
 }
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: Dominion still has pending lawsuits against election deniers such as Rudy Giuliani and Sidney Powell ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: How to Stop Comparing Yourself to Others (And Start Running Your Own Race) ---
 Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Health & Disease: Rural Nebraska Dialysis Unit Closes Despite the State’s $219M in Rural Health Funding ---
+--- Generating Viral Article for Health & Disease: Los estados se enfrentan a otro reto con las nuevas reglas laborales de Medicaid: la falta de personal ---
 Fetching from https://www.wired.com/feed/rss...
 
---- Generating Viral Article for Tech & AI: Allbirds Is Pivoting to AI Compute. Sure, Why Not ---
+--- Generating Viral Article for Tech & AI: The US Government Will Ask Data Centers How Much Power They Use ---
+Fetching from https://www.lonelyplanet.com/news/rss...
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: Millions in the US could face massive consequences unless McCarthy can navigate out of a debt trap he set for Biden ---
 
 🚀 Success: Generated 0 stories.
