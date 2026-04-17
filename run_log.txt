@@ -803,15 +803,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
 }
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
-
---- Generating Viral Article for Finance & Crypto: US should scrap crypto capital gains tax to fuel currency competition: Cato ---
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: STAT+: RFK Jr. begins his testimony marathon ---
 Fetching from https://www.theverge.com/rss/index.xml...
 
---- Generating Viral Article for Tech & AI: Netflix co-founder Reed Hastings is officially leaving the company ---
-Fetching from https://www.huffpost.com/section/front-page/feed...
+--- Generating Viral Article for Tech & AI: Teenage Engineering might be getting into instrument amps next ---
+Fetching from https://www.medicalnewstoday.com/feed...
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: 'Difficult to say with a straight face': Tapper reacts to Fox News' statement on settlement ---
+Fetching from https://www.lifehack.org/feed...
+
+--- Generating Viral Article for Lifestyle & Travel: Done Is Better Than Perfect: Why Shipping Beats Polishing Every Time ---
 
 🚀 Success: Generated 0 stories.
