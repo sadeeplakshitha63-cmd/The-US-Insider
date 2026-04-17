@@ -803,17 +803,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
 }
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: Opinion: Don’t believe headlines saying that vaccine skepticism is widespread ---
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
-
---- Generating Viral Article for Finance & Crypto: Bitcoin liquidations top $283M after short squeeze sends BTC price above $75K ---
 Fetching from https://www.theverge.com/rss/index.xml...
 
---- Generating Viral Article for Tech & AI: Netflix cofounder Reed Hastings is officially leaving the company ---
-Fetching from https://www.lifehack.org/feed...
+--- Generating Viral Article for Tech & AI: Netflix embraces vertical video with major mobile app update ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for Lifestyle & Travel: How to Achieve Your Goals (When Knowing What to Do Isn’t Enough) ---
+--- Generating Viral Article for US News: 'Difficult to say with a straight face': Tapper reacts to Fox News' statement on settlement ---
+Fetching from https://www.statnews.com/feed/...
+
+--- Generating Viral Article for Health & Disease: A pancreatic cancer breakthrough, and new hope for an off-the-shelf CAR-T treatment ---
 
 🚀 Success: Generated 0 stories.
