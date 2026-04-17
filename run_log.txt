@@ -803,17 +803,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
 }
-Fetching from https://venturebeat.com/feed/...
-
---- Generating Viral Article for Tech & AI: Anthropic just launched Claude Design, an AI tool that turns prompts into prototypes and challenges Figma ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: How to Stop Comparing Yourself to Others (And Start Running Your Own Race) ---
-Fetching from http://feeds.foxnews.com/foxnews/national...
+--- Generating Viral Article for Lifestyle & Travel: Why Do I Keep Failing at Goals? (It’s Not What You Think) ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for US News: Man, woman killed in rip current as lifeguard shortage leaves danger zones in beach destination ---
-Fetching from https://www.statnews.com/feed/...
+--- Generating Viral Article for Health & Disease: Medi-Cal Immigrant Enrollment Is Dropping. Researchers Point to Trump’s Policies. ---
+Fetching from https://techcrunch.com/feed/...
 
---- Generating Viral Article for Health & Disease: STAT+: FDA eyes expanding testosterone therapy for libido ---
+--- Generating Viral Article for Tech & AI: Gigs turns your concert history into a personal live music archive ---
 
 🚀 Success: Generated 0 stories.
