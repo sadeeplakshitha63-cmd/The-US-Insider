@@ -803,15 +803,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
 }
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: What the Health? From KFF Health News: A New CDC Nominee, Again ---
-Fetching from https://www.theverge.com/rss/index.xml...
-
---- Generating Viral Article for Tech & AI: Should you stare into Sam Altman&#8217;s orb before your next date? ---
 Fetching from http://feeds.foxnews.com/foxnews/national...
 
---- Generating Viral Article for US News: 1 million bees swarm highway after crash shuts down interstate ramp for hours ---
-Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+--- Generating Viral Article for US News: Two boys dead after illegal immigrant from Mexico allegedly drove drunk and hit them on a sidewalk ---
+Fetching from https://www.statnews.com/feed/...
+
+--- Generating Viral Article for Health & Disease: Optimism for Trump’s CDC pick is tempered by questions about RFK Jr.’s role ---
+Fetching from https://www.lifehack.org/feed...
+
+--- Generating Viral Article for Lifestyle & Travel: Why Do I Keep Failing at Goals? (It’s Not What You Think) ---
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: OpenAI’s former Sora boss is leaving ---
 
 🚀 Success: Generated 0 stories.
