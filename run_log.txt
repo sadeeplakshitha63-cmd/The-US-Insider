@@ -803,15 +803,13 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
 }
-Fetching from https://techcrunch.com/feed/...
+Fetching from https://www.lonelyplanet.com/news/rss...
+Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Tech & AI: ‘Tokenmaxxing’ is making developers less productive than they think ---
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: Your New Therapist: Chatty, Leaky, and Hardly Human ---
+--- Generating Viral Article for Health & Disease: STAT+: Up and down the ladder: The latest comings and goings ---
 Fetching from https://www.huffpost.com/section/front-page/feed...
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Finance & Crypto: Crypto market liquidations hit $820M as Bitcoin price taps $78K ---
+--- Generating Viral Article for Finance & Crypto: Spot Bitcoin ETFs attract nearly $1B in weekly inflows as risk sentiment improves ---
 
 🚀 Success: Generated 0 stories.
