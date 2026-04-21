@@ -609,6 +609,40 @@ API KEY exists? true
       "thinking": true
     },
     {
+      "name": "models/deep-research-max-preview-04-2026",
+      "version": "deepthink-exp-05-20",
+      "displayName": "Deep Research Max Preview (Apr-21-2026)",
+      "description": "Preview release (April 21st, 2026) of Deep Research Max",
+      "inputTokenLimit": 131072,
+      "outputTokenLimit": 65536,
+      "supportedGenerationMethods": [
+        "generateContent",
+        "countTokens"
+      ],
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "maxTemperature": 2,
+      "thinking": true
+    },
+    {
+      "name": "models/deep-research-preview-04-2026",
+      "version": "deepthink-exp-05-20",
+      "displayName": "Deep Research Preview (Apr-21-2026)",
+      "description": "Preview release (April 21th, 2026) of Deep Research",
+      "inputTokenLimit": 131072,
+      "outputTokenLimit": 65536,
+      "supportedGenerationMethods": [
+        "generateContent",
+        "countTokens"
+      ],
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "maxTemperature": 2,
+      "thinking": true
+    },
+    {
       "name": "models/deep-research-pro-preview-12-2025",
       "version": "deepthink-exp-05-20",
       "displayName": "Deep Research Pro Preview (Dec-12-2025)",
@@ -765,53 +799,19 @@ API KEY exists? true
       "supportedGenerationMethods": [
         "predictLongRunning"
       ]
-    },
-    {
-      "name": "models/gemini-2.5-flash-native-audio-latest",
-      "version": "Gemini 2.5 Flash Native Audio Latest",
-      "displayName": "Gemini 2.5 Flash Native Audio Latest",
-      "description": "Latest release of Gemini 2.5 Flash Native Audio",
-      "inputTokenLimit": 131072,
-      "outputTokenLimit": 8192,
-      "supportedGenerationMethods": [
-        "countTokens",
-        "bidiGenerateContent"
-      ],
-      "temperature": 1,
-      "topP": 0.95,
-      "topK": 64,
-      "maxTemperature": 2,
-      "thinking": true
-    },
-    {
-      "name": "models/gemini-2.5-flash-native-audio-preview-09-2025",
-      "version": "gemini-2.5-flash-preview-native-audio-dialog-2025-05-19",
-      "displayName": "Gemini 2.5 Flash Native Audio Preview 09-2025",
-      "description": "Gemini 2.5 Flash Native Audio Preview 09-2025",
-      "inputTokenLimit": 131072,
-      "outputTokenLimit": 8192,
-      "supportedGenerationMethods": [
-        "countTokens",
-        "bidiGenerateContent"
-      ],
-      "temperature": 1,
-      "topP": 0.95,
-      "topK": 64,
-      "maxTemperature": 2,
-      "thinking": true
     }
   ],
-  "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
+  "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1saXRlLWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
-
---- Generating Viral Article for Finance & Crypto: Price predictions 4/20: SPX, DXY, BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA ---
 Fetching from https://www.lonelyplanet.com/news/rss...
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: Lab behind Gilgo Beach killer conviction believed to be involved in Nancy Guthrie abduction case ---
 Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Health & Disease: An Arm and a Leg: The Accidental Architect of America’s Drug Patent Problem ---
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+--- Generating Viral Article for Health & Disease: Democrats Demand Trump Administration Halt Plan To Collect Federal Workers’ Health Data ---
+Fetching from https://www.wired.com/feed/rss...
 
---- Generating Viral Article for US News: Judge in Fox News-Dominion defamation trial: 'The parties have resolved their case' ---
+--- Generating Viral Article for Tech & AI: H2O Audio Tri Run Workout Headphones Review: A Little Underwhelming ---
 
 🚀 Success: Generated 0 stories.
