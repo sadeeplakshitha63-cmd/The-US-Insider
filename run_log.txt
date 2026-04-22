@@ -688,6 +688,20 @@ API KEY exists? true
       ]
     },
     {
+      "name": "models/gemini-embedding-2",
+      "version": "2",
+      "displayName": "Gemini Embedding 2",
+      "description": "Obtain a distributed representation of multimodal content.",
+      "inputTokenLimit": 8192,
+      "outputTokenLimit": 1,
+      "supportedGenerationMethods": [
+        "embedContent",
+        "countTextTokens",
+        "countTokens",
+        "asyncBatchEmbedContent"
+      ]
+    },
+    {
       "name": "models/aqa",
       "version": "001",
       "displayName": "Model that performs Attributed Question Answering.",
@@ -788,30 +802,17 @@ API KEY exists? true
       "supportedGenerationMethods": [
         "predictLongRunning"
       ]
-    },
-    {
-      "name": "models/veo-3.1-lite-generate-preview",
-      "version": "3.1",
-      "displayName": "Veo 3.1 lite",
-      "description": "Veo 3.1 lite",
-      "inputTokenLimit": 480,
-      "outputTokenLimit": 8192,
-      "supportedGenerationMethods": [
-        "predictLongRunning"
-      ]
     }
   ],
-  "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1saXRlLWdlbmVyYXRlLXByZXZpZXc="
+  "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1mYXN0LWdlbmVyYXRlLXByZXZpZXc="
 }
+Fetching from https://www.huffpost.com/section/front-page/feed...
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 Fetching from https://www.statnews.com/feed/...
 
 --- Generating Viral Article for Health & Disease: Moderna continues bird flu vax study, but limits work in the U.S. ---
-Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
-Fetching from https://www.lifehack.org/feed...
+Fetching from https://venturebeat.com/feed/...
 
---- Generating Viral Article for Lifestyle & Travel: How to Achieve Your Goals (When Knowing What to Do Isn’t Enough) ---
-Fetching from https://www.theverge.com/rss/index.xml...
-
---- Generating Viral Article for Tech & AI: Sony’s PlayStation 5 is $200 off for the first time since December ---
+--- Generating Viral Article for Tech & AI: Vercel breach exposes the OAuth gap most security teams cannot detect, scope or contain ---
 
 🚀 Success: Generated 0 stories.
