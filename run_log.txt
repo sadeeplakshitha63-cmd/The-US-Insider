@@ -806,13 +806,13 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1mYXN0LWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: Altra Promo Codes: Get 20% Off Plus Free Shipping ---
 Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Health & Disease: STAT+: FDA to speed up review of three psychedelics as mental health treatments ---
+--- Generating Viral Article for Health & Disease: STAT+: A biotech VC on what Eli Lilly saw in a struggling cancer startup for $3.2B ---
 Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+Fetching from https://venturebeat.com/feed/...
+
+--- Generating Viral Article for Tech & AI: 85% of enterprises are running AI agents. Only 5% trust them enough to ship. ---
 Fetching from https://www.lonelyplanet.com/news/rss...
 
 🚀 Success: Generated 0 stories.
