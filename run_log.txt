@@ -806,15 +806,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1mYXN0LWdlbmVyYXRlLXByZXZpZXc="
 }
+Fetching from https://venturebeat.com/feed/...
+
+--- Generating Viral Article for Tech & AI: CVSS scored these two Palo Alto CVEs as manageable. Chained, they gave attackers root access to 13,000 devices. ---
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: Chicago hospital shooting leaves 2 officers injured, 1 critically; suspect in custody: report ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: Long-Term vs Short-Term Goals: Why You Need Both (And How to Connect Them) ---
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: ‘Saros’ Shows Off the PS5’s DualSense Tricks ---
-Fetching from https://www.medicalnewstoday.com/feed...
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: Dominion still has pending lawsuits against election deniers such as Rudy Giuliani and Sidney Powell ---
+--- Generating Viral Article for Lifestyle & Travel: How to Stop Comparing Yourself to Others (And Start Running Your Own Race) ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
 
 🚀 Success: Generated 0 stories.
