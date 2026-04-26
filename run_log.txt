@@ -806,15 +806,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1mYXN0LWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from https://venturebeat.com/feed/...
-
---- Generating Viral Article for Tech & AI: Mystery solved: Anthropic reveals changes to Claude's harnesses and operating instructions likely caused degradation ---
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: How to Achieve Your Goals (When Knowing What to Do Isn’t Enough) ---
 Fetching from http://feeds.foxnews.com/foxnews/national...
 
---- Generating Viral Article for US News: Suspect who fled US arrested in caught-on-camera killing of 15-year-old in NYC park ---
+--- Generating Viral Article for US News: Who is Cole Allen? California man named as suspect in White House Correspondents' Dinner shooting ---
+Fetching from https://venturebeat.com/feed/...
+
+--- Generating Viral Article for Tech & AI: Monitoring LLM behavior: Drift, retries, and refusal patterns ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: Quantum computer breaks 15-bit elliptic curve cryptographic key ---
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: Medigap Premiums Leap, and Consumers Have Few Alternatives ---
 
 🚀 Success: Generated 0 stories.
