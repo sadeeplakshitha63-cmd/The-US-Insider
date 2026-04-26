@@ -806,17 +806,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1mYXN0LWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from http://feeds.foxnews.com/foxnews/national...
-
---- Generating Viral Article for US News: Who is Cole Allen? California man named as suspect in White House Correspondents' Dinner shooting ---
-Fetching from https://venturebeat.com/feed/...
-
---- Generating Viral Article for Tech & AI: Monitoring LLM behavior: Drift, retries, and refusal patterns ---
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
-
---- Generating Viral Article for Finance & Crypto: Quantum computer breaks 15-bit elliptic curve cryptographic key ---
 Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Health & Disease: Medigap Premiums Leap, and Consumers Have Few Alternatives ---
+--- Generating Viral Article for Health & Disease: ‘What the Health?’ Podcast: RFK Jr. vs. Congress ---
+Fetching from https://www.lifehack.org/feed...
+
+--- Generating Viral Article for Lifestyle & Travel: Why Being Busy Is Keeping You From Being Productive ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: Bitcoin traders eye $73K next as weekly trend line holds price hostage ---
+Fetching from https://www.wired.com/feed/rss...
+
+--- Generating Viral Article for Tech & AI: What Type of Mattress Is Right for You? (2026) ---
 
 🚀 Success: Generated 0 stories.
