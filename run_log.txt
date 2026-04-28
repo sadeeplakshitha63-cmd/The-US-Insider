@@ -806,17 +806,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1mYXN0LWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory ---
 Fetching from https://www.wired.com/feed/rss...
 
---- Generating Viral Article for Tech & AI: OnePlus Promo Code: $70 Off | April 2026 ---
+--- Generating Viral Article for Tech & AI: The 4 Best Laptop Power Banks We've Tested (2026) ---
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: Millions in the US could face massive consequences unless McCarthy can navigate out of a debt trap he set for Biden ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: What Is a Midlife Reset? The 5-Domain System for Rebuilding at 45 and 50 ---
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: ‘What the Health?’ Podcast: RFK Jr. vs. Congress ---
+--- Generating Viral Article for Lifestyle & Travel: Why Do I Keep Failing at Goals? (It’s Not What You Think) ---
 
 🚀 Success: Generated 0 stories.
