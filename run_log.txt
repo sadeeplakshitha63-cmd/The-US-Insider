@@ -806,17 +806,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1mYXN0LWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: An Urgent Care Treated Her Allergic Reaction. An ER Monitored Her — For $6,700. ---
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: Dominion still has pending lawsuits against election deniers such as Rudy Giuliani and Sidney Powell ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: How to Achieve Your Goals (When Knowing What to Do Isn’t Enough) ---
 Fetching from https://www.theverge.com/rss/index.xml...
 
---- Generating Viral Article for Tech & AI: ChatGPT downloads are slowing — and may cause problems for OpenAI&#8217;s IPO ---
+--- Generating Viral Article for Tech & AI: Motorola just revealed the Razr Fold’s price and hoo boy ---
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: DNA cracks 35-year cold case mystery as accused killer’s new name melts under cops’ heat ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: Can Bitcoin hit $250K this year? Traders say it may be time to ‘sell in May’ ---
+Fetching from https://www.statnews.com/feed/...
+
+--- Generating Viral Article for Health & Disease: STAT+: Why conversations around health AI may be evolving beyond hype ---
 
 🚀 Success: Generated 0 stories.
