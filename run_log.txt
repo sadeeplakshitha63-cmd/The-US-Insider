@@ -806,17 +806,13 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1mYXN0LWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: STAT+: Pharmalittle: We’re reading about a Supreme Court hearing on ‘skinny labels,’ AstraZeneca U.K. expansion, and more ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: Long-Term vs Short-Term Goals: Why You Need Both (And How to Connect Them) ---
-Fetching from https://techcrunch.com/feed/...
-
---- Generating Viral Article for Tech & AI: Netflix wants you to watch ‘Clips,’ its TikTok-like vertical video feed ---
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory ---
+--- Generating Viral Article for US News: Judge in Fox News-Dominion defamation trial: 'The parties have resolved their case' ---
+Fetching from https://www.lonelyplanet.com/news/rss...
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+Fetching from https://www.statnews.com/feed/...
+
+--- Generating Viral Article for Health & Disease: STAT+: Five-way obesity drug is super effective — in mice ---
 
 🚀 Success: Generated 0 stories.
