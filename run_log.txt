@@ -806,15 +806,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1mYXN0LWdlbmVyYXRlLXByZXZpZXc="
 }
+Fetching from https://www.lonelyplanet.com/news/rss...
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory ---
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: When Natural Disasters Strike, Another Crisis Hits Those Recovering From Opioid Addiction ---
 Fetching from https://venturebeat.com/feed/...
 
---- Generating Viral Article for Tech & AI: Why OpenAI's 'goblin' problem matters — and how you can release the goblins on your own ---
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: Opinion: The psychedelic revolution is leaving behind people of color ---
-Fetching from https://www.lonelyplanet.com/news/rss...
-Fetching from http://feeds.foxnews.com/foxnews/national...
-
---- Generating Viral Article for US News: Texas Cessna plane crash kills 5; NTSB investigating ---
+--- Generating Viral Article for Tech & AI: xAI launches Grok 4.3 at an aggressively low price and a new, fast, powerful voice cloning suite ---
 
 🚀 Success: Generated 0 stories.
