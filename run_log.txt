@@ -806,15 +806,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1mYXN0LWdlbmVyYXRlLXByZXZpZXc="
 }
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: Some on-air claims about Dominion Voting Systems were false, Fox News acknowledges in statement after deal is announced ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+Fetching from https://venturebeat.com/feed/...
+
+--- Generating Viral Article for Tech & AI: Hidden IT problems are quietly creating risk, shadow IT, and lost productivity ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: What Is a Midlife Reset? The 5-Domain System for Rebuilding at 45 and 50 ---
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: Trump’s Medicaid Work Mandate Debuting in Nebraska to Much Dismay ---
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: Coway Airmega Mighty2 Review: The Sequel Is Better Than the Original ---
-Fetching from https://www.huffpost.com/section/front-page/feed...
+--- Generating Viral Article for Lifestyle & Travel: How to Stop Comparing Yourself to Others (And Start Running Your Own Race) ---
 
 🚀 Success: Generated 0 stories.
