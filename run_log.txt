@@ -817,17 +817,17 @@ API KEY exists? true
     }
   ]
 }
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: States Eye Aid To Prop Up Distressed Hospitals Amid Federal Medicaid Cuts ---
 Fetching from https://www.lifehack.org/feed...
 
 --- Generating Viral Article for Lifestyle & Travel: Goal Planning Strategies: Why Your Goals Stay on Paper (And the Fix) ---
 Fetching from http://feeds.foxnews.com/foxnews/national...
 
---- Generating Viral Article for US News: Rabid beaver attacks boy fishing at New Jersey lake, prompting health officials to warn residents ---
-Fetching from https://www.theverge.com/rss/index.xml...
+--- Generating Viral Article for US News: Illegal alien accused of killing dad, trying to flee after drunken crash – feds rip Biden-era release ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Tech & AI: A hacker ran me over with a robot lawn mower ---
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: STAT+: Pharmalittle: We’re reading about Sanofi and an FDA voucher, FDA rethinking a rejection, and more ---
+--- Generating Viral Article for Finance & Crypto: Hut 8 investors shrug off Q1 loss, stoke 33% stock surge ---
 
 🚀 Success: Generated 0 stories.
