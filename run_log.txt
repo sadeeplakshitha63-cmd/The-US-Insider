@@ -817,17 +817,15 @@ API KEY exists? true
     }
   ]
 }
-Fetching from https://www.wired.com/feed/rss...
+Fetching from https://www.theverge.com/rss/index.xml...
 
---- Generating Viral Article for Tech & AI: The Best Cat Water Fountains of 2026: Petlibro, Petkit, Oneisall ---
+--- Generating Viral Article for Tech & AI: Mira Murati’s deposition pulled back the curtain on Sam Altman’s ouster ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: Why Being Busy Is Keeping You From Being Productive ---
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+--- Generating Viral Article for Lifestyle & Travel: How to Achieve Your Goals (When Knowing What to Do Isn’t Enough) ---
+Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for US News: Newly released video shows scene of Jeremy Renner's snowplow accident ---
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: Listen: A Federal Agency Is After Workers’ Health Data, and Critics Are Alarmed ---
+--- Generating Viral Article for Health & Disease: Seaport’s IPO adventure, obesity pill battles, and Makary’s troubles ---
 
 🚀 Success: Generated 0 stories.
