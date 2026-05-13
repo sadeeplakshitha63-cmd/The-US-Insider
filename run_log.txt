@@ -817,15 +817,17 @@ API KEY exists? true
     }
   ]
 }
-Fetching from https://www.huffpost.com/section/front-page/feed...
+Fetching from https://venturebeat.com/feed/...
+
+--- Generating Viral Article for Tech & AI: Turning AI cost spikes into strategic growth opportunities ---
 Fetching from https://www.lifehack.org/feed...
 
 --- Generating Viral Article for Lifestyle & Travel: How to Achieve Your Goals (When Knowing What to Do Isn’t Enough) ---
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: Fox News True Crime Newsletter: Alex Murdaugh double murder conviction overturned ---
 Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Health & Disease: STAT+: Pharmalittle: We’re reading about FDA’s Makary resigning, a Lilly weight loss drug trial, and more ---
-Fetching from https://venturebeat.com/feed/...
-
---- Generating Viral Article for Tech & AI: AI agents are running hospital records and factory inspections. Enterprise IAM was never built for them. ---
+--- Generating Viral Article for Health & Disease: The ‘velocity of obesity’ aims to show which nations are slowing an epidemic ---
 
 🚀 Success: Generated 0 stories.
