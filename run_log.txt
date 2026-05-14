@@ -817,15 +817,15 @@ API KEY exists? true
     }
   ]
 }
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for US News: Dominion still has pending lawsuits against election deniers such as Rudy Giuliani and Sidney Powell ---
+--- Generating Viral Article for Health & Disease: As Ranks of Uninsured Grow, Minnesota’s Hospitals Are Among Least Charitable in Nation ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: Metaplanet Q1 profit jumps, but Bitcoin losses hit bottom line ---
+Fetching from https://techcrunch.com/feed/...
+
+--- Generating Viral Article for Tech & AI: Who decides what AI tells you? Campbell Brown, once Meta’s news chief, has thoughts ---
 Fetching from https://www.lonelyplanet.com/news/rss...
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: Officials say $1.3 billion in Medicaid money to California will be deferred over suspicions of fraud ---
-Fetching from https://www.theverge.com/rss/index.xml...
-
---- Generating Viral Article for Tech & AI: Everything at The Criterion Collection is 30 percent off right now ---
 
 🚀 Success: Generated 0 stories.
