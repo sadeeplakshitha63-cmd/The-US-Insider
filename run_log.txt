@@ -817,15 +817,15 @@ API KEY exists? true
     }
   ]
 }
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
-
---- Generating Viral Article for Finance & Crypto: Bitcoin price history suggests 77% odds of new all-time high within a year ---
-Fetching from https://techcrunch.com/feed/...
-
---- Generating Viral Article for Tech & AI: Musk’s xAI is running nearly 50 gas turbines unchecked at its Mississippi data center ---
-Fetching from https://www.medicalnewstoday.com/feed...
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory ---
+--- Generating Viral Article for US News: Dominion still has pending lawsuits against election deniers such as Rudy Giuliani and Sidney Powell ---
+Fetching from https://www.lonelyplanet.com/news/rss...
+Fetching from https://www.statnews.com/feed/...
+
+--- Generating Viral Article for Health & Disease: Officials say $1.3 billion in Medicaid money to California will be deferred over suspicions of fraud ---
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: Everything at The Criterion Collection is 30 percent off right now ---
 
 🚀 Success: Generated 0 stories.
