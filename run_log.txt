@@ -817,15 +817,17 @@ API KEY exists? true
     }
   ]
 }
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+Fetching from https://techcrunch.com/feed/...
 
---- Generating Viral Article for Finance & Crypto: Bitcoin stalls above $80K despite CLARITY Act pass: What will trigger a breakout? ---
+--- Generating Viral Article for Tech & AI: OpenAI co-founder Greg Brockman takes charge of product strategy ---
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: 'Difficult to say with a straight face': Tapper reacts to Fox News' statement on settlement ---
-Fetching from https://www.lonelyplanet.com/news/rss...
-Fetching from https://www.theverge.com/rss/index.xml...
+--- Generating Viral Article for US News: White homeowner accused of shooting a Black teen who rang his doorbell turns himself in to face criminal charges ---
+Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Tech & AI: Sony tries to explain that its AI Camera Assistant doesn’t suck ---
+--- Generating Viral Article for Lifestyle & Travel: What Is a Midlife Reset? The 5-Domain System for Rebuilding at 45 and 50 ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: Strategy to repurchase $1.5B of 2029 convertible notes ---
 
 🚀 Success: Generated 0 stories.
