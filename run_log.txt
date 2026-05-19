@@ -563,6 +563,18 @@ API KEY exists? true
       "thinking": true
     },
     {
+      "name": "models/antigravity-preview-05-2026",
+      "version": "0.1",
+      "displayName": "Antigravity Agent Preview",
+      "description": "Preview release of Antigravity Agent (05-2026)",
+      "inputTokenLimit": 131072,
+      "outputTokenLimit": 65536,
+      "supportedGenerationMethods": [
+        "generateContent",
+        "countTokens"
+      ]
+    },
+    {
       "name": "models/deep-research-max-preview-04-2026",
       "version": "deepthink-exp-05-20",
       "displayName": "Deep Research Max Preview (Apr-21-2026)",
@@ -801,36 +813,17 @@ API KEY exists? true
       "topK": 64,
       "maxTemperature": 2,
       "thinking": true
-    },
-    {
-      "name": "models/gemini-2.5-flash-native-audio-preview-12-2025",
-      "version": "12-2025",
-      "displayName": "Gemini 2.5 Flash Native Audio Preview 12-2025",
-      "description": "Gemini 2.5 Flash Native Audio Preview 12-2025",
-      "inputTokenLimit": 131072,
-      "outputTokenLimit": 8192,
-      "supportedGenerationMethods": [
-        "countTokens",
-        "bidiGenerateContent"
-      ],
-      "temperature": 1,
-      "topP": 0.95,
-      "topK": 64,
-      "maxTemperature": 2,
-      "thinking": true
     }
   ],
-  "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0xMi0yMDI1"
+  "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
 }
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: How AI helped treat a newborn’s ultra rare disease. ‘It was almost like a light switch.’ ---
-Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: Why Being Busy Is Keeping You From Being Productive ---
-Fetching from https://www.theverge.com/rss/index.xml...
+--- Generating Viral Article for Lifestyle & Travel: How to Stay Consistent With Goals (When Motivation Keeps Failing You) ---
+Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Tech & AI: Kickstarter just killed its new mature content rules ---
+--- Generating Viral Article for Health & Disease: STAT+: At a time of tumult at FDA, a former commissioner is hopeful it’s on a better path ---
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+Fetching from https://www.huffpost.com/section/front-page/feed...
 
 🚀 Success: Generated 0 stories.
