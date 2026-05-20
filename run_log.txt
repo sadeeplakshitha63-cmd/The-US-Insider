@@ -817,15 +817,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
 }
-Fetching from https://venturebeat.com/feed/...
+Fetching from https://www.theverge.com/rss/index.xml...
 
---- Generating Viral Article for Tech & AI: Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think. ---
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+--- Generating Viral Article for Tech & AI: Vibe coding is coming to your phone ---
+Fetching from http://feeds.foxnews.com/foxnews/national...
 
---- Generating Viral Article for US News: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory ---
-Fetching from https://www.lonelyplanet.com/news/rss...
+--- Generating Viral Article for US News: DC Police release surveillance photo of viral Chipotle brawl suspects, offer reward for convictions ---
 Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Health & Disease: Watch: The Tug-of-War Over Taxpayer Dollars ---
+--- Generating Viral Article for Health & Disease: Efforts To Understand the Nation’s Drugged Driving Problem Stall Under Trump ---
+Fetching from https://www.lifehack.org/feed...
+
+--- Generating Viral Article for Lifestyle & Travel: How to Achieve Your Goals (When Knowing What to Do Isn’t Enough) ---
 
 🚀 Success: Generated 0 stories.
