@@ -817,13 +817,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
 }
-Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
-Fetching from https://khn.org/feed/...
+Fetching from https://venturebeat.com/feed/...
 
---- Generating Viral Article for Health & Disease: Religious Anti-Abortion Center Finds Opportunity in Town Without OB-GYNs ---
+--- Generating Viral Article for Tech & AI: Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think. ---
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: 'Difficult to say with a straight face': Tapper reacts to Fox News' statement on settlement ---
+--- Generating Viral Article for US News: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory ---
 Fetching from https://www.lonelyplanet.com/news/rss...
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: Watch: The Tug-of-War Over Taxpayer Dollars ---
 
 🚀 Success: Generated 0 stories.
