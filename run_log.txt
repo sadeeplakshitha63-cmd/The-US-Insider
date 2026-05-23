@@ -817,15 +817,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
 }
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: Hanging out in my favorite virtual coffee shop in Tokyo ---
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: White homeowner accused of shooting a Black teen who rang his doorbell turns himself in to face criminal charges ---
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: Religious Anti-Abortion Center Finds Opportunity in Town Without OB-GYNs ---
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Finance & Crypto: Bitcoin price record 90-day uptrend 'resembles bull market rally:' New analysis ---
-Fetching from https://techcrunch.com/feed/...
-
---- Generating Viral Article for Tech & AI: Elon Musk has given up on solar power (on Earth) ---
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: STAT+: Genentech is soliciting research that can be used to blunt pharma reforms in Washington ---
-Fetching from https://www.lonelyplanet.com/news/rss...
+--- Generating Viral Article for Finance & Crypto: Bitcoin price falls under $77K as Dow Jones hits new all-time highs ---
 
 🚀 Success: Generated 0 stories.
