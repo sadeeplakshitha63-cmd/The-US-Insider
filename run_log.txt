@@ -817,17 +817,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
 }
+Fetching from https://www.huffpost.com/section/front-page/feed...
+
+--- Generating Viral Article for US News: 21 Years of The Huffington Post ---
 Fetching from https://venturebeat.com/feed/...
 
---- Generating Viral Article for Tech & AI: D&B's database of 642 million businesses was built for humans, not AI agents. So they rebuilt it. ---
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+--- Generating Viral Article for Tech & AI: Valid certificates, stolen accounts: how attackers broke npm's last trust signal ---
+Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Finance & Crypto: ‘Not unlikely’ Strategy will sell Bitcoin in 2026: Michael Saylor ---
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: STAT+: Pharmalittle: We’re reading about a Parkinson’s drug setback, a Merck lung cancer therapy, and more ---
+--- Generating Viral Article for Health & Disease: Watch: The Tug-of-War Over Taxpayer Dollars ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: How to Stay Consistent With Goals (When Motivation Keeps Failing You) ---
+--- Generating Viral Article for Lifestyle & Travel: Goal Planning Strategies: Why Your Goals Stay on Paper (And the Fix) ---
 
 🚀 Success: Generated 0 stories.
