@@ -817,15 +817,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
 }
-Fetching from http://feeds.foxnews.com/foxnews/national...
-
---- Generating Viral Article for US News: Illinois official charged after allegedly submitting dead mother’s mail-in ballot ---
-Fetching from https://www.theverge.com/rss/index.xml...
-
---- Generating Viral Article for Tech & AI: Apple’s newest iPad Air is up to $100 off for the first time ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: Long-Term vs Short-Term Goals: Why You Need Both (And How to Connect Them) ---
-Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+--- Generating Viral Article for Lifestyle & Travel: Why Do I Keep Failing at Goals? (It's Not What You Think) ---
+Fetching from https://venturebeat.com/feed/...
+
+--- Generating Viral Article for Tech & AI: The attack dominating financial services doesn't steal passwords. It resets MFA and steals the token. ---
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: Readers Address Drugged Driving, Suicide Prevention, Worker Shortages ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: Bitcoin falls further as BTC miners pivot to AI, pro-crypto legislation stalls ---
 
 🚀 Success: Generated 0 stories.
