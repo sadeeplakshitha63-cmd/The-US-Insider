@@ -819,15 +819,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1saXRlLWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from https://techcrunch.com/feed/...
-
---- Generating Viral Article for Tech & AI: Waymo dominates autonomous vehicle registrations as Tesla trails behind ---
-Fetching from http://feeds.foxnews.com/foxnews/national...
-
---- Generating Viral Article for US News: Families confront California 'party mom' in court, calling her a 'monster' who groomed their children ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: What Is a Midlife Reset? The 5-Domain System for Rebuilding at 45 and 50 ---
-Fetching from https://www.medicalnewstoday.com/feed...
+--- Generating Viral Article for Lifestyle & Travel: Long-Term vs Short-Term Goals: Why You Need Both (And How to Connect Them) ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: Skeleton unearthed near Nancy Guthrie search site believed to be up to 1,000 years old, expert says ---
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: Nintendo&#8217;s newest WarioWare is a weirdo smartphone app ---
 
 🚀 Success: Generated 0 stories.
