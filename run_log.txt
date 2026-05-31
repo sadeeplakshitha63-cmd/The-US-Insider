@@ -819,15 +819,13 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1saXRlLWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from http://feeds.foxnews.com/foxnews/national...
-
---- Generating Viral Article for US News: FBI hunts most wanted neighbor next door who allegedly faked cancer, scammed loved ones for luxury getaways ---
 Fetching from https://www.lonelyplanet.com/news/rss...
-Fetching from https://www.wired.com/feed/rss...
+Fetching from https://venturebeat.com/feed/...
 
---- Generating Viral Article for Tech & AI: How Turkey Hacked the Hair Transplant Industry ---
+--- Generating Viral Article for Tech & AI: The AI agent bottleneck isn't model performance — it's permissions ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
 Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Health & Disease: STAT+: As Ebola outbreak grows, Trump administration veers from previous government playbook ---
+--- Generating Viral Article for Health & Disease: STAT+: Practice-changing results reported for Revolution Medicines pancreatic cancer drug ---
 
 🚀 Success: Generated 0 stories.
