@@ -819,15 +819,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1saXRlLWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from https://khn.org/feed/...
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for Health & Disease: Telehealth Booms as Demand for GLP-1s Surges and Questions Mount About Safety, Oversight ---
+--- Generating Viral Article for US News: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory ---
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: Anthropic has officially filed to go public ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: How to Stay Consistent With Goals (When Motivation Keeps Failing You) ---
+--- Generating Viral Article for Lifestyle & Travel: Long-Term vs Short-Term Goals: Why You Need Both (And How to Connect Them) ---
 Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: Norse Atlantic Airways Offers Dirt-Cheap Tickets. There’s a Catch ---
 
 🚀 Success: Generated 0 stories.
