@@ -819,15 +819,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1saXRlLWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from https://www.huffpost.com/section/front-page/feed...
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory ---
 Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Health & Disease: Amid Ebola, Hantavirus Outbreaks, Democrats Decry Trump’s Health Cuts ---
+--- Generating Viral Article for Health & Disease: After Her Bout of Amnesia, a $59,000 Billing Dispute Wouldn’t Go Away ---
 Fetching from https://techcrunch.com/feed/...
 
---- Generating Viral Article for Tech & AI: Hackers hijacked Instagram accounts by tricking Meta AI support chatbot into granting access ---
-Fetching from https://www.lifehack.org/feed...
+--- Generating Viral Article for Tech & AI: Pacific Fusion’s latest prototype packs 440 gigawatts into an 80-nanosecond burst ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Lifestyle & Travel: Goal Planning Strategies: Why Your Goals Stay on Paper (And the Fix) ---
+--- Generating Viral Article for Finance & Crypto: Bitcoin volatility is down 56% but analysts still expect up to 20% BTC price move ---
 
 🚀 Success: Generated 0 stories.
