@@ -819,17 +819,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1saXRlLWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from https://www.theverge.com/rss/index.xml...
+Fetching from https://techcrunch.com/feed/...
 
---- Generating Viral Article for Tech & AI: This Google Photos update has saved your digital photo frame ---
-Fetching from http://feeds.foxnews.com/foxnews/national...
+--- Generating Viral Article for Tech & AI: A burglar used a Waymo to steal yoga clothes in San Francisco — and got away with it ---
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Venezuelan gang members who entered US illegally plead guilty to gunning down two unarmed Americans ---
+--- Generating Viral Article for US News: White homeowner accused of shooting a Black teen who rang his doorbell turns himself in to face criminal charges ---
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Health & Disease: Louisiana’s Reporting Law Chills Immigrant Medicaid Applications ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: Goal Planning Strategies: Why Your Goals Stay on Paper (And the Fix) ---
+--- Generating Viral Article for Health & Disease: At a Tennessee Hospital, a Nurse Stole Fentanyl and AI Missed It, State Records Say ---
 
 🚀 Success: Generated 0 stories.
