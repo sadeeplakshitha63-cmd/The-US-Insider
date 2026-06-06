@@ -819,15 +819,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1saXRlLWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: Untreated Cancer, Festering Infections: Immigrant Detainees Detail Medical Care Lapses ---
-Fetching from https://www.theverge.com/rss/index.xml...
-
---- Generating Viral Article for Tech & AI: More than a decade later, the team behind N++ is back with a multiplayer sequel ---
-Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: How to Achieve Your Goals (When Knowing What to Do Isn't Enough) ---
+--- Generating Viral Article for Lifestyle & Travel: Unhappy Marriage: 3 Questions That Reveal What's Actually Wrong (Before You Decide to Stay or Leave) ---
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: Dominion still has pending lawsuits against election deniers such as Rudy Giuliani and Sidney Powell ---
+Fetching from https://www.statnews.com/feed/...
+
+--- Generating Viral Article for Health & Disease: Opinion: I led the U.S. CDC response to the 2014 Ebola epidemic. The new outbreak needs massive, immediate, meticulous action ---
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 
 🚀 Success: Generated 0 stories.
