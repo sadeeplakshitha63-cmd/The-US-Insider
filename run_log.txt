@@ -819,15 +819,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1saXRlLWdlbmVyYXRlLXByZXZpZXc="
 }
+Fetching from https://www.medicalnewstoday.com/feed...
+Fetching from https://techcrunch.com/feed/...
+
+--- Generating Viral Article for Tech & AI: Founders share VC horror stories, and some are naming names ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: How to Stay Consistent With Goals (When Motivation Keeps Failing You) ---
-Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+--- Generating Viral Article for Lifestyle & Travel: Long-Term vs Short-Term Goals: Why You Need Both (And How to Connect Them) ---
 Fetching from http://feeds.foxnews.com/foxnews/national...
 
---- Generating Viral Article for US News: Cops halt planned 'teen takeover' as officials brace for a summer surge in chaos and arrests: police chief ---
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: STAT+: Detailed data show Pfizer’s monthly obesity drug continues to show potential ---
+--- Generating Viral Article for US News: Last surviving 'Rosie the Riveters' honored by WWII Museum on D-Day Anniversary: 'We can do it' ---
 
 🚀 Success: Generated 0 stories.
