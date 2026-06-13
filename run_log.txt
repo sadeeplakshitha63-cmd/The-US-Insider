@@ -819,13 +819,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1saXRlLWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from https://www.medicalnewstoday.com/feed...
-Fetching from https://www.theverge.com/rss/index.xml...
-
---- Generating Viral Article for Tech & AI: A trillion dollars is a stupid amount of money ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: Self-Discipline at Midlife: The Recovery Loop That Beats the Willpower Model ---
-Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+--- Generating Viral Article for Lifestyle & Travel: What Is a Midlife Reset? The 5-Domain System for Rebuilding at 45 and 50 ---
+Fetching from https://www.wired.com/feed/rss...
+
+--- Generating Viral Article for Tech & AI: Meta Employees Absolutely Hate Mark Zuckerberg’s Plan for a Companywide AI Hackathon ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: Bitcoin miner margins fall to record low: Will BTC’s $60K floor hold? ---
+Fetching from https://www.statnews.com/feed/...
+
+--- Generating Viral Article for Health & Disease: STAT+: Trump administration revisits policy to close Medicare drug price negotiation loophole ---
 
 🚀 Success: Generated 0 stories.
