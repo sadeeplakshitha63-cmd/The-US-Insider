@@ -819,13 +819,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1saXRlLWdlbmVyYXRlLXByZXZpZXc="
 }
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: California Health Worker Union, Hospital Association Tout Dueling Ballot Initiatives ---
+Fetching from https://www.wired.com/feed/rss...
+
+--- Generating Viral Article for Tech & AI: The FCC Wants to Kill Burner Phones ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: Metaplanet to form securities arm through Siiibo acquisition ---
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Newly released video shows scene of Jeremy Renner's snowplow accident ---
-Fetching from https://techcrunch.com/feed/...
-
---- Generating Viral Article for Tech & AI: OpenAI faces investigation from state attorneys general ---
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
-Fetching from https://www.lonelyplanet.com/news/rss...
+--- Generating Viral Article for US News: Millions in the US could face massive consequences unless McCarthy can navigate out of a debt trap he set for Biden ---
 
 🚀 Success: Generated 0 stories.
