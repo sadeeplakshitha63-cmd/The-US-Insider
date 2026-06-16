@@ -819,15 +819,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1saXRlLWdlbmVyYXRlLXByZXZpZXc="
 }
+Fetching from https://www.statnews.com/feed/...
+
+--- Generating Viral Article for Health & Disease: Opinion: I’m an Alzheimer’s specialist. I still missed it in my own father ---
 Fetching from https://techcrunch.com/feed/...
 
---- Generating Viral Article for Tech & AI: SpaceX is public: Everything you need to know post-IPO ---
-Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+--- Generating Viral Article for Tech & AI: Cybersecurity vets protest ‘dangerous’ US government ban on Anthropic’s most powerful models ---
+Fetching from http://feeds.foxnews.com/foxnews/national...
 
---- Generating Viral Article for US News: White homeowner accused of shooting a Black teen who rang his doorbell turns himself in to face criminal charges ---
-Fetching from https://khn.org/feed/...
+--- Generating Viral Article for US News: American hiker vanishes on tropical trek as flash floods, mudslides turn jungle getaway into desperate search ---
+Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Health & Disease: Listen to the Latest ‘KFF Health News Minute’ ---
+--- Generating Viral Article for Lifestyle & Travel: Self-Discipline at Midlife: The Recovery Loop That Beats the Willpower Model ---
 
 🚀 Success: Generated 0 stories.
