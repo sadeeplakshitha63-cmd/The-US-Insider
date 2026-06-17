@@ -821,11 +821,13 @@ API KEY exists? true
 }
 Fetching from http://feeds.foxnews.com/foxnews/national...
 
---- Generating Viral Article for US News: Texas plane crash leaves one dead, more injured after business jet catches fire on highway ---
+--- Generating Viral Article for US News: Palisades Fire suspect displayed 'incel energy,' made woman uncomfortable during Uber ride: passenger ---
+Fetching from https://www.wired.com/feed/rss...
+
+--- Generating Viral Article for Tech & AI: CVS Is Switching to Aluminum Pill Bottles ---
 Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Health & Disease: They’re Uninsured After Obamacare Became Too Costly. And They’re Far From Alone. ---
+--- Generating Viral Article for Health & Disease: Democrats Seek To Spotlight Rising Health Costs by Forcing Vote on Trump Regulation ---
 Fetching from https://www.lonelyplanet.com/news/rss...
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 
 🚀 Success: Generated 0 stories.
