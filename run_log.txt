@@ -819,17 +819,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1saXRlLWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from https://khn.org/feed/...
+Fetching from https://www.lonelyplanet.com/news/rss...
+Fetching from https://venturebeat.com/feed/...
 
---- Generating Viral Article for Health & Disease: Backed by Threat of Clawbacks, Feds Wield Tight Grip on $50B Rural Health Fund ---
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: Meta Quest Promo Codes and Coupons for June 2026 ---
+--- Generating Viral Article for Tech & AI: Why Weibo’s tiny VibeThinker-3B has the AI world arguing over benchmarks again ---
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Finance & Crypto: Goldman Sachs cuts year-end gold target by $500, doubting rate cuts ---
-Fetching from https://www.lifehack.org/feed...
+--- Generating Viral Article for Finance & Crypto: US crypto ETFs are pulling Bitcoiners into TradFi: BlackRock's Jay Jacobs ---
+Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Lifestyle & Travel: How to Stay Consistent With Goals (When Motivation Keeps Failing You) ---
+--- Generating Viral Article for Health & Disease: Opinion: STAT+: The real work for making dramatic gains against pancreatic cancer is just beginning ---
 
 🚀 Success: Generated 0 stories.
