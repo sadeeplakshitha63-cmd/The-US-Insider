@@ -819,17 +819,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1saXRlLWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from https://techcrunch.com/feed/...
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Tech & AI: Elon suffers another day short of trillionaire status ---
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: STAT+: At BIO, a glimpse behind Lilly and Chai’s partnership ---
+--- Generating Viral Article for Finance & Crypto: Bitcoin nearly loses $59K as DXY surges: Are traders bracing for more pain? ---
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory ---
-Fetching from https://www.lifehack.org/feed...
+--- Generating Viral Article for US News: 'Difficult to say with a straight face': Tapper reacts to Fox News' statement on settlement ---
+Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Lifestyle & Travel: Self-Discipline at Midlife: The Recovery Loop That Beats the Willpower Model ---
+--- Generating Viral Article for Health & Disease: Even in Blue States, Hospitals Have Continued To Drop Gender-Affirming Care for Youths ---
+Fetching from https://techcrunch.com/feed/...
+
+--- Generating Viral Article for Tech & AI: The memory chip crunch is paying off for this US company ---
 
 🚀 Success: Generated 0 stories.
