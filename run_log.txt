@@ -819,17 +819,13 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1saXRlLWdlbmVyYXRlLXByZXZpZXc="
 }
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+Fetching from https://www.lonelyplanet.com/news/rss...
+Fetching from https://venturebeat.com/feed/...
+
+--- Generating Viral Article for Tech & AI: Stanford researchers will discuss their agentic 'scientists' that are on course to reshape drug discovery at VB Transform 2026 ---
 Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Health & Disease: STAT+: Next-gen CRISPR tools improve editing accuracy in embryos, but also stoke ethical concerns ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: The Daily Routine That Actually Holds for a 40-Year-Old Man ---
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: Best Prime Day Action Cameras Deals I've Found (2026): GoPro, Insta360, DJI ---
-Fetching from http://feeds.foxnews.com/foxnews/national...
-
---- Generating Viral Article for US News: Fox News ‘Antisemitism Exposed’ Newsletter: Mamdani-backed socialist throws tantrum before shock upset ---
+--- Generating Viral Article for Health & Disease: STAT+: At BIO 2026, industry wrestled with Washington politics, and making AI work better ---
 
 🚀 Success: Generated 0 stories.
