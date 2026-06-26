@@ -819,17 +819,13 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1saXRlLWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: White homeowner accused of shooting a Black teen who rang his doorbell turns himself in to face criminal charges ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: Self-Discipline at Midlife: The Recovery Loop That Beats the Willpower Model ---
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
-
---- Generating Viral Article for Finance & Crypto: Bitcoin drops to $58K on high US PCE inflation as trader sees 'manipulation' ---
+Fetching from https://www.lonelyplanet.com/news/rss...
 Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Health & Disease: Indiana Takes On Powerful Hospitals by Capping Prices They Charge Employers ---
+--- Generating Viral Article for Health & Disease: Worried About Your Aging Parents? Welcome to the Caregiving Club ---
+Fetching from https://www.huffpost.com/section/front-page/feed...
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: Bitcoin may fall lower but BTC power-law frames crash to $58K as ‘normal’ ---
 
 🚀 Success: Generated 0 stories.
