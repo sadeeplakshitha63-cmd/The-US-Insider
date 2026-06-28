@@ -819,15 +819,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1saXRlLWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory ---
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: Supreme Court rules in weedkiller cancer case ---
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Finance & Crypto: Bitcoin faces fresh capitulation risk as 50K BTC moved at a loss ---
+--- Generating Viral Article for Finance & Crypto: Bitcoin makes first sub-$60K close since Q3 2024 as tech stocks enter ‘deep bear market’ ---
 Fetching from https://www.lonelyplanet.com/news/rss...
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: Man dead, another critical after double stabbing at Brooklyn park as police detain person of interest: NYPD ---
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: China claims the world&#8217;s fastest supercomputer ---
 
 🚀 Success: Generated 0 stories.
