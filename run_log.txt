@@ -819,15 +819,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1saXRlLWdlbmVyYXRlLXByZXZpZXc="
 }
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: US Marine missing off Southern California coast after training exercise; search shifts to recovery ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: Consistent Habits in Midlife: The System That Sticks ---
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: Some on-air claims about Dominion Voting Systems were false, Fox News acknowledges in statement after deal is announced ---
+--- Generating Viral Article for Lifestyle & Travel: The Daily Routine That Actually Holds for a 40-Year-Old Man ---
 Fetching from https://khn.org/feed/...
 
 --- Generating Viral Article for Health & Disease: Worried About Your Aging Parents? Welcome to the Caregiving Club ---
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: China’s Z.ai claims it can match Mythos on cybersecurity ---
 
 🚀 Success: Generated 0 stories.
