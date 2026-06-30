@@ -477,6 +477,24 @@ API KEY exists? true
       "thinking": true
     },
     {
+      "name": "models/gemini-3.1-flash-lite-image",
+      "version": "3.0",
+      "displayName": "Gemini 3.1 Flash Lite Image",
+      "description": "Gemini 3.1 Flash Lite Image.",
+      "inputTokenLimit": 65536,
+      "outputTokenLimit": 65536,
+      "supportedGenerationMethods": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ],
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "maxTemperature": 1,
+      "thinking": true
+    },
+    {
       "name": "models/gemini-3.5-flash",
       "version": "3.5-flash-05-2026",
       "displayName": "Gemini 3.5 Flash",
@@ -488,6 +506,23 @@ API KEY exists? true
         "countTokens",
         "createCachedContent",
         "batchGenerateContent"
+      ],
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "maxTemperature": 2,
+      "thinking": true
+    },
+    {
+      "name": "models/gemini-omni-flash-preview",
+      "version": "001",
+      "displayName": "Gemini Omni Flash Preview",
+      "description": "Gemini Omni Flash Preview",
+      "inputTokenLimit": 131072,
+      "outputTokenLimit": 65536,
+      "supportedGenerationMethods": [
+        "generateContent",
+        "countTokens"
       ],
       "temperature": 1,
       "topP": 0.95,
@@ -793,41 +828,17 @@ API KEY exists? true
       "supportedGenerationMethods": [
         "predictLongRunning"
       ]
-    },
-    {
-      "name": "models/veo-3.1-fast-generate-preview",
-      "version": "3.1",
-      "displayName": "Veo 3.1 fast",
-      "description": "Veo 3.1 fast",
-      "inputTokenLimit": 480,
-      "outputTokenLimit": 8192,
-      "supportedGenerationMethods": [
-        "predictLongRunning"
-      ]
-    },
-    {
-      "name": "models/veo-3.1-lite-generate-preview",
-      "version": "3.1",
-      "displayName": "Veo 3.1 lite",
-      "description": "Veo 3.1 lite",
-      "inputTokenLimit": 480,
-      "outputTokenLimit": 8192,
-      "supportedGenerationMethods": [
-        "predictLongRunning"
-      ]
     }
   ],
-  "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1saXRlLWdlbmVyYXRlLXByZXZpZXc="
+  "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
 }
 Fetching from https://www.medicalnewstoday.com/feed...
-Fetching from https://www.wired.com/feed/rss...
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for Tech & AI: Meta Contractors Posed as Teens to Prompt Rival Chatbots About Suicide, Sex, and Drugs ---
-Fetching from http://feeds.foxnews.com/foxnews/national...
+--- Generating Viral Article for US News: Dominion still has pending lawsuits against election deniers such as Rudy Giuliani and Sidney Powell ---
+Fetching from https://venturebeat.com/feed/...
 
---- Generating Viral Article for US News: Air traffic audio captures JetBlue pilot alerting controllers: 'We collided with a drone' ---
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
-
---- Generating Viral Article for Finance & Crypto: Sovereign funds see Bitcoin discount as entry point: MidChains CEO ---
+--- Generating Viral Article for Tech & AI: Prompt injection is exploiting enterprise AI's biggest design flaws by targeting agents, RAG pipelines and model routers ---
+Fetching from https://www.lonelyplanet.com/news/rss...
 
 🚀 Success: Generated 0 stories.
