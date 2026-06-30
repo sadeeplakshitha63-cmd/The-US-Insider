@@ -832,17 +832,13 @@ API KEY exists? true
   ],
   "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
 }
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: Acer&#8217;s Swift Go 16 is a lot of laptop for $900 ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Some on-air claims about Dominion Voting Systems were false, Fox News acknowledges in statement after deal is announced ---
-Fetching from https://techcrunch.com/feed/...
-
---- Generating Viral Article for Tech & AI: Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip ---
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: Half of states sue over Medicaid work requirements ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: Midlife Transition: The Re-Architecture Window, Not a Crisis ---
+--- Generating Viral Article for US News: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory ---
+Fetching from https://www.lonelyplanet.com/news/rss...
 
 🚀 Success: Generated 0 stories.
