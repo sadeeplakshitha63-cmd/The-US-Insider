@@ -838,17 +838,17 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from https://www.theverge.com/rss/index.xml...
+Fetching from https://venturebeat.com/feed/...
 
---- Generating Viral Article for Tech & AI: Anthropic&#8217;s long-sidelined Fable 5 is greenlit to return ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: Life Planning in Your 50s: A Plan for the Next 15 Active Years ---
+--- Generating Viral Article for Tech & AI: DeepSeek open sources DSpark, a new framework to speed up LLM inference by up to 85% ---
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Finance & Crypto: Bitcoin just $5K away from ‘best investment opportunity’ of bear market ---
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+--- Generating Viral Article for Finance & Crypto: Bitcoin faces critical test as bulls aim to hold $60K: Did BTC bottom? ---
+Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for US News: Newly released video shows scene of Jeremy Renner's snowplow accident ---
+--- Generating Viral Article for Lifestyle & Travel: Midlife Transition: The Re-Architecture Window, Not a Crisis ---
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: Feds dismantle alleged gun trafficking ring that funneled dozens of firearms from Georgia to Chicago gangs ---
 
 🚀 Success: Generated 0 stories.
