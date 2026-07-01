@@ -479,7 +479,7 @@ API KEY exists? true
     {
       "name": "models/gemini-3.1-flash-lite-image",
       "version": "3.0",
-      "displayName": "Gemini 3.1 Flash Lite Image",
+      "displayName": "Nano Banana 2 Lite",
       "description": "Gemini 3.1 Flash Lite Image.",
       "inputTokenLimit": 65536,
       "outputTokenLimit": 65536,
@@ -838,15 +838,17 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from http://feeds.foxnews.com/foxnews/national...
+Fetching from https://www.theverge.com/rss/index.xml...
 
---- Generating Viral Article for US News: Shelter-in-place order lifted after freight train derailment sparks hazmat concerns in Pennsylvania ---
-Fetching from https://www.medicalnewstoday.com/feed...
-Fetching from https://www.wired.com/feed/rss...
+--- Generating Viral Article for Tech & AI: Anthropic&#8217;s long-sidelined Fable 5 is greenlit to return ---
+Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Tech & AI: Daisy Sound’s First Headphones Are Premium, High-Quality—and Just a Little Bit Cheaper ---
+--- Generating Viral Article for Lifestyle & Travel: Life Planning in Your 50s: A Plan for the Next 15 Active Years ---
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Finance & Crypto: Celsius-linked Bitcoin miner Ionic Digital seeks Nasdaq direct listing amid AI pivot ---
+--- Generating Viral Article for Finance & Crypto: Bitcoin just $5K away from ‘best investment opportunity’ of bear market ---
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: Newly released video shows scene of Jeremy Renner's snowplow accident ---
 
 🚀 Success: Generated 0 stories.
