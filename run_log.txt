@@ -838,15 +838,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: She Struggled To Get a Lifesaving Drug Even After Insurers Vowed To Help ---
 Fetching from https://www.lonelyplanet.com/news/rss...
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Finance & Crypto: Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen ---
+--- Generating Viral Article for Finance & Crypto: Has Strategy’s capital overhaul put an end to ‘death spiral’ fears? ---
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Judge in Fox News-Dominion defamation trial: 'The parties have resolved their case' ---
+--- Generating Viral Article for US News: Some on-air claims about Dominion Voting Systems were false, Fox News acknowledges in statement after deal is announced ---
+Fetching from https://www.wired.com/feed/rss...
+
+--- Generating Viral Article for Tech & AI: You Can Now Sound the Alarm on AI Behaving Badly ---
 
 🚀 Success: Generated 0 stories.
