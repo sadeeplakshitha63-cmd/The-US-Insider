@@ -838,15 +838,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from https://www.lifehack.org/feed...
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for Lifestyle & Travel: Starting Over at 50: You're Not Starting From Zero ---
+--- Generating Viral Article for US News: Dominion still has pending lawsuits against election deniers such as Rudy Giuliani and Sidney Powell ---
+Fetching from https://www.wired.com/feed/rss...
+
+--- Generating Viral Article for Tech & AI: 7 Lesser-Known Google Account Settings You Should Change ---
 Fetching from https://khn.org/feed/...
 
 --- Generating Viral Article for Health & Disease: These Church Members Disagree on Politics. Together They’re Wiping Out Medical Debt. ---
-Fetching from https://venturebeat.com/feed/...
-
---- Generating Viral Article for Tech & AI: Anthropic launches Claude Sonnet 5 at a steep discount to its top model as the company races toward a blockbuster IPO ---
 Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 
 🚀 Success: Generated 0 stories.
