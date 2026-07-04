@@ -838,17 +838,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from https://techcrunch.com/feed/...
+Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Tech & AI: Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped ---
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
-
---- Generating Viral Article for Finance & Crypto: Defendant files to dismiss New York lawsuit seeking ownership of 39,069 Bitcoin wallets ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: How to Find Purpose in Midlife Without Burning Out ---
+--- Generating Viral Article for Health & Disease: Affordable Healthcare Emerges as a Voter Priority in Purple Nevada ---
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Newly released video shows scene of Jeremy Renner's snowplow accident ---
+--- Generating Viral Article for US News: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: While you’re watching the World Cup, the feds may be watching you ---
 
 🚀 Success: Generated 0 stories.
