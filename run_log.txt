@@ -838,15 +838,17 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from https://khn.org/feed/...
+Fetching from https://techcrunch.com/feed/...
 
---- Generating Viral Article for Health & Disease: Affordable Healthcare Emerges as a Voter Priority in Purple Nevada ---
-Fetching from http://feeds.foxnews.com/foxnews/national...
-
---- Generating Viral Article for US News: Three dead, 7 rescued in boating tragedy as severe holiday weekend storm ravages Wisconsin tourist hot spot ---
+--- Generating Viral Article for Tech & AI: Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped ---
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Finance & Crypto: Bitcoin supply metric prints first 'buy' signal since late 2022 as bear market continues ---
-Fetching from https://www.lonelyplanet.com/news/rss...
+--- Generating Viral Article for Finance & Crypto: Defendant files to dismiss New York lawsuit seeking ownership of 39,069 Bitcoin wallets ---
+Fetching from https://www.lifehack.org/feed...
+
+--- Generating Viral Article for Lifestyle & Travel: How to Find Purpose in Midlife Without Burning Out ---
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: Newly released video shows scene of Jeremy Renner's snowplow accident ---
 
 🚀 Success: Generated 0 stories.
