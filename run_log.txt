@@ -838,15 +838,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from https://www.lonelyplanet.com/news/rss...
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: Mattress Firm Coupons: Save up to $600 ---
 Fetching from http://feeds.foxnews.com/foxnews/national...
 
---- Generating Viral Article for US News: Substitute teacher accused of sending nude photos to middle school student enters plea ---
+--- Generating Viral Article for US News: Search called off after body matching missing teen Nolan Wells found off Mississippi coast ---
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: Nothing’s first B-series phone is also skipping the US ---
 Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Health & Disease: In California Governor’s Race, Voters Face Stark Choice on Immigrant Healthcare ---
+--- Generating Viral Article for Health & Disease: New Disease Threats Follow Trump Administration’s Health Program Cuts ---
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 
 🚀 Success: Generated 0 stories.
