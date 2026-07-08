@@ -838,17 +838,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from http://feeds.foxnews.com/foxnews/national...
+Fetching from https://www.theverge.com/rss/index.xml...
 
---- Generating Viral Article for US News: Tyler Robinson's and Lance Twiggs' DNA both allegedly found on key evidence in Charlie Kirk's assassination ---
-Fetching from https://techcrunch.com/feed/...
-
---- Generating Viral Article for Tech & AI: Blue Origin reportedly raising $10B at $130B valuation ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: How to Find Purpose in Midlife Without Burning Out ---
+--- Generating Viral Article for Tech & AI: Cockroaches will learn to fear my SwitchBot Bot Rechargeable ---
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Health & Disease: Are glucose monitors a good thing for 2-year-olds? Experts look at risks, benefits ---
+--- Generating Viral Article for Health & Disease: Affordable Care Act insurers want more premium increases as enrollment sags ---
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: White homeowner accused of shooting a Black teen who rang his doorbell turns himself in to face criminal charges ---
 
 🚀 Success: Generated 0 stories.
