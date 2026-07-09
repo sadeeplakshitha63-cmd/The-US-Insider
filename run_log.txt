@@ -838,15 +838,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Health & Disease: STAT+: The quest to save Grace — and clear the way for rare disease patients everywhere ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: Feeling Lost in Your 40s: A Calm Way to Find Your Footing ---
+--- Generating Viral Article for Health & Disease: STAT+: Pharmalittle: We’re reading about FDA commissioner contenders, a heart drug failure, and more ---
 Fetching from https://www.wired.com/feed/rss...
 
---- Generating Viral Article for Tech & AI: Why Do Some Soccer Players Cut the Heels Off Their Cleats? ---
+--- Generating Viral Article for Tech & AI: Best Microsoft Surface Laptop (2026): Which Model to Buy or Avoid ---
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: Manhattan building developer says collapse fears were overblown, calls buckling columns 'localized situation' ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
 
 🚀 Success: Generated 0 stories.
