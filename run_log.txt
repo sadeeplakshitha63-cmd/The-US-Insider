@@ -838,15 +838,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: Bitcoin nearing late stages of bear market: Jamie Coutts, Real Vision ---
+Fetching from https://www.lonelyplanet.com/news/rss...
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: Patients Face a Thicket of Red Tape Trying To Maintain Consistent Health Coverage ---
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Judge in Fox News-Dominion defamation trial: 'The parties have resolved their case' ---
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: Whistleblower takes on health insurance and FDA commissioner candidates ---
-Fetching from https://venturebeat.com/feed/...
-
---- Generating Viral Article for Tech & AI: Shared API keys expose AI agents at 69% of enterprises, new VentureBeat research finds ---
+--- Generating Viral Article for US News: 'Difficult to say with a straight face': Tapper reacts to Fox News' statement on settlement ---
 
 🚀 Success: Generated 0 stories.
