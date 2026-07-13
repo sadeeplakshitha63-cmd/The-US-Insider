@@ -838,15 +838,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: Dominion still has pending lawsuits against election deniers such as Rudy Giuliani and Sidney Powell ---
-Fetching from https://venturebeat.com/feed/...
-
---- Generating Viral Article for Tech & AI: OpenAI introduces ChatGPT Work, a cloud-based AI agent that manages tasks across email, Slack and calendars ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: Midlife Transition: The Re-Architecture Window, Not a Crisis ---
-Fetching from https://www.medicalnewstoday.com/feed...
+--- Generating Viral Article for Lifestyle & Travel: Personal Growth in Your 40s: Why It's the Renovation Decade ---
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: The 6 wildest claims in Apple&#8217;s lawsuit against OpenAI ---
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: Affordable Care Act Insurers Want More Premium Increases as Enrollment Sags ---
 
 🚀 Success: Generated 0 stories.
