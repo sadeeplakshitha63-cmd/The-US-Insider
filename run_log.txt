@@ -838,15 +838,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
-
---- Generating Viral Article for Finance & Crypto: Bitcoin threatens $62K in risk-asset rout as President Trump says US will 'run' closed Hormuz Strait ---
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: Journalists Discuss Raw-Milk Marketing, Extreme Heat, Opioid Settlement Spending ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: Consistent Habits in Midlife: The System That Sticks ---
-Fetching from https://www.huffpost.com/section/front-page/feed...
+--- Generating Viral Article for Lifestyle & Travel: Midlife Transition: The Re-Architecture Window, Not a Crisis ---
+Fetching from https://www.statnews.com/feed/...
+
+--- Generating Viral Article for Health & Disease: STAT+: Pharmalittle: We’re reading about a battle between Lilly and Teva, psychedelic drugs, and more ---
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: EverQuest’s biggest fans are leading its revival ---
 
 🚀 Success: Generated 0 stories.
