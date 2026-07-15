@@ -838,15 +838,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from https://www.huffpost.com/section/front-page/feed...
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: OpenAI may announce a ChatGPT smart speaker this year ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
 Fetching from https://www.lifehack.org/feed...
 
 --- Generating Viral Article for Lifestyle & Travel: Why Boredom Is Good for You (and Why Your Phone Quietly Killed It) ---
 Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Health & Disease: STAT+: Anthropic’s Claude Science is coming for Kendall Square ---
-Fetching from https://venturebeat.com/feed/...
-
---- Generating Viral Article for Tech & AI: DeepSeek cut prices 75%. The 100x problem remains ---
+--- Generating Viral Article for Health & Disease: STAT+: A new biotech startup tries to tackle obesity, but not in the way you might expect ---
 
 🚀 Success: Generated 0 stories.
