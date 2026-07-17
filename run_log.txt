@@ -838,15 +838,13 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from http://feeds.foxnews.com/foxnews/national...
-
---- Generating Viral Article for US News: College student's fatal canoe trip takes turn after lone survivor is arrested months later ---
 Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Health & Disease: STAT+: Fresh turmoil roils American Diabetes Association following controversy at conference ---
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+--- Generating Viral Article for Health & Disease: STAT+: Pharmalittle: We’re reading about rising drug shortages, GSK coughing up a trial loss, and more ---
 Fetching from https://www.theverge.com/rss/index.xml...
 
---- Generating Viral Article for Tech & AI: Fortnite is getting a bunch of AI-powered ‘personas’ ---
+--- Generating Viral Article for Tech & AI: The manosphere&#8217;s testosterone fever is coming for the troops ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+Fetching from https://www.lonelyplanet.com/news/rss...
 
 🚀 Success: Generated 0 stories.
