@@ -838,15 +838,13 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from https://www.medicalnewstoday.com/feed...
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory ---
-Fetching from https://venturebeat.com/feed/...
-
---- Generating Viral Article for Tech & AI: China’s Moonshot AI releases Kimi K3, the largest open-source model ever, rivaling top U.S. systems ---
+--- Generating Viral Article for US News: Judge in Fox News-Dominion defamation trial: 'The parties have resolved their case' ---
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Finance & Crypto: Bitcoin liquidity clusters determine BTC’s price direction as futures flow fuels price ---
+--- Generating Viral Article for Finance & Crypto: Bitcoin outlook improves amid 6% weekly gain: Can BTC bulls push higher? ---
+Fetching from https://www.medicalnewstoday.com/feed...
+Fetching from https://www.lonelyplanet.com/news/rss...
 
 🚀 Success: Generated 0 stories.
