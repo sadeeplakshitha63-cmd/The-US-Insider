@@ -840,15 +840,15 @@ API KEY exists? true
 }
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Judge in Fox News-Dominion defamation trial: 'The parties have resolved their case' ---
-Fetching from https://www.theverge.com/rss/index.xml...
+--- Generating Viral Article for US News: Dominion still has pending lawsuits against election deniers such as Rudy Giuliani and Sidney Powell ---
+Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Tech & AI: This unpronounceable series of glyphs is an incredible side project from Kieran Hebden (aka Four Tet) ---
+--- Generating Viral Article for Lifestyle & Travel: Reinventing Yourself at 50: Redeploy Who You Already Are ---
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: Trump’s CDC Nominee Praises Vaccines, Without Vowing Independence From Kennedy ---
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Finance & Crypto: Will the US get CLARITY this week? Bitcoin’s new $80K target: Hodler’s Digest, July 19 ---
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: Opinion: STAT readers on the value of primary care, obesity as a disease, and more ---
+--- Generating Viral Article for Finance & Crypto: Bitcoin liquidity clusters determine BTC’s price direction as futures flow fuels price ---
 
 🚀 Success: Generated 0 stories.
