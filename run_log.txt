@@ -838,17 +838,17 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: Readers Share Personal Insights on Deadly Denials and Pregnancy Centers ---
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
 --- Generating Viral Article for US News: Judge in Fox News-Dominion defamation trial: 'The parties have resolved their case' ---
-Fetching from https://www.lifehack.org/feed...
+Fetching from https://www.theverge.com/rss/index.xml...
 
---- Generating Viral Article for Lifestyle & Travel: Consistent Habits in Midlife: The System That Sticks ---
-Fetching from https://venturebeat.com/feed/...
+--- Generating Viral Article for Tech & AI: This unpronounceable series of glyphs is an incredible side project from Kieran Hebden (aka Four Tet) ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Tech & AI: Agents think in milliseconds, legacy infrastructure doesn't. LinkedIn, Walmart and Zendesk shared how they closed the gap at VB Transform 2026 ---
+--- Generating Viral Article for Finance & Crypto: Will the US get CLARITY this week? Bitcoin’s new $80K target: Hodler’s Digest, July 19 ---
+Fetching from https://www.statnews.com/feed/...
+
+--- Generating Viral Article for Health & Disease: Opinion: STAT readers on the value of primary care, obesity as a disease, and more ---
 
 🚀 Success: Generated 0 stories.
