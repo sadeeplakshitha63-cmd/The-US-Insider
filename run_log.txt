@@ -848,17 +848,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1mYXN0LWdlbmVyYXRlLXByZXZpZXc="
 }
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory ---
+Fetching from https://www.wired.com/feed/rss...
+
+--- Generating Viral Article for Tech & AI: For Taylor Swift, Madison Square Garden’s Controversial Cameras Briefly Went Dark ---
 Fetching from https://www.lifehack.org/feed...
 
 --- Generating Viral Article for Lifestyle & Travel: How to Find Purpose in Midlife Without Burning Out ---
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: Senate health panel delays vote on CDC nominee ---
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
-
---- Generating Viral Article for Finance & Crypto: Swiss bank BancaStato launches regulated crypto trading with Sygnum ---
-Fetching from https://techcrunch.com/feed/...
-
---- Generating Viral Article for Tech & AI: Meta drops out of a major clean energy pact as its natural gas buildout accelerates ---
 
 🚀 Success: Generated 0 stories.
