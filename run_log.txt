@@ -848,13 +848,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1mYXN0LWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: An FDA Panel Just Endorsed These Unproven Peptides ---
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Newly released video shows scene of Jeremy Renner's snowplow accident ---
-Fetching from https://www.lonelyplanet.com/news/rss...
+--- Generating Viral Article for US News: White homeowner accused of shooting a Black teen who rang his doorbell turns himself in to face criminal charges ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: Bernstein says Bitcoin mining deals necessary for AI power crunch ---
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: To Afford Aging in Place, Older Adults Turn to ‘Golden Girls’ Housing ---
+Fetching from https://www.lifehack.org/feed...
+
+--- Generating Viral Article for Lifestyle & Travel: How to Find Purpose in Midlife Without Burning Out ---
 
 🚀 Success: Generated 0 stories.
