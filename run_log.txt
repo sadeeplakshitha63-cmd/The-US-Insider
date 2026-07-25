@@ -848,15 +848,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1mYXN0LWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from https://www.wired.com/feed/rss...
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Tech & AI: GoPro Mission 1 Pro Review: The Best Action Camera You Can Buy ---
+--- Generating Viral Article for Finance & Crypto: Bitcoin mining pool Poolin files for Chapter 11 bankruptcy ---
+Fetching from https://www.lifehack.org/feed...
+
+--- Generating Viral Article for Lifestyle & Travel: Feeling Lost in Your 40s: A Calm Way to Find Your Footing ---
+Fetching from https://techcrunch.com/feed/...
+
+--- Generating Viral Article for Tech & AI: TechCrunch Disrupt 2026’s new Smart Money Stage explores fintech, payments, AI, and everything between ---
 Fetching from https://khn.org/feed/...
 
 --- Generating Viral Article for Health & Disease: ‘The Child Is Terrified’: Doctors on the Front Lines of a Measles Comeback Speak Out ---
-Fetching from http://feeds.foxnews.com/foxnews/national...
-
---- Generating Viral Article for US News: California trans suspect arrested in mother's killing after neighbor recalls heated argument ---
-Fetching from https://www.lonelyplanet.com/news/rss...
 
 🚀 Success: Generated 0 stories.
