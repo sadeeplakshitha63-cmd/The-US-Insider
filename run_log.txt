@@ -848,17 +848,13 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1mYXN0LWdlbmVyYXRlLXByZXZpZXc="
 }
+Fetching from https://www.statnews.com/feed/...
+
+--- Generating Viral Article for Health & Disease: STAT+: Merck strikes voluntary licensing deals in poor countries for an experimental HIV prevention pill ---
+Fetching from https://www.lonelyplanet.com/news/rss...
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
 Fetching from https://techcrunch.com/feed/...
 
---- Generating Viral Article for Tech & AI: Monday.com is the latest tech company to blame AI for layoffs — here are 20 others ---
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: American Scientists See Prosecutions as Part of Federal Campaign Against Them ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: Feeling Lost in Your 40s: A Calm Way to Find Your Footing ---
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: White homeowner accused of shooting a Black teen who rang his doorbell turns himself in to face criminal charges ---
+--- Generating Viral Article for Tech & AI: Making sense of the panic over Chinese AI ---
 
 🚀 Success: Generated 0 stories.
