@@ -848,15 +848,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1mYXN0LWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: How to Start a Business at 60: A Founder's Playbook for Your Best Decade ---
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: STAT+: Preliminary trial results suggest a path to a safer Alzheimer’s treatment ---
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 Fetching from http://feeds.foxnews.com/foxnews/national...
 
---- Generating Viral Article for US News: College student dies after falling from historic ruins on remote Florida island, friends say ---
+--- Generating Viral Article for US News: WATCH: E-bike teen takeover swarms downtown city streets blocking traffic, leading to charges ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: Federal Loan Caps Add Barriers — And Likely Debt — for Healthcare Students ---
+Fetching from https://venturebeat.com/feed/...
+
+--- Generating Viral Article for Tech & AI: GM redesigned its engineering workflows around AI agents — and tripled its merged pull requests ---
 
 🚀 Success: Generated 0 stories.
