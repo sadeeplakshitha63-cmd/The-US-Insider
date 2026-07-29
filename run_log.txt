@@ -848,17 +848,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1mYXN0LWdlbmVyYXRlLXByZXZpZXc="
 }
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: Charlie Kirk murder case as 'straight-forward' as it gets, prosecutors argue as case nears trial decision ---
+Fetching from https://techcrunch.com/feed/...
+
+--- Generating Viral Article for Tech & AI: The robot NASA hired to lift a orbital telescope tumbled out of control ---
+Fetching from https://www.lonelyplanet.com/news/rss...
 Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Health & Disease: Six key issues we’re watching at Fauci’s hearing ---
-Fetching from https://www.theverge.com/rss/index.xml...
-
---- Generating Viral Article for Tech & AI: eBay&#8217;s bizarre cyberstalking saga ends with a $56 million settlement ---
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
-
---- Generating Viral Article for Finance & Crypto: Bitcoin OG selling eases as dormant BTC movement hits 4-year low: Galaxy ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: Personal Growth in Your 40s: Why It's the Renovation Decade ---
+--- Generating Viral Article for Health & Disease: STAT+: In the biotech industry, a most-wanted fugitive was long hiding in plain sight ---
 
 🚀 Success: Generated 0 stories.
