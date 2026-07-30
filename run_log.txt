@@ -655,6 +655,25 @@ API KEY exists? true
       "thinking": true
     },
     {
+      "name": "models/gemini-robotics-er-2-preview",
+      "version": "2-preview",
+      "displayName": "Gemini Robotics-ER 2 Preview",
+      "description": "Gemini Robotics-ER 2 Preview",
+      "inputTokenLimit": 131072,
+      "outputTokenLimit": 65536,
+      "supportedGenerationMethods": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ],
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "maxTemperature": 2,
+      "thinking": true
+    },
+    {
       "name": "models/gemini-2.5-computer-use-preview-10-2025",
       "version": "Gemini 2.5 Computer Use Preview 10-2025",
       "displayName": "Gemini 2.5 Computer Use Preview 10-2025",
@@ -833,30 +852,19 @@ API KEY exists? true
       "supportedGenerationMethods": [
         "predictLongRunning"
       ]
-    },
-    {
-      "name": "models/veo-3.1-fast-generate-preview",
-      "version": "3.1",
-      "displayName": "Veo 3.1 fast",
-      "description": "Veo 3.1 fast",
-      "inputTokenLimit": 480,
-      "outputTokenLimit": 8192,
-      "supportedGenerationMethods": [
-        "predictLongRunning"
-      ]
     }
   ],
-  "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1mYXN0LWdlbmVyYXRlLXByZXZpZXc="
+  "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
 }
-Fetching from https://khn.org/feed/...
+Fetching from https://www.wired.com/feed/rss...
 
---- Generating Viral Article for Health & Disease: Uninsured but Undaunted, a Surgical Patient Searched the Globe for a Deal ---
-Fetching from https://techcrunch.com/feed/...
+--- Generating Viral Article for Tech & AI: Best Vacuum Cleaners (2026): Cordless Vacuums, Robot Vacuums, Dysons ---
+Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Tech & AI: Dili raises $21.7M to bring AI compliance to the infrastructure boom ---
-Fetching from https://www.lifehack.org/feed...
+--- Generating Viral Article for Health & Disease: Judge denies states’ motion to postpone Medicaid work requirement ---
+Fetching from https://www.huffpost.com/section/front-page/feed...
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Lifestyle & Travel: Reinventing Yourself at 50: Redeploy Who You Already Are ---
-Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+--- Generating Viral Article for Finance & Crypto: Bitcoin ETF inflows return as Ether funds slip into outflows ---
 
 🚀 Success: Generated 0 stories.
