@@ -856,15 +856,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
 }
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Finance & Crypto: Coldcard issues Mk3 warning as experts examine $38M Bitcoin wallet drain ---
+--- Generating Viral Article for Health & Disease: Trump Has Quietly Throttled an Agency Devoted to the Safety of American Healthcare ---
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
 --- Generating Viral Article for US News: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory ---
-Fetching from https://www.medicalnewstoday.com/feed...
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
 Fetching from https://venturebeat.com/feed/...
 
---- Generating Viral Article for Tech & AI: Hush Security says the AI security problem has shifted from protecting models to governing identities as autonomous agents spread ---
+--- Generating Viral Article for Tech & AI: AI price wars: OpenAI cuts GPT-5.6 Luna prices by 80% as model competition shifts toward cost ---
 
 🚀 Success: Generated 0 stories.
