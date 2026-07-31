@@ -856,17 +856,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
 }
+Fetching from https://techcrunch.com/feed/...
+
+--- Generating Viral Article for Tech & AI: Investors love AI, as long as you’re a cloud host ---
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: 'Difficult to say with a straight face': Tapper reacts to Fox News' statement on settlement ---
 Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Health & Disease: They Worked To Protect Public Health. Now They Want the Public’s Votes. ---
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: The New Defcon Badges Pack a Unique Open Source Chip That Doubles as a Security Key ---
-Fetching from http://feeds.foxnews.com/foxnews/national...
-
---- Generating Viral Article for US News: Mystery stranger vanishes after family says frantic warning saved their lives during devastating house fire ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: How to Start a Business at 60: A Founder's Playbook for Your Best Decade ---
+--- Generating Viral Article for Health & Disease: Hospice’s Bad Reputation Amid Fraud Crisis Will Hurt Patients, Industry Experts Warn ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
 
 🚀 Success: Generated 0 stories.
