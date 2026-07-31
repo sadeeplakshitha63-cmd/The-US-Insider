@@ -856,15 +856,13 @@ API KEY exists? true
   ],
   "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
 }
-Fetching from https://techcrunch.com/feed/...
-
---- Generating Viral Article for Tech & AI: Apple stockpiles inventory as it braces for ‘significant supply constraints’ ---
+Fetching from https://www.lonelyplanet.com/news/rss...
 Fetching from http://feeds.foxnews.com/foxnews/national...
 
---- Generating Viral Article for US News: Father who bought AR-15 for Georgia school shooter learns fate in first-of-its-kind conviction ---
+--- Generating Viral Article for US News: Toddler's tragic death sparks manslaughter charges after alleged poisoning ---
+Fetching from https://www.medicalnewstoday.com/feed...
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Finance & Crypto: Bitcoin stable as Fed fave PCE inflation sees first monthly drop in six years ---
-Fetching from https://www.lonelyplanet.com/news/rss...
+--- Generating Viral Article for Finance & Crypto: Chinese newspaper warns of Bitcoin extortion scam using its name ---
 
 🚀 Success: Generated 0 stories.
