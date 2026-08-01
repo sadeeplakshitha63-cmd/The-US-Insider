@@ -856,15 +856,13 @@ API KEY exists? true
   ],
   "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
 }
-Fetching from https://venturebeat.com/feed/...
-
---- Generating Viral Article for Tech & AI: AI price wars: OpenAI cuts GPT-5.6 Luna prices by 80% as model competition shifts toward cost ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: How to Start a Business at 60: A Founder's Playbook for Your Best Decade ---
+--- Generating Viral Article for Lifestyle & Travel: Encore Career Ideas: Choose a Second Act That Fits ---
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 Fetching from https://www.huffpost.com/section/front-page/feed...
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+Fetching from https://techcrunch.com/feed/...
 
---- Generating Viral Article for Finance & Crypto: Bitcoin stable as Fed favorite PCE inflation sees first monthly drop in 6 years ---
+--- Generating Viral Article for Tech & AI: Rivian spinoff Also to start delivering e-bikes after months of delays ---
 
 🚀 Success: Generated 0 stories.
