@@ -856,17 +856,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
 }
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: STAT+: Is there a pharma mega-merger in the making? ---
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: Dominion still has pending lawsuits against election deniers such as Rudy Giuliani and Sidney Powell ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: Encore Career Ideas: Choose a Second Act That Fits ---
-Fetching from https://www.theverge.com/rss/index.xml...
+--- Generating Viral Article for Lifestyle & Travel: Feeling Lost in Your 40s: A Calm Way to Find Your Footing ---
+Fetching from https://www.medicalnewstoday.com/feed...
+Fetching from http://feeds.foxnews.com/foxnews/national...
 
---- Generating Viral Article for Tech & AI: Samsung’s 2TB 9100 Pro SSD is actually somewhat reasonably priced ---
+--- Generating Viral Article for US News: Tucson grandmother who beat cancer twice killed in alleged attack by felon at apartment ---
+Fetching from https://www.wired.com/feed/rss...
+
+--- Generating Viral Article for Tech & AI: The Delicate Art of Making a 1907 House Smarter ---
 
 🚀 Success: Generated 0 stories.
