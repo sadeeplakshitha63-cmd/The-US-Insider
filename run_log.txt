@@ -856,15 +856,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
 }
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: 'Difficult to say with a straight face': Tapper reacts to Fox News' statement on settlement ---
 Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
 Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Health & Disease: Kennedy, Oz Contend Fraud Crackdown, Not Skyrocketing Prices, Led Millions To Leave Obamacare ---
-Fetching from https://www.theverge.com/rss/index.xml...
+--- Generating Viral Article for Health & Disease: They Worked To Protect Public Health. Now They Want the Public’s Votes. ---
+Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Tech & AI: Lenovo&#8217;s Legion Go S with SteamOS is down to its lowest price ever ---
-Fetching from http://feeds.foxnews.com/foxnews/national...
-
---- Generating Viral Article for US News: Lindsay Clancy makes courtroom deal that puts mental state at center stage of murder trial ---
+--- Generating Viral Article for Lifestyle & Travel: Reinventing Yourself at 50: Redeploy Who You Already Are ---
 
 🚀 Success: Generated 0 stories.
