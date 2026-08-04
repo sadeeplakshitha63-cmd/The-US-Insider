@@ -856,15 +856,17 @@ API KEY exists? true
   ],
   "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
 }
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: Pennsylvania school bus aide accused of sexually assaulting special needs teen ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: Reinventing Yourself at 50: Redeploy Who You Already Are ---
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: Mistral Is in the Right Place at the Right Time ---
-Fetching from https://www.huffpost.com/section/front-page/feed...
+--- Generating Viral Article for Lifestyle & Travel: Encore Career Ideas: Choose a Second Act That Fits ---
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Finance & Crypto: Hashdex to shut smallest Bitcoin ETF after more than two years ---
+--- Generating Viral Article for Finance & Crypto: Malaysia Blockchain Week’s OnlyFans scandal, lonely heart scammed for $3.3M: Asia Express ---
+Fetching from https://www.wired.com/feed/rss...
+
+--- Generating Viral Article for Tech & AI: The Real Story Behind the 2018 Google Walkout ---
 
 🚀 Success: Generated 0 stories.
