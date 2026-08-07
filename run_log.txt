@@ -856,15 +856,17 @@ API KEY exists? true
   ],
   "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
 }
-Fetching from https://venturebeat.com/feed/...
-
---- Generating Viral Article for Tech & AI: Claude Mythos 5 made sock puppet accounts to socially engineer developers: here's what enterprises should know ---
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Newly released video shows scene of Jeremy Renner's snowplow accident ---
+--- Generating Viral Article for US News: Some on-air claims about Dominion Voting Systems were false, Fox News acknowledges in statement after deal is announced ---
+Fetching from https://www.lifehack.org/feed...
+
+--- Generating Viral Article for Lifestyle & Travel: Daily Routine After 60: Build a Day That Holds ---
 Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Health & Disease: Earlier Lifeline for Rural Hospitals Faces Test Under ‘Big Beautiful’ Law ---
-Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+--- Generating Viral Article for Health & Disease: Listen to the Latest ‘KFF Health News Minute’ ---
+Fetching from https://techcrunch.com/feed/...
+
+--- Generating Viral Article for Tech & AI: Defense tech Hadrian raises $1.37B at $8B valuation ---
 
 🚀 Success: Generated 0 stories.
