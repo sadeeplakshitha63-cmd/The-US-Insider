@@ -856,17 +856,17 @@ API KEY exists? true
   ],
   "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
 }
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: More than 50 bodies found decomposing inside Chicago funeral home after neighbors complained of 'stench' ---
 Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Health & Disease: Is the biotech capital of the world moving? ---
-Fetching from https://www.lifehack.org/feed...
+--- Generating Viral Article for Health & Disease: Opinion: I was in my office when bullets hit the CDC. A year later, the agency remains under attack ---
+Fetching from https://www.theverge.com/rss/index.xml...
 
---- Generating Viral Article for Lifestyle & Travel: How Long Does It Take to Form a Habit? 66 Days, With a Catch ---
+--- Generating Viral Article for Tech & AI: The gaming site sponsored by Walmart lays off its editorial staff ---
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Finance & Crypto: Bitcoin ETF inflows surge after Coldcard hack, but link is unclear: Bloomberg analyst ---
-Fetching from https://venturebeat.com/feed/...
-
---- Generating Viral Article for Tech & AI: No cloud, no GPUs, no problem: Liquid AI's new model LFM2.5-2.6B brings powerful AI agents to devices as small as a Raspberry Pi ---
+--- Generating Viral Article for Finance & Crypto: Bitcoin treasury trade ‘breaking’ and fund holdings drop 10%: Analysis ---
 
 🚀 Success: Generated 0 stories.
