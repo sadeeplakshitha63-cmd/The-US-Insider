@@ -856,15 +856,13 @@ API KEY exists? true
   ],
   "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
 }
-Fetching from https://venturebeat.com/feed/...
-
---- Generating Viral Article for Tech & AI: Qwen 3.8-Max and Claude Opus 5 show why raw benchmark scores don't predict the bill ---
 Fetching from https://www.lonelyplanet.com/news/rss...
 Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Health & Disease: Pediatricians and Health Departments Sidestep Trump’s CDC on Vaccine Guidance ---
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+--- Generating Viral Article for Health & Disease: Baltimore Is Rethinking What It Means To Call 911 — And Who Responds ---
+Fetching from https://www.wired.com/feed/rss...
 
---- Generating Viral Article for Finance & Crypto: Binance Bitcoin volume ratio hits record as futures outweigh spot eight times over ---
+--- Generating Viral Article for Tech & AI: Xteink X4 Pro Pocket E-Reader Review (2026): Fun but Limited ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
 
 🚀 Success: Generated 0 stories.
