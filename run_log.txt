@@ -857,12 +857,14 @@ API KEY exists? true
   "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
 }
 Fetching from https://www.lonelyplanet.com/news/rss...
-Fetching from https://venturebeat.com/feed/...
-
---- Generating Viral Article for Tech & AI: Qwen 3.8-Max and Claude Opus 5 show why raw benchmark scores don't predict the bill ---
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 Fetching from http://feeds.foxnews.com/foxnews/national...
 
---- Generating Viral Article for US News: Cornell bans bear butchering after students carved up creature in dorm kitchen ---
+--- Generating Viral Article for US News: Michigan military exercise preparing thousands of troops for changing battlefield ---
+Fetching from https://venturebeat.com/feed/...
+
+--- Generating Viral Article for Tech & AI: Four AI agents coordinating in real time outperformed Claude Opus 4.8 on enterprise coding tasks ---
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: Journalists Cover Cyclospora and Measles Outbreaks, and Changing Health Policies ---
 
 🚀 Success: Generated 0 stories.
