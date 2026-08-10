@@ -836,13 +836,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvZ2VtaW5pLTMuMS1mbGFzaC1saXZlLXByZXZpZXc="
 }
-Fetching from https://www.lonelyplanet.com/news/rss...
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Dominion still has pending lawsuits against election deniers such as Rudy Giuliani and Sidney Powell ---
+--- Generating Viral Article for US News: 'Difficult to say with a straight face': Tapper reacts to Fox News' statement on settlement ---
+Fetching from https://www.statnews.com/feed/...
+
+--- Generating Viral Article for Health & Disease: STAT+: Sionna’s experimental cystic fibrosis pill falls flat in mid-stage trial ---
 Fetching from https://www.wired.com/feed/rss...
 
---- Generating Viral Article for Tech & AI: A California Program Is Bringing Down the Cost of Heat Pumps by Buying Bulk ---
+--- Generating Viral Article for Tech & AI: The Rise of the 1 am Job Interview ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: BIP-110 ends with a whimper, CLARITY vote punted: Hodler’s Digest, Aug. 9 ---
 
 🚀 Success: Generated 0 stories.
