@@ -41,78 +41,6 @@ API KEY exists? true
       "thinking": true
     },
     {
-      "name": "models/gemini-2.0-flash",
-      "version": "2.0",
-      "displayName": "Gemini 2.0 Flash",
-      "description": "Gemini 2.0 Flash",
-      "inputTokenLimit": 1048576,
-      "outputTokenLimit": 8192,
-      "supportedGenerationMethods": [
-        "generateContent",
-        "countTokens",
-        "createCachedContent",
-        "batchGenerateContent"
-      ],
-      "temperature": 1,
-      "topP": 0.95,
-      "topK": 40,
-      "maxTemperature": 2
-    },
-    {
-      "name": "models/gemini-2.0-flash-001",
-      "version": "2.0",
-      "displayName": "Gemini 2.0 Flash 001",
-      "description": "Stable version of Gemini 2.0 Flash, our fast and versatile multimodal model for scaling across diverse tasks, released in January of 2025.",
-      "inputTokenLimit": 1048576,
-      "outputTokenLimit": 8192,
-      "supportedGenerationMethods": [
-        "generateContent",
-        "countTokens",
-        "createCachedContent",
-        "batchGenerateContent"
-      ],
-      "temperature": 1,
-      "topP": 0.95,
-      "topK": 40,
-      "maxTemperature": 2
-    },
-    {
-      "name": "models/gemini-2.0-flash-lite-001",
-      "version": "2.0",
-      "displayName": "Gemini 2.0 Flash-Lite 001",
-      "description": "Stable version of Gemini 2.0 Flash-Lite",
-      "inputTokenLimit": 1048576,
-      "outputTokenLimit": 8192,
-      "supportedGenerationMethods": [
-        "generateContent",
-        "countTokens",
-        "createCachedContent",
-        "batchGenerateContent"
-      ],
-      "temperature": 1,
-      "topP": 0.95,
-      "topK": 40,
-      "maxTemperature": 2
-    },
-    {
-      "name": "models/gemini-2.0-flash-lite",
-      "version": "2.0",
-      "displayName": "Gemini 2.0 Flash-Lite",
-      "description": "Gemini 2.0 Flash-Lite",
-      "inputTokenLimit": 1048576,
-      "outputTokenLimit": 8192,
-      "supportedGenerationMethods": [
-        "generateContent",
-        "countTokens",
-        "createCachedContent",
-        "batchGenerateContent"
-      ],
-      "temperature": 1,
-      "topP": 0.95,
-      "topK": 40,
-      "maxTemperature": 2
-    },
-    {
       "name": "models/gemini-2.5-flash-preview-tts",
       "version": "gemini-2.5-flash-exp-tts-2025-05-19",
       "displayName": "Gemini 2.5 Flash Preview TTS",
@@ -271,25 +199,6 @@ API KEY exists? true
       "topP": 0.95,
       "topK": 64,
       "maxTemperature": 1
-    },
-    {
-      "name": "models/gemini-3-pro-preview",
-      "version": "3-pro-preview-11-2025",
-      "displayName": "Gemini 3 Pro Preview",
-      "description": "Gemini 3 Pro Preview",
-      "inputTokenLimit": 1048576,
-      "outputTokenLimit": 65536,
-      "supportedGenerationMethods": [
-        "generateContent",
-        "countTokens",
-        "createCachedContent",
-        "batchGenerateContent"
-      ],
-      "temperature": 1,
-      "topP": 0.95,
-      "topK": 64,
-      "maxTemperature": 2,
-      "thinking": true
     },
     {
       "name": "models/gemini-3-flash-preview",
@@ -619,23 +528,6 @@ API KEY exists? true
       "thinking": true
     },
     {
-      "name": "models/gemini-robotics-er-1.5-preview",
-      "version": "1.5-preview",
-      "displayName": "Gemini Robotics-ER 1.5 Preview",
-      "description": "Gemini Robotics-ER 1.5 Preview",
-      "inputTokenLimit": 1048576,
-      "outputTokenLimit": 65536,
-      "supportedGenerationMethods": [
-        "generateContent",
-        "countTokens"
-      ],
-      "temperature": 1,
-      "topP": 0.95,
-      "topK": 64,
-      "maxTemperature": 2,
-      "thinking": true
-    },
-    {
       "name": "models/gemini-robotics-er-1.6-preview",
       "version": "1.6-preview",
       "displayName": "Gemini Robotics-ER 1.6 Preview",
@@ -852,19 +744,107 @@ API KEY exists? true
       "supportedGenerationMethods": [
         "predictLongRunning"
       ]
+    },
+    {
+      "name": "models/veo-3.1-fast-generate-preview",
+      "version": "3.1",
+      "displayName": "Veo 3.1 fast",
+      "description": "Veo 3.1 fast",
+      "inputTokenLimit": 480,
+      "outputTokenLimit": 8192,
+      "supportedGenerationMethods": [
+        "predictLongRunning"
+      ]
+    },
+    {
+      "name": "models/veo-3.1-lite-generate-preview",
+      "version": "3.1",
+      "displayName": "Veo 3.1 lite",
+      "description": "Veo 3.1 lite",
+      "inputTokenLimit": 480,
+      "outputTokenLimit": 8192,
+      "supportedGenerationMethods": [
+        "predictLongRunning"
+      ]
+    },
+    {
+      "name": "models/gemini-2.5-flash-native-audio-latest",
+      "version": "Gemini 2.5 Flash Native Audio Latest",
+      "displayName": "Gemini 2.5 Flash Native Audio Latest",
+      "description": "Latest release of Gemini 2.5 Flash Native Audio",
+      "inputTokenLimit": 131072,
+      "outputTokenLimit": 8192,
+      "supportedGenerationMethods": [
+        "countTokens",
+        "bidiGenerateContent"
+      ],
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "maxTemperature": 2,
+      "thinking": true
+    },
+    {
+      "name": "models/gemini-2.5-flash-native-audio-preview-09-2025",
+      "version": "gemini-2.5-flash-preview-native-audio-dialog-2025-05-19",
+      "displayName": "Gemini 2.5 Flash Native Audio Preview 09-2025",
+      "description": "Gemini 2.5 Flash Native Audio Preview 09-2025",
+      "inputTokenLimit": 131072,
+      "outputTokenLimit": 8192,
+      "supportedGenerationMethods": [
+        "countTokens",
+        "bidiGenerateContent"
+      ],
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "maxTemperature": 2,
+      "thinking": true
+    },
+    {
+      "name": "models/gemini-2.5-flash-native-audio-preview-12-2025",
+      "version": "12-2025",
+      "displayName": "Gemini 2.5 Flash Native Audio Preview 12-2025",
+      "description": "Gemini 2.5 Flash Native Audio Preview 12-2025",
+      "inputTokenLimit": 131072,
+      "outputTokenLimit": 8192,
+      "supportedGenerationMethods": [
+        "countTokens",
+        "bidiGenerateContent"
+      ],
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "maxTemperature": 2,
+      "thinking": true
+    },
+    {
+      "name": "models/gemini-3.1-flash-live-preview",
+      "version": "3.1-flash-live-03-2026",
+      "displayName": "Gemini 3.1 Flash Live Preview",
+      "description": "Gemini 3.1 Flash Live Preview",
+      "inputTokenLimit": 131072,
+      "outputTokenLimit": 65536,
+      "supportedGenerationMethods": [
+        "bidiGenerateContent"
+      ],
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "maxTemperature": 2
     }
   ],
-  "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
+  "nextPageToken": "CiRtb2RlbHMvZ2VtaW5pLTMuMS1mbGFzaC1saXZlLXByZXZpZXc="
 }
-Fetching from https://www.statnews.com/feed/...
+Fetching from https://techcrunch.com/feed/...
 
---- Generating Viral Article for Health & Disease: STAT+: NIH plans to block international researchers on visas from accessing key funding avenue ---
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+--- Generating Viral Article for Tech & AI: This former notorious red-light district is now one of the world’s top AI hubs ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for Finance & Crypto: BIP-110 ends with a whimper, CLARITY vote punted: Hodler’s Digest, Aug. 9 ---
-Fetching from https://www.wired.com/feed/rss...
+--- Generating Viral Article for US News: Newly released video shows scene of Jeremy Renner's snowplow accident ---
+Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Tech & AI: These AI Barons Are Ready to Give Away Their Fortunes ---
-Fetching from https://www.lonelyplanet.com/news/rss...
+--- Generating Viral Article for Lifestyle & Travel: Burnout Recovery Stages: How to Tell Which One You're In ---
 
 🚀 Success: Generated 0 stories.
