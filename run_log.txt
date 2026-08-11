@@ -836,15 +836,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvZ2VtaW5pLTMuMS1mbGFzaC1saXZlLXByZXZpZXc="
 }
+Fetching from https://techcrunch.com/feed/...
+
+--- Generating Viral Article for Tech & AI: What comes after the smartphone? Amazon’s Panos Panay will make his case at TechCrunch Disrupt 2026 ---
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: Mamdani’s luxury-home tax rollout derailed for now as judge delivers win to NYC homeowners over massive list ---
 Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Health & Disease: A Federal Policy Is Complicating How Organizations Battle the Opioid Crisis ---
-Fetching from https://www.theverge.com/rss/index.xml...
-
---- Generating Viral Article for Tech & AI: What to expect from Google’s 2026 Pixel hardware launch event ---
-Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: Life Audit: How to Run One in 90 Minutes and Act on It ---
+--- Generating Viral Article for Health & Disease: Budget Battle Erupts in Nation’s Capital Over Opioid Settlement Money ---
 
 🚀 Success: Generated 0 stories.
