@@ -836,17 +836,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvZ2VtaW5pLTMuMS1mbGFzaC1saXZlLXByZXZpZXc="
 }
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: 'Difficult to say with a straight face': Tapper reacts to Fox News' statement on settlement ---
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: STAT+: Sionna’s experimental cystic fibrosis pill falls flat in mid-stage trial ---
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: The Rise of the 1 am Job Interview ---
+Fetching from https://www.lonelyplanet.com/news/rss...
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Finance & Crypto: BIP-110 ends with a whimper, CLARITY vote punted: Hodler’s Digest, Aug. 9 ---
+--- Generating Viral Article for Finance & Crypto: H100 becomes Europe’s No. 2 Bitcoin treasury after 2,455 BTC deal ---
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: Newly released video shows scene of Jeremy Renner's snowplow accident ---
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: YouTube is making it harder to earn money on YouTube ---
 
 🚀 Success: Generated 0 stories.
