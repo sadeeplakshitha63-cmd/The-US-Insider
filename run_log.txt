@@ -836,13 +836,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvZ2VtaW5pLTMuMS1mbGFzaC1saXZlLXByZXZpZXc="
 }
-Fetching from https://www.huffpost.com/section/front-page/feed...
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+Fetching from https://www.wired.com/feed/rss...
+
+--- Generating Viral Article for Tech & AI: Rogue AI Agents Aren’t Evil. They’re Just Eager to Please ---
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: White homeowner accused of shooting a Black teen who rang his doorbell turns himself in to face criminal charges ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: Bitcoin sell pressure ‘closer to exhaustion’ after $4B USDT market-cap drop: CryptoQuant ---
 Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Health & Disease: Trump administration’s new ‘treatment first’ addiction toolkit emphasizes faith, abstinence ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: How Long Does It Take to Form a Habit? 66 Days, With a Catch ---
+--- Generating Viral Article for Health & Disease: Opinion: The Lindsay Clancy case shows the limits of postpartum psychiatry ---
 
 🚀 Success: Generated 0 stories.
