@@ -842,17 +842,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
 }
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
-
---- Generating Viral Article for Finance & Crypto: Bitcoin price drops to $62.5K as trader warns weekly close may spark more losses ---
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: White homeowner accused of shooting a Black teen who rang his doorbell turns himself in to face criminal charges ---
-Fetching from https://venturebeat.com/feed/...
-
---- Generating Viral Article for Tech & AI: Google’s Gemini 3.7 Flash targets coding and agents with a 50% introductory price cut ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: Burnout Recovery Stages: How to Tell Which One You're In ---
+--- Generating Viral Article for Lifestyle & Travel: Toxic Productivity: The Real Test Is What You Do in the Gap ---
+Fetching from https://techcrunch.com/feed/...
+
+--- Generating Viral Article for Tech & AI: Self-driving trucks are officially testing on California highways ---
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: California teen faces prison after viral video shows him squaring up, repeatedly kicking sea lion in the face ---
+Fetching from https://www.statnews.com/feed/...
+
+--- Generating Viral Article for Health & Disease: STAT+: Pharmalittle: We’re reading about a lawsuit over lab tests for meds, a Bristol myeloma drug, and more ---
 
 🚀 Success: Generated 0 stories.
