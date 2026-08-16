@@ -840,13 +840,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0xMi0yMDI1"
 }
-Fetching from https://www.lonelyplanet.com/news/rss...
 Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Health & Disease: People With Disabilities Say Medicaid’s Limits on Income Stifle Career Advancement ---
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+--- Generating Viral Article for Health & Disease: Readers Speak Out on Work Requirements, Federal Data Grab, Opioid Payback Cash ---
+Fetching from https://www.lonelyplanet.com/news/rss...
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: Ex-detective who served fraction of 102-year sentence faces new charges after cold case review ---
 Fetching from https://www.theverge.com/rss/index.xml...
 
---- Generating Viral Article for Tech & AI: Switched on Pop’s Nate Sloan and Charlie Harding love fresh vegetables and guitar pedals ---
+--- Generating Viral Article for Tech & AI: Polaroid’s tiny instant camera is $72 and includes a free pack of film ---
 
 🚀 Success: Generated 0 stories.
