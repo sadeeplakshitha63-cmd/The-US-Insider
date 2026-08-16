@@ -843,14 +843,14 @@ API KEY exists? true
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
 }
 Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: How to Stop People Pleasing: Scripts for the 2-Second Window ---
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: Auk Mini 2 Indoor Smart Garden Review: Better Where It Counts ---
 Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Health & Disease: Trump Team’s Use of Arcane Budget Rule Threatens Medicaid Coverage ---
+--- Generating Viral Article for Health & Disease: Years After He Quit Smoking, a Lung Cancer Scan Saved His Life ---
+Fetching from https://www.lifehack.org/feed...
+
+--- Generating Viral Article for Lifestyle & Travel: How Long Does It Take to Form a Habit? 66 Days, With a Catch ---
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: I finally found a magnetic phone grip I never want to remove ---
 
 🚀 Success: Generated 0 stories.
