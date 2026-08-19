@@ -851,17 +851,13 @@ API KEY exists? true
     }
   ]
 }
+Fetching from https://venturebeat.com/feed/...
+
+--- Generating Viral Article for Tech & AI: 85% of companies burned by an AI mistake are racing to cut the humans who might catch the next one ---
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Judge in Fox News-Dominion defamation trial: 'The parties have resolved their case' ---
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: Drive for Nuclear Power Boosts Uranium Industry — And Tribal Health Concerns in Southwest ---
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To ---
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
-
---- Generating Viral Article for Finance & Crypto: Metaplanet expands Bitcoin treasury strategy to US with 2,100-BTC Nasdaq play ---
+--- Generating Viral Article for US News: Newly released video shows scene of Jeremy Renner's snowplow accident ---
+Fetching from https://www.lonelyplanet.com/news/rss...
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 
 🚀 Success: Generated 0 stories.
