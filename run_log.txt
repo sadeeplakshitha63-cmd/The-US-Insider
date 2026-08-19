@@ -851,13 +851,15 @@ API KEY exists? true
     }
   ]
 }
-Fetching from https://venturebeat.com/feed/...
-
---- Generating Viral Article for Tech & AI: 85% of companies burned by an AI mistake are racing to cut the humans who might catch the next one ---
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Newly released video shows scene of Jeremy Renner's snowplow accident ---
-Fetching from https://www.lonelyplanet.com/news/rss...
+--- Generating Viral Article for US News: 'Difficult to say with a straight face': Tapper reacts to Fox News' statement on settlement ---
 Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+Fetching from https://techcrunch.com/feed/...
+
+--- Generating Viral Article for Tech & AI: OpenAI institutes new safeguards after Hugging Face breach ---
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: Drive for Nuclear Power Boosts Uranium Industry — And Tribal Health Concerns in Southwest ---
 
 🚀 Success: Generated 0 stories.
