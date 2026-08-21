@@ -851,15 +851,17 @@ API KEY exists? true
     }
   ]
 }
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: How Much of a Cancer Drug Is Too Much? Patients, Researchers Challenge FDA-Approved Dosages ---
 Fetching from http://feeds.foxnews.com/foxnews/national...
 
---- Generating Viral Article for US News: Surrogate says baby 'ripped away' 60 seconds after birth as custody fight erupts after abortion refusal ---
-Fetching from https://www.statnews.com/feed/...
+--- Generating Viral Article for US News: ‘Darth Vader’ uses dark side to mock controversial surveillance cameras: 'The Emperor is a fan of Flock' ---
+Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Health & Disease: STAT+: FDA approves Ultragenyx gene therapy ---
-Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
-Fetching from https://techcrunch.com/feed/...
+--- Generating Viral Article for Lifestyle & Travel: Retirement Boredom: Why Doing More Things Doesn't Fix It ---
+Fetching from https://venturebeat.com/feed/...
 
---- Generating Viral Article for Tech & AI: The Enhanced Games — tech’s steroid extravaganza — didn’t pay off, as company posts $60 million loss ---
+--- Generating Viral Article for Tech & AI: GLM-5.3 hits the API at $1.4/$4.4 per million tokens ---
 
 🚀 Success: Generated 0 stories.
