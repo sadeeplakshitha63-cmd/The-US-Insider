@@ -851,17 +851,15 @@ API KEY exists? true
     }
   ]
 }
-Fetching from http://feeds.foxnews.com/foxnews/national...
+Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for US News: WATCH: Deputies hunt wanted man through cornfield after high-speed chase caught on camera ---
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: Best Early Tech Labor Day Sales I’d Shop Myself (2026): AirTags, Dyson, and More ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: Toxic Productivity: The Real Test Is What You Do in the Gap ---
+--- Generating Viral Article for Health & Disease: STAT+: Are cancer patients getting too much drug? ---
+Fetching from https://www.huffpost.com/section/front-page/feed...
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
 --- Generating Viral Article for Finance & Crypto: Bitcoin breaks above 200-day moving average for first time since November ---
+Fetching from https://www.lifehack.org/feed...
+
+--- Generating Viral Article for Lifestyle & Travel: Toxic Productivity: The Real Test Is What You Do in the Gap ---
 
 🚀 Success: Generated 0 stories.
