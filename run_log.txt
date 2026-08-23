@@ -851,17 +851,13 @@ API KEY exists? true
     }
   ]
 }
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: Setting Boundaries in Relationships: What to Do the Second Time ---
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
 --- Generating Viral Article for Finance & Crypto: Bitcoin breaks above 200-day moving average for first time since November ---
+Fetching from https://www.lonelyplanet.com/news/rss...
 Fetching from https://techcrunch.com/feed/...
 
---- Generating Viral Article for Tech & AI: Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research ---
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: Millions in the US could face massive consequences unless McCarthy can navigate out of a debt trap he set for Biden ---
+--- Generating Viral Article for Tech & AI: Pixel 11 Pro XL review: Snappier cameras can’t hide an iterative upgrade ---
+Fetching from https://www.huffpost.com/section/front-page/feed...
 
 🚀 Success: Generated 0 stories.
