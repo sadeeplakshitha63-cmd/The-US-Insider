@@ -851,15 +851,13 @@ API KEY exists? true
     }
   ]
 }
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: Listen to the Latest ‘KFF Health News Minute’ ---
+Fetching from https://www.lonelyplanet.com/news/rss...
 Fetching from http://feeds.foxnews.com/foxnews/national...
 
---- Generating Viral Article for US News: WATCH: Young bear takes rough tumble from Denver tree after wildlife officers tranquilize it ---
+--- Generating Viral Article for US News: American Airlines flight lands safely after laptop battery catches fire on board; passenger injured ---
 Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
-Fetching from https://www.theverge.com/rss/index.xml...
-
---- Generating Viral Article for Tech & AI: We’re All Going to the World’s Fair is an intimate coming-of-age horror film ---
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: Focal therapy for localized prostate cancer has divided physicians. Will new data change minds? ---
 
 🚀 Success: Generated 0 stories.
