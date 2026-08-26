@@ -854,15 +854,13 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvZ2VtaW5pLTMuMS1mbGFzaC1saXZlLXByZXZpZXc="
 }
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: Some on-air claims about Dominion Voting Systems were false, Fox News acknowledges in statement after deal is announced ---
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: Newer shingles vaccine linked to lower heart disease risk, ‘natural experiment’ shows ---
 Fetching from https://www.lifehack.org/feed...
 
 --- Generating Viral Article for Lifestyle & Travel: Retirement Boredom: Why Doing More Things Doesn't Fix It ---
+Fetching from https://techcrunch.com/feed/...
+
+--- Generating Viral Article for Tech & AI: How do we explain OpenAI’s executive exodus? ---
 Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+Fetching from https://www.medicalnewstoday.com/feed...
 
 🚀 Success: Generated 0 stories.
