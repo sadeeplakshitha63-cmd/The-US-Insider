@@ -459,6 +459,23 @@ API KEY exists? true
       "thinking": true
     },
     {
+      "name": "models/gemini-omni-1.1-flash",
+      "version": "001",
+      "displayName": "Gemini Omni 1.1 Flash",
+      "description": "Gemini Omni 1.1 Flash ",
+      "inputTokenLimit": 131072,
+      "outputTokenLimit": 65536,
+      "supportedGenerationMethods": [
+        "generateContent",
+        "countTokens"
+      ],
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "maxTemperature": 2,
+      "thinking": true
+    },
+    {
       "name": "models/gemini-3.5-transcribe",
       "version": "3.5-transcribe-08-2026",
       "displayName": "Gemini 3.5 Transcribe",
@@ -835,34 +852,19 @@ API KEY exists? true
       "topK": 64,
       "maxTemperature": 2,
       "thinking": true
-    },
-    {
-      "name": "models/gemini-3.1-flash-live-preview",
-      "version": "3.1-flash-live-03-2026",
-      "displayName": "Gemini 3.1 Flash Live Preview",
-      "description": "Gemini 3.1 Flash Live Preview",
-      "inputTokenLimit": 131072,
-      "outputTokenLimit": 65536,
-      "supportedGenerationMethods": [
-        "bidiGenerateContent"
-      ],
-      "temperature": 1,
-      "topP": 0.95,
-      "topK": 64,
-      "maxTemperature": 2
     }
   ],
-  "nextPageToken": "CiRtb2RlbHMvZ2VtaW5pLTMuMS1mbGFzaC1saXZlLXByZXZpZXc="
+  "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0xMi0yMDI1"
 }
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: Judge in Fox News-Dominion defamation trial: 'The parties have resolved their case' ---
 Fetching from https://venturebeat.com/feed/...
 
---- Generating Viral Article for Tech & AI: GLM-5.3-Flash will likely handle 45% of your AI workloads ---
-Fetching from http://feeds.foxnews.com/foxnews/national...
+--- Generating Viral Article for Tech & AI: Salesforce just put its entire CRM inside Claude — and says you’ll never need its app again ---
+Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for US News: Lindsay Clancy didn't show 'break with reality' as jury weighs psychosis defense: Susan Smith prosecutor ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: Life Starts After 40: What the Phrase Actually Meant ---
-Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+--- Generating Viral Article for Health & Disease: The Medicare GLP-1 Discount Has One Big Catch: Some Sick Patients Don’t Qualify ---
 
 🚀 Success: Generated 0 stories.
