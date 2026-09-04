@@ -855,13 +855,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
 }
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: With Midterms Looming, Journalists Consider Measles, Food Recalls, and Obamacare ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: Slow Living: The One-Lane Rule for a Life That Won't Pause ---
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+--- Generating Viral Article for Lifestyle & Travel: Setting Boundaries in Relationships: What to Do the Second Time ---
 Fetching from https://www.huffpost.com/section/front-page/feed...
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: A Camp for Children With Brain Injuries Zips Ahead, Despite Federal Uncertainty ---
+Fetching from https://www.wired.com/feed/rss...
+
+--- Generating Viral Article for Tech & AI: Wikipedia Workers Unionize for the First Time ---
 
 🚀 Success: Generated 0 stories.
