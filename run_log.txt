@@ -855,13 +855,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
 }
-Fetching from https://khn.org/feed/...
+Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Health & Disease: High Fertility Costs Push Americans Abroad for IVF Treatment ---
+--- Generating Viral Article for Lifestyle & Travel: Leaving a Legacy: Build Something People Can Keep Using ---
 Fetching from https://www.theverge.com/rss/index.xml...
 
---- Generating Viral Article for Tech & AI: OpenAI admits to German wiki ‘incident’ ---
-Fetching from https://www.lonelyplanet.com/news/rss...
+--- Generating Viral Article for Tech & AI: Explore the globe in field recordings ---
+Fetching from https://www.statnews.com/feed/...
+
+--- Generating Viral Article for Health & Disease: Opinion: Make infectious disease data boring again ---
 Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 
 🚀 Success: Generated 0 stories.
