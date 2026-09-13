@@ -855,17 +855,15 @@ API KEY exists? true
   ],
   "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
 }
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+Fetching from http://feeds.foxnews.com/foxnews/national...
 
---- Generating Viral Article for Finance & Crypto: Bitcoin falls on US PPI overshoot as 30-year bond yield hits new 19-year high ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: Leaving a Legacy: Build Something People Can Keep Using ---
-Fetching from https://www.theverge.com/rss/index.xml...
-
---- Generating Viral Article for Tech & AI: LG responds to TV spying allegations ---
+--- Generating Viral Article for US News: Knife-wielding man races at officer in packed seaside park before one deadly shot rings out: video ---
 Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Health & Disease: STAT+: Breast cancer pill from AstraZeneca misses mark in pivotal trial ---
+--- Generating Viral Article for Health & Disease: STAT+: Pharma wins a battle over the cost of wastewater treatment in Europe ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: Bitcoin buyers wary of July sub-$58K floor amid onchain data ‘anomaly’ ---
+Fetching from https://www.lonelyplanet.com/news/rss...
 
 🚀 Success: Generated 0 stories.
