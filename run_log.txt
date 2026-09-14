@@ -656,7 +656,19 @@ API KEY exists? true
       "version": "0.1",
       "displayName": "Antigravity Agent Preview",
       "description": "Preview release of Antigravity Agent (05-2026)",
-      "inputTokenLimit": 131072,
+      "inputTokenLimit": 1048576,
+      "outputTokenLimit": 65536,
+      "supportedGenerationMethods": [
+        "generateContent",
+        "countTokens"
+      ]
+    },
+    {
+      "name": "models/antigravity-preview-09-2026",
+      "version": "0.1",
+      "displayName": "Antigravity Agent Preview",
+      "description": "Preview release of Antigravity Agent (09-2026)",
+      "inputTokenLimit": 1048576,
       "outputTokenLimit": 65536,
       "supportedGenerationMethods": [
         "generateContent",
@@ -834,32 +846,15 @@ API KEY exists? true
       "topK": 64,
       "maxTemperature": 2,
       "thinking": true
-    },
-    {
-      "name": "models/gemini-2.5-flash-native-audio-preview-09-2025",
-      "version": "gemini-2.5-flash-preview-native-audio-dialog-2025-05-19",
-      "displayName": "Gemini 2.5 Flash Native Audio Preview 09-2025",
-      "description": "Gemini 2.5 Flash Native Audio Preview 09-2025",
-      "inputTokenLimit": 131072,
-      "outputTokenLimit": 8192,
-      "supportedGenerationMethods": [
-        "countTokens",
-        "bidiGenerateContent"
-      ],
-      "temperature": 1,
-      "topP": 0.95,
-      "topK": 64,
-      "maxTemperature": 2,
-      "thinking": true
     }
   ],
-  "nextPageToken": "CjRtb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tcHJldmlldy0wOS0yMDI1"
+  "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from https://techcrunch.com/feed/...
-
---- Generating Viral Article for Tech & AI: Obama urges Democrats to have a ‘clear plan’ for AI safeguards ---
-Fetching from https://www.medicalnewstoday.com/feed...
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 Fetching from https://www.lonelyplanet.com/news/rss...
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: A Generation of Kids Suffer as Trump Destabilizes Immigrant Families ---
+Fetching from https://www.huffpost.com/section/front-page/feed...
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
 
 🚀 Success: Generated 0 stories.
