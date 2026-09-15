@@ -850,15 +850,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: Some on-air claims about Dominion Voting Systems were false, Fox News acknowledges in statement after deal is announced ---
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: Join WIRED@Night for an Uncanny Valley Live Recording on Women, Tech, and Power ---
 Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Health & Disease: Listen to the Latest ‘KFF Health News Minute’ ---
-Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+--- Generating Viral Article for Health & Disease: A Generation of Kids Suffer as Trump Destabilizes Immigrant Families ---
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: Vintage Violence is an absurdist crime thriller for phone addicts ---
+Fetching from https://www.lifehack.org/feed...
+
+--- Generating Viral Article for Lifestyle & Travel: Retired Volunteer Opportunities: How to Pick One That Fits ---
+Fetching from https://www.huffpost.com/section/front-page/feed...
 
 🚀 Success: Generated 0 stories.
