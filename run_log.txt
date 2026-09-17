@@ -850,15 +850,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: STAT+: Scientists made mice with half a brain. Then they filled them with human organoids ---
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: 'Difficult to say with a straight face': Tapper reacts to Fox News' statement on settlement ---
-Fetching from https://www.theverge.com/rss/index.xml...
-
---- Generating Viral Article for Tech & AI: The AI data center e-waste problem is huge — and getting bigger ---
 Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: Taxpayer funds meant for LA homeless allegedly spent on Tahiti trip, nightclub, luxury cars: feds ---
+Fetching from https://techcrunch.com/feed/...
+
+--- Generating Viral Article for Tech & AI: Pulley, a Carta rival, is shutting down ---
+Fetching from https://www.lifehack.org/feed...
+
+--- Generating Viral Article for Lifestyle & Travel: Hobbies for Seniors Over 70: How to Pick One That Sticks ---
 
 🚀 Success: Generated 0 stories.
