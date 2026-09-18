@@ -850,17 +850,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from https://www.theverge.com/rss/index.xml...
-
---- Generating Viral Article for Tech & AI: Camp Snap’s 110D gives slim retro film cameras a digital upgrade ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: How to Start Working Out Again: A 3-Week Restart Plan ---
-Fetching from http://feeds.foxnews.com/foxnews/national...
+--- Generating Viral Article for Lifestyle & Travel: How to Change Careers Successfully: Test Before You Leap ---
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Body of missing hiker found in Olympic National Park thanks to crucial clue ---
-Fetching from https://khn.org/feed/...
+--- Generating Viral Article for US News: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory ---
+Fetching from https://www.wired.com/feed/rss...
 
---- Generating Viral Article for Health & Disease: Listen to the Latest ‘KFF Health News Minute’ ---
+--- Generating Viral Article for Tech & AI: Submit Your Questions: Why Is Silicon Valley Still a Boy's Club? ---
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 
 🚀 Success: Generated 0 stories.
