@@ -850,17 +850,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
+Fetching from https://www.statnews.com/feed/...
+
+--- Generating Viral Article for Health & Disease: Definium’s new psychedelics data, and a reprieve for international scientists ---
+Fetching from https://www.huffpost.com/section/front-page/feed...
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: BitMEX faces Celsius lawsuit ahead of exchange closure ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: How to Change Careers Successfully: Test Before You Leap ---
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: States Bet Big on Rural Health Startups, With a Silicon Valley Twist ---
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: Here’s What the AI Apocalypse Could Look Like ---
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: Newly released video shows scene of Jeremy Renner's snowplow accident ---
+--- Generating Viral Article for Lifestyle & Travel: Japanese Notebook Organization System: Find Any Note Fast ---
 
 🚀 Success: Generated 0 stories.
