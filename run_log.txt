@@ -852,15 +852,13 @@ API KEY exists? true
 }
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Finance & Crypto: Bitcoin cycle bottom may already be in at $58K, says analyst James Check ---
+--- Generating Viral Article for Finance & Crypto: BitMEX faces Celsius lawsuit ahead of exchange closure ---
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: Gemini went rogue, hacked three companies, and Google hid it ---
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory ---
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: California Eyes Prison Heat Protections That Fall Short of Workplace Standards ---
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: Tired of Cluttered Productivity Apps? This One’s Just a Text Document ---
+--- Generating Viral Article for US News: Some on-air claims about Dominion Voting Systems were false, Fox News acknowledges in statement after deal is announced ---
+Fetching from https://www.lonelyplanet.com/news/rss...
 
 🚀 Success: Generated 0 stories.
