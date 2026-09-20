@@ -850,15 +850,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
-
---- Generating Viral Article for Finance & Crypto: BitMEX faces Celsius lawsuit ahead of exchange closure ---
-Fetching from https://www.theverge.com/rss/index.xml...
-
---- Generating Viral Article for Tech & AI: Gemini went rogue, hacked three companies, and Google hid it ---
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Some on-air claims about Dominion Voting Systems were false, Fox News acknowledges in statement after deal is announced ---
+--- Generating Viral Article for US News: Judge in Fox News-Dominion defamation trial: 'The parties have resolved their case' ---
+Fetching from https://khn.org/feed/...
+
+--- Generating Viral Article for Health & Disease: Listen to the Latest ‘KFF Health News Minute’ ---
 Fetching from https://www.lonelyplanet.com/news/rss...
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: Bitcoin adds to bull-market hopes as price metric prints fourth-ever bullish cross ---
 
 🚀 Success: Generated 0 stories.
