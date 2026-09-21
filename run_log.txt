@@ -850,17 +850,17 @@ API KEY exists? true
   ],
   "nextPageToken": "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
 }
-Fetching from https://khn.org/feed/...
+Fetching from https://www.theverge.com/rss/index.xml...
 
---- Generating Viral Article for Health & Disease: Cost-Saving Medicaid Meal Deliveries Threatened by Cuts, Policy Uncertainty ---
+--- Generating Viral Article for Tech & AI: A24’s reputation is on the line with the SCP Foundation movie ---
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: White homeowner accused of shooting a Black teen who rang his doorbell turns himself in to face criminal charges ---
+Fetching from https://www.lifehack.org/feed...
+
+--- Generating Viral Article for Lifestyle & Travel: How to Focus and Concentrate Better: The 4-Check Method ---
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
 --- Generating Viral Article for Finance & Crypto: Bitcoin cycle bottom may already be in at $58K, says analyst James Check ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: Weight Training at Home for Ladies: A 6-Week Plan ---
-Fetching from https://techcrunch.com/feed/...
-
---- Generating Viral Article for Tech & AI: 6 days left to save up to $200 to TechCrunch Disrupt 2026 ---
 
 🚀 Success: Generated 0 stories.
