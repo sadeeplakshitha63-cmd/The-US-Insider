@@ -853,15 +853,17 @@ API KEY exists? true
   ],
   "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1mYXN0LWdlbmVyYXRlLXByZXZpZXc="
 }
-Fetching from https://www.statnews.com/feed/...
+Fetching from https://techcrunch.com/feed/...
 
---- Generating Viral Article for Health & Disease: The latest in the legal saga for youth gender-affirming care in the U.S. ---
+--- Generating Viral Article for Tech & AI: Anthropic says its biology lab has already found something big ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: Bitcoin ETFs take in $1.7B in 2 days as BTC tops holder cost basis ---
 Fetching from http://feeds.foxnews.com/foxnews/national...
 
---- Generating Viral Article for US News: Massachusetts restaurant owner assaults teen dine-and-dashers, pulls gun during scuffle, police say ---
-Fetching from https://www.theverge.com/rss/index.xml...
+--- Generating Viral Article for US News: Tylenol murders mystery deepens after sheriff’s office solves decades-old ‘Unknown Wanderer’ cold case ---
+Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Tech & AI: Meta Connect 2026: The biggest news and announcements ---
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+--- Generating Viral Article for Health & Disease: STAT+: Flagship gets a Pentagon contract ---
 
 🚀 Success: Generated 0 stories.
