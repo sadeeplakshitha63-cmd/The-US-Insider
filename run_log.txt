@@ -404,6 +404,24 @@ API KEY exists? true
       "thinking": true
     },
     {
+      "name": "models/gemini-nano-banana-2.1",
+      "version": "3.0",
+      "displayName": "Nano Banana 2.1",
+      "description": "Gemini Nano Banana 2.1.",
+      "inputTokenLimit": 65536,
+      "outputTokenLimit": 65536,
+      "supportedGenerationMethods": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ],
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "maxTemperature": 1,
+      "thinking": true
+    },
+    {
       "name": "models/gemini-3.5-flash",
       "version": "3.5-flash-05-2026",
       "displayName": "Gemini 3.5 Flash",
@@ -612,8 +630,7 @@ API KEY exists? true
       "temperature": 1,
       "topP": 0.95,
       "topK": 64,
-      "maxTemperature": 2,
-      "thinking": true
+      "maxTemperature": 2
     },
     {
       "name": "models/gemini-3.8-flash-tts",
@@ -838,28 +855,15 @@ API KEY exists? true
       "supportedGenerationMethods": [
         "predictLongRunning"
       ]
-    },
-    {
-      "name": "models/veo-3.1-fast-generate-preview",
-      "version": "3.1",
-      "displayName": "Veo 3.1 fast",
-      "description": "Veo 3.1 fast",
-      "inputTokenLimit": 480,
-      "outputTokenLimit": 8192,
-      "supportedGenerationMethods": [
-        "predictLongRunning"
-      ]
     }
   ],
-  "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1mYXN0LWdlbmVyYXRlLXByZXZpZXc="
+  "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
 }
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+Fetching from https://www.huffpost.com/section/front-page/feed...
 Fetching from https://www.lonelyplanet.com/news/rss...
 Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Health & Disease: STAT+: Nobel-winning optogenetics research has led to experimental treatments for blindness and Alzheimer’s ---
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: Dominion still has pending lawsuits against election deniers such as Rudy Giuliani and Sidney Powell ---
+--- Generating Viral Article for Health & Disease: What are hospital longevity programs, and what can they tell you about your health? ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
 
 🚀 Success: Generated 0 stories.
