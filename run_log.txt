@@ -507,8 +507,7 @@ API KEY exists? true
       "temperature": 1,
       "topP": 0.95,
       "topK": 64,
-      "maxTemperature": 2,
-      "thinking": true
+      "maxTemperature": 2
     },
     {
       "name": "models/gemini-3.6-flash",
@@ -859,15 +858,13 @@ API KEY exists? true
   ],
   "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
 }
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: Microsoft is giving Copilot more control over Windows and your files ---
 Fetching from https://www.lonelyplanet.com/news/rss...
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Finance & Crypto: Binance BTC outflows hit highest since mid-2023 as whales deposit stablecoins ---
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: White homeowner accused of shooting a Black teen who rang his doorbell turns himself in to face criminal charges ---
-Fetching from https://www.statnews.com/feed/...
-
---- Generating Viral Article for Health & Disease: Opinion: Infectious disease expert: The mysterious pneumonia in Russia deserves attention, not panic ---
+--- Generating Viral Article for Health & Disease: ‘Medicare for All’ Message Attracts Voters Buckling Under Medical Bills ---
 
 🚀 Success: Generated 0 stories.
