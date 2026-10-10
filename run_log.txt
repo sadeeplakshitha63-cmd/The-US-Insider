@@ -858,15 +858,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
 }
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: Decade-old RAM is making a comeback ---
 Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Health & Disease: STAT+: Biotech leader, leading lab leak theorist no longer in consideration for top infectious disease role ---
+--- Generating Viral Article for Health & Disease: How these census changes could threaten public health ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: Nervous System Reset: What 2 Minutes Can and Can't Change ---
-Fetching from http://feeds.foxnews.com/foxnews/national...
-
---- Generating Viral Article for US News: Federal judge blocks deportation of Dominican illegal immigrant shot by ICE during NYC arrest attempt ---
-Fetching from https://venturebeat.com/feed/...
+--- Generating Viral Article for Lifestyle & Travel: Downsizing in Retirement: When It's Actually a Terrible Idea ---
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 
 🚀 Success: Generated 0 stories.
