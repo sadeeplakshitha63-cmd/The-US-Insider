@@ -858,17 +858,13 @@ API KEY exists? true
   ],
   "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
 }
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
-
---- Generating Viral Article for Finance & Crypto: Sam Altman-backed Bitcoin life insurer, Meanwhile, raises more funds ---
-Fetching from https://www.theverge.com/rss/index.xml...
-
---- Generating Viral Article for Tech & AI: A college in Illinois tried to cancel its Flock contact and it refused ---
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: White homeowner accused of shooting a Black teen who rang his doorbell turns himself in to face criminal charges ---
+Fetching from https://www.huffpost.com/section/front-page/feed...
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: Menopause Sleep Problems: Which Natural Remedies Actually Hold Up ---
+--- Generating Viral Article for Lifestyle & Travel: Childcare Costs: What You'll Really Pay and How to Cut It ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+Fetching from https://www.theverge.com/rss/index.xml...
+
+--- Generating Viral Article for Tech & AI: Vurt wants you to look at vertical videos as a genre of their own ---
 
 🚀 Success: Generated 0 stories.
