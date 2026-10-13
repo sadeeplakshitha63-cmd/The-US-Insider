@@ -858,17 +858,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
 }
-Fetching from https://khn.org/feed/...
+Fetching from https://www.wired.com/feed/rss...
 
---- Generating Viral Article for Health & Disease: ‘Medicare for All’ Is Back. Now Comes the Hard Part. ---
-Fetching from http://feeds.foxnews.com/foxnews/national...
-
---- Generating Viral Article for US News: Online marketplace jewelry listing tied to armed robbery in affluent Tennessee city ---
+--- Generating Viral Article for Tech & AI: Newegg Promo Codes and Coupons for October 2026 ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: Menopause Sleep Problems: Which Natural Remedies Actually Hold Up ---
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+--- Generating Viral Article for Lifestyle & Travel: Childcare Costs: What You'll Really Pay and How to Cut It ---
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Finance & Crypto: Ledger attack spreads to EU, AI finds ’18 trillion XRP’ bug: Hodler’s Digest ---
+--- Generating Viral Article for Health & Disease: AI, Tech Leaders Are Lobbying Trump Health Officials in a Government-Run Chat Room ---
 
 🚀 Success: Generated 0 stories.
