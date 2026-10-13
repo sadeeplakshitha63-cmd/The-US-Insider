@@ -858,15 +858,17 @@ API KEY exists? true
   ],
   "nextPageToken": "Ch9tb2RlbHMvdmVvLTMuMS1nZW5lcmF0ZS1wcmV2aWV3"
 }
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for US News: Dominion still has pending lawsuits against election deniers such as Rudy Giuliani and Sidney Powell ---
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
-Fetching from https://www.wired.com/feed/rss...
+--- Generating Viral Article for Health & Disease: ‘Medicare for All’ Is Back. Now Comes the Hard Part. ---
+Fetching from http://feeds.foxnews.com/foxnews/national...
 
---- Generating Viral Article for Tech & AI: How Apple Puts Indigenous Languages on the iPhone Keyboard ---
+--- Generating Viral Article for US News: Online marketplace jewelry listing tied to armed robbery in affluent Tennessee city ---
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: What to Say When Terminating an Employee, and What to Say Next ---
+--- Generating Viral Article for Lifestyle & Travel: Menopause Sleep Problems: Which Natural Remedies Actually Hold Up ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: Ledger attack spreads to EU, AI finds ’18 trillion XRP’ bug: Hodler’s Digest ---
 
 🚀 Success: Generated 0 stories.
