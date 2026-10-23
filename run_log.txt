@@ -792,8 +792,8 @@ API KEY exists? true
     {
       "name": "models/deep-research-pro-preview-12-2025",
       "version": "deepthink-exp-05-20",
-      "displayName": "Deep Research Pro Preview (Dec-12-2025)",
-      "description": "Preview release (December 12th, 2025) of Deep Research Pro",
+      "displayName": "Deep Research Pro Preview (Dec-12-2025) [Rerouted]",
+      "description": "Deprecated preview agent; automatically rerouting traffic to deep-research-preview-04-2026.",
       "inputTokenLimit": 131072,
       "outputTokenLimit": 65536,
       "supportedGenerationMethods": [
@@ -865,15 +865,11 @@ API KEY exists? true
   ],
   "nextPageToken": "Cgptb2RlbHMvYXFh"
 }
-Fetching from https://www.lifehack.org/feed...
+Fetching from https://www.medicalnewstoday.com/feed...
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Lifestyle & Travel: What to Say When Terminating an Employee, and What to Say Next ---
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: Millions in the US could face massive consequences unless McCarthy can navigate out of a debt trap he set for Biden ---
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: Elon Musk Just Dumped Another $76 Million Into the Midterms ---
+--- Generating Viral Article for Finance & Crypto: Bitcoin ETFs bleed $635M as October slides back into the red ---
+Fetching from https://www.huffpost.com/section/front-page/feed...
+Fetching from https://www.lonelyplanet.com/news/rss...
 
 🚀 Success: Generated 0 stories.
