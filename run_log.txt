@@ -865,15 +865,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Cgptb2RlbHMvYXFh"
 }
-Fetching from http://feeds.foxnews.com/foxnews/national...
-
---- Generating Viral Article for US News: Federal authorities charge 15 in massive $1.8B Southern California medical fraud sweep ---
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: Medicaid at Risk for Hundreds of Thousands of Lawfully Present Immigrants ---
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: Travel Workouts: A 20-Minute Session and an 8-Minute Floor ---
+--- Generating Viral Article for Lifestyle & Travel: What to Say When Terminating an Employee, and What to Say Next ---
+Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: Millions in the US could face massive consequences unless McCarthy can navigate out of a debt trap he set for Biden ---
+Fetching from https://www.wired.com/feed/rss...
+
+--- Generating Viral Article for Tech & AI: Elon Musk Just Dumped Another $76 Million Into the Midterms ---
 
 🚀 Success: Generated 0 stories.
