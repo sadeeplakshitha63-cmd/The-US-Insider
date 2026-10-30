@@ -865,17 +865,13 @@ API KEY exists? true
   ],
   "nextPageToken": "Cgptb2RlbHMvYXFh"
 }
+Fetching from https://techcrunch.com/feed/...
+
+--- Generating Viral Article for Tech & AI: Can AI data centers be mass-produced like cars? This startup aims to find out ---
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: Judge in Fox News-Dominion defamation trial: 'The parties have resolved their case' ---
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: Hospital Beds for the Nation’s Sickest Kids Are Disappearing ---
-Fetching from https://www.wired.com/feed/rss...
-
---- Generating Viral Article for Tech & AI: The ‘Pain in the Ass’ Math That Could Save Vibe Coding From Itself ---
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
-
---- Generating Viral Article for Finance & Crypto: Bitcoin price jumps to $81.5K as US GDP data beats expectations ---
+--- Generating Viral Article for US News: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory ---
+Fetching from https://www.medicalnewstoday.com/feed...
+Fetching from https://www.lonelyplanet.com/news/rss...
 
 🚀 Success: Generated 0 stories.
