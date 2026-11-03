@@ -865,17 +865,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Cgptb2RlbHMvYXFh"
 }
+Fetching from https://www.huffpost.com/section/front-page/feed...
 Fetching from https://techcrunch.com/feed/...
 
---- Generating Viral Article for Tech & AI: Anthropic warns that it’s very close to RSI capability, aka self-building AI ---
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: Listen to the Latest ‘KFF Health News Minute’ ---
+--- Generating Viral Article for Tech & AI: Apple may try to increase revenue by doing…something with third-party AI apps ---
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
 --- Generating Viral Article for Finance & Crypto: Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally ---
-Fetching from https://www.lifehack.org/feed...
+Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Lifestyle & Travel: Failed Business Strategies: Why You Can't Tell Until You Set the Number ---
+--- Generating Viral Article for Health & Disease: STAT+: Coming readout of Kymera eczema trial is a high-stakes moment in a bid to rival Dupixent ---
 
 🚀 Success: Generated 0 stories.
