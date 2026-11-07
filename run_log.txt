@@ -868,17 +868,17 @@ API KEY exists? true
   ],
   "nextPageToken": "Chltb2RlbHMvZ2VtaW5pLWVtYmVkZGluZy0y"
 }
-Fetching from https://techcrunch.com/feed/...
+Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Tech & AI: From the front row to the hot seat — what the midterms mean for Big Tech ---
-Fetching from http://feeds.foxnews.com/foxnews/national...
+--- Generating Viral Article for Health & Disease: STAT+: Democrats’ midterm landslide spells relief for hospitals ---
+Fetching from https://www.theverge.com/rss/index.xml...
 
---- Generating Viral Article for US News: Fox News ‘Antisemitism Exposed’ Newsletter: Radical Democrats rally behind Piker after election ---
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: How to Cope With a Parent's Death and Rebuild Your Week ---
+--- Generating Viral Article for Tech & AI: Lame-duck Congress might actually do something: speed up energy projects ---
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
 --- Generating Viral Article for Finance & Crypto: Bitcoin win rate vs. S&P 500 recovers as post-midterm history favors stocks ---
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+
+--- Generating Viral Article for US News: Judge in Fox News-Dominion defamation trial: 'The parties have resolved their case' ---
 
 🚀 Success: Generated 0 stories.
