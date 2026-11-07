@@ -868,17 +868,15 @@ API KEY exists? true
   ],
   "nextPageToken": "Chltb2RlbHMvZ2VtaW5pLWVtYmVkZGluZy0y"
 }
-Fetching from https://www.statnews.com/feed/...
+Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Health & Disease: STAT+: Democrats’ midterm landslide spells relief for hospitals ---
+--- Generating Viral Article for Lifestyle & Travel: Family Estrangement: What the Evidence Says and What Helps ---
 Fetching from https://www.theverge.com/rss/index.xml...
 
---- Generating Viral Article for Tech & AI: Lame-duck Congress might actually do something: speed up energy projects ---
-Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+--- Generating Viral Article for Tech & AI: The US let Nvidia sell chips to an empty office in China ---
+Fetching from https://khn.org/feed/...
 
---- Generating Viral Article for Finance & Crypto: Bitcoin win rate vs. S&P 500 recovers as post-midterm history favors stocks ---
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
-
---- Generating Viral Article for US News: Judge in Fox News-Dominion defamation trial: 'The parties have resolved their case' ---
+--- Generating Viral Article for Health & Disease: Midterm Wave Sets a Course for ‘Medicare for All’ Fight ---
+Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
 
 🚀 Success: Generated 0 stories.
