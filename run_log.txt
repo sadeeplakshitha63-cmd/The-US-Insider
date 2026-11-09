@@ -777,7 +777,7 @@ API KEY exists? true
       "version": "deepthink-exp-05-20",
       "displayName": "Deep Research Max Preview (Apr-21-2026)",
       "description": "Preview release (April 21st, 2026) of Deep Research Max",
-      "inputTokenLimit": 131072,
+      "inputTokenLimit": 1048576,
       "outputTokenLimit": 65536,
       "supportedGenerationMethods": [
         "generateContent",
@@ -794,7 +794,7 @@ API KEY exists? true
       "version": "deepthink-exp-05-20",
       "displayName": "Deep Research Preview (Apr-21-2026)",
       "description": "Preview release (April 21th, 2026) of Deep Research",
-      "inputTokenLimit": 131072,
+      "inputTokenLimit": 1048576,
       "outputTokenLimit": 65536,
       "supportedGenerationMethods": [
         "generateContent",
@@ -811,7 +811,7 @@ API KEY exists? true
       "version": "deepthink-exp-05-20",
       "displayName": "Deep Research Pro Preview (Dec-12-2025) [Rerouted]",
       "description": "Deprecated preview agent; automatically rerouting traffic to deep-research-preview-04-2026.",
-      "inputTokenLimit": 131072,
+      "inputTokenLimit": 1048576,
       "outputTokenLimit": 65536,
       "supportedGenerationMethods": [
         "generateContent",
@@ -868,11 +868,17 @@ API KEY exists? true
   ],
   "nextPageToken": "Chltb2RlbHMvZ2VtaW5pLWVtYmVkZGluZy0y"
 }
-Fetching from https://www.huffpost.com/section/front-page/feed...
-Fetching from https://www.theverge.com/rss/index.xml...
+Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for Tech & AI: Instagram’s AI age detection is expanding globally ---
-Fetching from https://www.medicalnewstoday.com/feed...
-Fetching from https://search.cnbc.com/rs/search/combinedcms/view.xml?profile=120000000...
+--- Generating Viral Article for US News: Newly released video shows scene of Jeremy Renner's snowplow accident ---
+Fetching from https://www.lifehack.org/feed...
+
+--- Generating Viral Article for Lifestyle & Travel: Failed Business Strategies: Why You Can't Tell Until You Set the Number ---
+Fetching from https://www.statnews.com/feed/...
+
+--- Generating Viral Article for Health & Disease: STAT+: Gene therapy’s long-debated cancer risk materializes ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: Bitcoin holders have received eCash — What can you do with it? ---
 
 🚀 Success: Generated 0 stories.
