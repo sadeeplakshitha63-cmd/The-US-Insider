@@ -876,17 +876,17 @@ API KEY exists? true
   ],
   "nextPageToken": "Chttb2RlbHMvZ2VtaW5pLWVtYmVkZGluZy0wMDE="
 }
-Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
+Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for US News: Millions in the US could face massive consequences unless McCarthy can navigate out of a debt trap he set for Biden ---
-Fetching from https://khn.org/feed/...
+--- Generating Viral Article for Health & Disease: STAT+: Oura’s acquisition of health tech startup raises conflict-of-interest questions for Eli Lilly, experts say ---
+Fetching from https://www.wired.com/feed/rss...
 
---- Generating Viral Article for Health & Disease: Dubious Buys Raise Alarm Over Local Control of Opioid Cash ---
+--- Generating Viral Article for Tech & AI: ‘Call Him Out’: Cybertruck Loyalists Are in Mourning—and They Want Answers From Elon Musk ---
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: MICHAEL RUIZ: JonBenet Ramsey investigators are retesting evidence with newer technology, police chief says ---
 Fetching from https://cointelegraph.com/rss/tag/bitcoin...
 
---- Generating Viral Article for Finance & Crypto: BlackRock Bitcoin ETF outflows hit $2B over nine sessions ---
-Fetching from https://www.theverge.com/rss/index.xml...
-
---- Generating Viral Article for Tech & AI: Google’s new Gemini model is better at understanding complicated questions ---
+--- Generating Viral Article for Finance & Crypto: Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down ---
 
 🚀 Success: Generated 0 stories.
