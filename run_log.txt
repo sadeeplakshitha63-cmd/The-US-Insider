@@ -878,15 +878,13 @@ API KEY exists? true
 }
 Fetching from https://www.lifehack.org/feed...
 
---- Generating Viral Article for Lifestyle & Travel: Career Change Aptitude Test: Which to Take, How to Read It ---
-Fetching from https://techcrunch.com/feed/...
-
---- Generating Viral Article for Tech & AI: Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price ---
-Fetching from https://khn.org/feed/...
-
---- Generating Viral Article for Health & Disease: Nebraska Rushed Medicaid Work Rules. Then a Cancer Patient Was Told He’d Lost Coverage. ---
+--- Generating Viral Article for Lifestyle & Travel: How to Cope With a Parent's Death and Rebuild Your Week ---
+Fetching from https://www.medicalnewstoday.com/feed...
 Fetching from http://rss.cnn.com/rss/cnn_topstories.rss...
 
---- Generating Viral Article for US News: 'Difficult to say with a straight face': Tapper reacts to Fox News' statement on settlement ---
+--- Generating Viral Article for US News: Some on-air claims about Dominion Voting Systems were false, Fox News acknowledges in statement after deal is announced ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down ---
 
 🚀 Success: Generated 0 stories.
