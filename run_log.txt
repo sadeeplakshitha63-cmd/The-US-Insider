@@ -877,13 +877,17 @@ API KEY exists? true
   ],
   "nextPageToken": "Chttb2RlbHMvZ2VtaW5pLWVtYmVkZGluZy0wMDE="
 }
-Fetching from https://feeds.a.dj.com/rss/WSJLinks.xml...
+Fetching from http://feeds.foxnews.com/foxnews/national...
+
+--- Generating Viral Article for US News: EPA reports 'zero detection of airborne lead' day after Iowa lead azide detonation ---
+Fetching from https://www.wired.com/feed/rss...
+
+--- Generating Viral Article for Tech & AI: Newegg Promo Codes and Coupons for November 2026 ---
+Fetching from https://cointelegraph.com/rss/tag/bitcoin...
+
+--- Generating Viral Article for Finance & Crypto: CleanSpark weighs selling more Bitcoin than it mines to de-risk books ---
 Fetching from https://www.statnews.com/feed/...
 
---- Generating Viral Article for Health & Disease: Opinion: Washington and Beijing are building walls around biotechnology. That’s the wrong approach ---
-Fetching from https://www.huffpost.com/section/front-page/feed...
-Fetching from https://www.lifehack.org/feed...
-
---- Generating Viral Article for Lifestyle & Travel: Calisthenics Workout Routine: The 3-Day Beginner Ladder ---
+--- Generating Viral Article for Health & Disease: Despite stalling in court, Trump restrictions on foreign students have had a chilling effect on enrollment ---
 
 🚀 Success: Generated 0 stories.
